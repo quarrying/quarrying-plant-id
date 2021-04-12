@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>植物识别</title>
+    <style>
+    .a-upload {
+        position: relative;
+        display: inline-block;
+        background: #D0EEFF;
+        border: 1px solid #99D3F5;
+        border-radius: 4px;
+        padding: 4px 12px;
+        overflow: hidden;
+        color: #1E88C7;
+        text-decoration: none;
+        text-indent: 0;
+        line-height: 20px;
+    }
+    .a-upload input {
+        position: absolute;
+        font-size: 100px;
+        right: 0;
+        top: 0;
+        opacity: 0;
+    }
+    .a-upload:hover {
+        background: #AADFFD;
+        border-color: #78C3F3;
+        color: #004974;
+        text-decoration: none;
+    }
+    </style>
+    <style type="text/css">
+    table{border-collapse:collapse} /*合并间距*/ 
+    table, table th, table td{border:1px solid #ddd} /*表格带线框,6像素的间距*/ 
+    table th, table td{padding:6px} /*单元格6像素的间距*/ 
+    table th{background-color:#eee} /*表头带背景色*/ 
+
+    </style>
+</head>
+<body>
+    <h1>植物识别</h1>
+    <form action="" enctype='multipart/form-data' method='POST'>
+        <a href="javascript:;" class="a-upload">
+            <input type="file" name="image" onchange="this.form.submit()">选择文件
+        </a>
+    </form>
+    
+    <img src="{{ url_for('static', filename='images/' + image_filename, _t=timestamp) }}"/>
+
+    <h2>识别结果：</h2>
+    <table>
+        <thead>
+        <tr>
+            {% for label in labels %}
+                <th>{{ label }}</th>
+            {% endfor %}
+        </tr>
+        </thead>
+        <tbody>
+        {% for record in records %}
+            <tr>
+                {% for part in record %}
+                    <td>{{ part }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+</body>
