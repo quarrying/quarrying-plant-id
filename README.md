@@ -9,5 +9,13 @@
 - flask
 
 # Usage
-执行 `python main.py`, 默认打开 `http://127.0.0.1:8987/`.
+Run `python main.py`, open `http://127.0.0.1:5000/`, and upload an image file.
 
+# Examples
+![](docs/plant_00.png)
+
+![](docs/plant_01.png)
+
+![](docs/plant_02.png)
+
+![](docs/plant_03.png)

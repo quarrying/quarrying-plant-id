@@ -40,16 +40,16 @@
     </style>
 </head>
 <body>
-    <h1>植物识别</h1>
+    <h1>Plant Identification</h1>
     <form action="" enctype='multipart/form-data' method='POST'>
         <a href="javascript:;" class="a-upload">
-            <input type="file" name="image" onchange="this.form.submit()">选择文件
+            <input type="file" name="image" onchange="this.form.submit()">Select an image file
         </a>
     </form>
     
     <img src="{{ url_for('static', filename='images/' + image_filename, _t=timestamp) }}"/>
 
-    <h2>识别结果：</h2>
+    <h2>Results：</h2>
     <table>
         <thead>
         <tr>
