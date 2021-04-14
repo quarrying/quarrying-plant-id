@@ -1,0 +1,4 @@
+opencv-python>=4.4
+pillow
+flask
+gevent

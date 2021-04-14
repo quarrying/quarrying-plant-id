@@ -1,17 +1,33 @@
-# Overview
-- 支持 1320 种植物的识别.
-- 模型大小为 51.8M, 准确率在 90% 以上.
-- 模型开源, 易用的示例代码.
-- 支持的植物物种以及识别准确率会持续更新.
+# Features
+- Identify 1320 plant species.
+- Model size: 51.8M; model accuracy: 90%+.
+- Open-source model, easy-to-use interface.
+- Update continuously.
 
-# Dependency
-- opencv-python 4.4.0
-- flask
+# Installation
+You need install Anaconda, then run below:
+```
+git clone https://github.com/quarrying/quarrying-plant-id.git
+cd quarrying-plant-id
+conda create -n plantid python=3.6 -y
+conda activate plantid
+pip install -r requirements.txt
+```
 
-# Usage
-Run `python main.py`, open `http://127.0.0.1:5000/`, and upload an image file.
+# Usage 
 
-# Examples
+## Method I: Python Interface
+
+## Method II: Web App
+Run below
+```
+conda activate plantid
+python main.py
+```
+Then open `http://127.0.0.1:5000/`, and upload an image file.
+
+
+### Examples
 ![](docs/plant_00.png)
 
 ![](docs/plant_01.png)
