@@ -17,14 +17,23 @@ pip install -r requirements.txt
 # Usage 
 
 ## Method I: Python Interface
+```
+import plantid
+
+plant_identifier = plantid.PlantIdentifier()
+probs, class_names = plant_identifier.predict(image_filename)
+print(class_names[0], probs[0])
+```
+You can also see [tools/test.py](<tools/test.py>).
 
 ## Method II: Web App
 Run below
-```
+```python
+cd webapp
 conda activate plantid
-python main.py
+python app.py
 ```
-Then open `http://127.0.0.1:5000/`, and upload an image file.
+Then open <http://127.0.0.1:5000/>, and upload an image file.
 
 
 ### Examples

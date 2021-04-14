@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 import base64
 from io import BytesIO
@@ -13,16 +14,13 @@ from flask import render_template
 from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
 
-from inference_plant import predict
-from inference_plant import get_label_name_dict
-from inference_plant import resize_image_short
+sys.path.insert(0, '..')
+import plantid
 
 
 app = Flask(__name__)
 app.send_file_max_age_default = timedelta(seconds=1)
-
-net = cv2.dnn.readNetFromONNX('models/quarrying_plantid_model.oonx')
-label_name_dict = get_label_name_dict('models/quarrying_plantid_label_map.txt')
+plant_identifier = plantid.PlantIdentifier()
 
 
 def allowed_file_type(filename):
@@ -51,12 +49,11 @@ def predict_web():
         f.save(raw_image_filename)
  
         img = cv2.imread(raw_image_filename)
-        img = resize_image_short(img, 512)
+        img = plantid.resize_image_short(img, 512)
         cv2.imwrite(os.path.join(tmp_image_dir, new_image_filename), img)
         
-        probs, top_indices = predict(net, raw_image_filename)
+        probs, class_names = plant_identifier.predict(raw_image_filename)
         probs = ['{:.5f}'.format(prob) for prob in probs]
-        class_names = [label_name_dict[ind] for ind in top_indices]
         labels = ['植物物种', '置信度']
         records = zip(class_names, probs)
 
@@ -90,9 +87,8 @@ def predict_json():
         img = base64_to_pil(request.form.get('image'))
         img.save(raw_image_filename)
         
-        probs, top_indices = predict(net, raw_image_filename)
+        probs, class_names = plant_identifier.predict(raw_image_filename)
         probs = ['{:.5f}'.format(prob) for prob in probs]
-        class_names = [label_name_dict[ind] for ind in top_indices]
 
         return jsonify(class_names=class_names, probs=probs)
     return None

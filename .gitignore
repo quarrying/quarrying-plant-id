@@ -1,5 +1,5 @@
 .pyc
 __pycache__/
 _local/
-static/images/
-static/raw_images/
+webapp/static/images/
+webapp/static/raw_images/
