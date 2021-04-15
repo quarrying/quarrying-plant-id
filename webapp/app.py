@@ -44,7 +44,7 @@ def predict_web():
         os.makedirs(tmp_image_dir, exist_ok=True)
         
         time_stamp = int(round(time.time() * 1000))
-        new_image_filename = '{}_{}'.format(time_stamp, os.path.splitext(image_filename)[-1])
+        new_image_filename = '{}{}'.format(time_stamp, os.path.splitext(image_filename)[-1])
         raw_image_filename = os.path.join(raw_image_dir, new_image_filename)  
         f.save(raw_image_filename)
  

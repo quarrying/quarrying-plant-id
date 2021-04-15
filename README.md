@@ -17,7 +17,7 @@ pip install -r requirements.txt
 # Usage 
 
 ## Method I: Python Interface
-```
+```python
 import plantid
 
 plant_identifier = plantid.PlantIdentifier()
@@ -28,7 +28,7 @@ You can also see [tools/test.py](<tools/test.py>).
 
 ## Method II: Web App
 Run below
-```python
+```
 cd webapp
 conda activate plantid
 python app.py
