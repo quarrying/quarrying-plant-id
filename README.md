@@ -1,6 +1,6 @@
 # Features
 - Identify 1320 plant species.
-- Model size: 51.8M; model accuracy: 90%+.
+- Model size: 51.8M; top1 accuracy: 90%+.
 - Open-source model, easy-to-use interface.
 - Update continuously.
 
@@ -44,3 +44,7 @@ Then open <http://127.0.0.1:5000/>, and upload an image file.
 ![](docs/plant_02.png)
 
 ![](docs/plant_03.png)
+
+# Details
+See <https://zhuanlan.zhihu.com/p/364346303>.
+
