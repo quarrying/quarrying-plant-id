@@ -17,7 +17,7 @@ def get_all_filenames(dirname):
 
 
 if __name__ == '__main__':
-    src_dir = r'F:\_Data\Plant\_raw\baidu_薜荔'
+    src_dir = r'F:\_Data\Plant\植物之整理A-G\阿福花科_火把莲属_火炬花 Kniphofia uvaria'
     filenames = get_all_filenames(src_dir)
     
     plant_identifier = plantid.PlantIdentifier()

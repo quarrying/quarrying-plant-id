@@ -35,7 +35,8 @@ def predict_web():
         image_filename = os.path.basename(secure_filename(f.filename))
 
         if not (f and allowed_file_type(image_filename)):
-            return jsonify({"error": 1001, "message": "请检查上传的图片类型，仅支持png、PNG、jpg、JPG、bmp、BMP"})
+            return jsonify({"error": 1001, "message": "Please check image file format, "
+                            "only support png, PNG, jpg, JPG, bmp, BMP"})
         base_dir = os.path.dirname(__file__)
  
         raw_image_dir = os.path.join(base_dir, 'static/raw_images')
@@ -53,9 +54,11 @@ def predict_web():
         cv2.imwrite(os.path.join(tmp_image_dir, new_image_filename), img)
         
         probs, class_names = plant_identifier.predict(raw_image_filename)
+        chinese_names = [item['chinese_name'] for item in class_names]
+        latin_names = [item['latin_name'] for item in class_names]
         probs = ['{:.5f}'.format(prob) for prob in probs]
-        labels = ['植物物种', '置信度']
-        records = zip(class_names, probs)
+        labels = ['Chinese Name', 'Latin Name', 'Confidence']
+        records = zip(chinese_names, latin_names, probs)
 
         return render_template('upload_ok.html', 
                                labels=labels, records=records, 

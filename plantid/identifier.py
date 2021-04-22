@@ -1,4 +1,5 @@
 import os
+from collections import OrderedDict
 
 import cv2
 import numpy as np
@@ -9,8 +10,9 @@ def get_label_name_dict(filename):
     records = load_list(filename, 'utf8')
     label_name_dict = {}
     for record in records:
-        name, label = record.split(',')
-        label_name_dict[int(label)] = name
+        label, chinese_name, latin_name = record.split(',')
+        label_name_dict[int(label)] = OrderedDict([('chinese_name', chinese_name), 
+                                                   ('latin_name', latin_name)])
     return label_name_dict
 
 
