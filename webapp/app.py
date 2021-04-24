@@ -24,8 +24,9 @@ plant_identifier = plantid.PlantIdentifier()
 
 
 def allowed_file_type(filename):
-    ALLOWED_EXTENSIONS = set(['png', 'jpg', 'bmp', 'JPG', 'PNG', 'BMP'])
-    return '.' in filename and filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
+    ALLOWED_EXTENSIONS = ['.png', '.jpg', '.jpeg', '.bmp']
+    extension = os.path.splitext(os.path.basename(filename))[1]
+    return extension.lower() in ALLOWED_EXTENSIONS
  
 
 @app.route('/', methods=['POST', 'GET'])
@@ -36,7 +37,7 @@ def predict_web():
 
         if not (f and allowed_file_type(image_filename)):
             return jsonify({"error": 1001, "message": "Please check image file format, "
-                            "only support png, PNG, jpg, JPG, bmp, BMP"})
+                            "only support png, jpg, jpeg, bmp"})
         base_dir = os.path.dirname(__file__)
  
         raw_image_dir = os.path.join(base_dir, 'static/raw_images')
