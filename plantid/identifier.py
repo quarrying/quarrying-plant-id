@@ -23,8 +23,11 @@ class PlantIdentifier(object):
         self.label_name_dict = get_label_name_dict(os.path.join(current_dir, 'models/quarrying_plantid_label_map.txt'))
 
     def _preprocess(self, image):
+        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+        image = resize_image_short(image, 320)
+        image = center_crop(image, 299, 299)
         image = image.astype(np.float32)
-        image = image / 255.0
+        image /= 255.0
         image -= np.asarray([0.485, 0.456, 0.406])
         image /= np.asarray([0.229, 0.224, 0.225])
         return image
@@ -39,11 +42,7 @@ class PlantIdentifier(object):
         except:
             return None
 
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        image = resize_image_short(image, 320)
-        image = center_crop(image, 299, 299)
         image = self._preprocess(image)
-
         blob = cv2.dnn.blobFromImage(image)
         self.net.setInput(blob)
         results = self.net.forward()
