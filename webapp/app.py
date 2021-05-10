@@ -36,8 +36,8 @@ def predict_web():
         image_filename = os.path.basename(secure_filename(f.filename))
 
         if not (f and allowed_file_type(image_filename)):
-            return jsonify({"error": 1001, "message": "Please check image file format, "
-                            "only support png, jpg, jpeg, bmp"})
+            return jsonify({"error": 1001, "message": "Image file format error, "
+                            "only support png, jpg, jpeg, bmp."})
         base_dir = os.path.dirname(__file__)
  
         raw_image_dir = os.path.join(base_dir, 'static/raw_images')
@@ -51,6 +51,12 @@ def predict_web():
         f.save(raw_image_filename)
  
         img = cv2.imread(raw_image_filename)
+        if img is None:
+            return jsonify({"error": 1002, "message": "Image parsing error!"})
+        if max(img.shape[:2]) > 4096 or min(img.shape[:2]) < 16:
+            return jsonify({"error": 1003, "message": "Image size error, "
+                            "the shorter edge must >= 16px, the longer edge must <= 4096px"})
+            
         img = plantid.resize_image_short(img, 512)
         cv2.imwrite(os.path.join(tmp_image_dir, new_image_filename), img)
         
