@@ -53,17 +53,25 @@ def predict_web():
         img = cv2.imread(raw_image_filename)
         if img is None:
             return jsonify({"error": 1002, "message": "Image parsing error!"})
-        if max(img.shape[:2]) > 4096 or min(img.shape[:2]) < 16:
+        if max(img.shape[:2]) > 5160 or min(img.shape[:2]) < 16:
             return jsonify({"error": 1003, "message": "Image size error, "
                             "the shorter edge must >= 16px, the longer edge must <= 4096px"})
             
         img = plantid.resize_image_short(img, 512)
         cv2.imwrite(os.path.join(tmp_image_dir, new_image_filename), img)
         
-        probs, class_names = plant_identifier.predict(raw_image_filename)
-        chinese_names = [item['chinese_name'] for item in class_names]
-        latin_names = [item['latin_name'] for item in class_names]
-        probs = ['{:.5f}'.format(prob) for prob in probs]
+        results = plant_identifier.predict(raw_image_filename)
+        if results == -1:
+            return jsonify({"error": 1004, "message": "Image data type error, "
+                            "only support uint8 data type."})
+        if results == -2:
+            return jsonify({"error": 1005, "message": "Image preprocess error."})
+        if results == -3:
+            return jsonify({"error": 1006, "message": "Inference error."})
+            
+        chinese_names = [item['chinese_name'] for item in results]
+        latin_names = [item['latin_name'] for item in results]
+        probs = ['{:.5f}'.format(item['probability']) for item in results]
         labels = ['Chinese Name', 'Latin Name', 'Confidence']
         records = zip(chinese_names, latin_names, probs)
 
@@ -97,10 +105,8 @@ def predict_json():
         img = base64_to_pil(request.form.get('image'))
         img.save(raw_image_filename)
         
-        probs, class_names = plant_identifier.predict(raw_image_filename)
-        probs = ['{:.5f}'.format(prob) for prob in probs]
-
-        return jsonify(class_names=class_names, probs=probs)
+        results = plant_identifier.predict(raw_image_filename)
+        return jsonify(results=results)
     return None
     
     
