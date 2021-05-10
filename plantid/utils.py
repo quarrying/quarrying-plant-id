@@ -4,10 +4,9 @@ import cv2
 import numpy as np
 
 
-def load_list(filename, encoding=None, start=0, stop=None, step=1):
+def load_list(filename, encoding='utf-8', start=0, stop=None):
     assert isinstance(start, int) and start >= 0
-    assert stop is None or (isinstance(stop, int) and stop > start)
-    assert isinstance(step, int) and step >= 1
+    assert (stop is None) or (isinstance(stop, int) and stop > start)
     
     lines = []
     with open(filename, 'r', encoding=encoding) as f:
@@ -16,8 +15,7 @@ def load_list(filename, encoding=None, start=0, stop=None, step=1):
         for k, line in enumerate(f):
             if (stop is not None) and (k + start > stop):
                 break
-            if k % step == 0:
-                lines.append(line.rstrip())
+            lines.append(line.rstrip('\n'))
     return lines
 
 

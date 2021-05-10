@@ -6,23 +6,26 @@ import numpy as np
 from .utils import *
 
 
-def get_label_name_dict(filename):
-    records = load_list(filename, 'utf8')
-    label_name_dict = {}
-    for record in records:
-        label, chinese_name, latin_name = record.split(',')
-        label_name_dict[int(label)] = OrderedDict([('chinese_name', chinese_name), 
-                                                   ('latin_name', latin_name)])
-    return label_name_dict
-
-
 class PlantIdentifier(object):
     def __init__(self):
         current_dir = os.path.dirname(os.path.abspath(__file__))
-        self.net = cv2.dnn.readNetFromONNX(os.path.join(current_dir, 'models/quarrying_plantid_model.oonx'))
-        self.label_name_dict = get_label_name_dict(os.path.join(current_dir, 'models/quarrying_plantid_label_map.txt'))
-
-    def _preprocess(self, image):
+        model_filename = os.path.join(current_dir, 'models/quarrying_plantid_model.oonx')
+        label_map_filename = os.path.join(current_dir, 'models/quarrying_plantid_label_map.txt')
+        self.net = cv2.dnn.readNetFromONNX(model_filename)
+        self.label_name_dict = self._get_label_name_dict(label_map_filename)
+        
+    @staticmethod
+    def _get_label_name_dict(filename):
+        records = load_list(filename, 'utf-8')
+        label_name_dict = {}
+        for record in records:
+            label, chinese_name, latin_name = record.split(',')
+            label_name_dict[int(label)] = OrderedDict([('chinese_name', chinese_name), 
+                                                       ('latin_name', latin_name)])
+        return label_name_dict
+        
+    @staticmethod
+    def _preprocess(image):
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         image = resize_image_short(image, 320)
         image = center_crop(image, 299, 299)
