@@ -23,9 +23,9 @@ if __name__ == '__main__':
     plant_identifier = plantid.PlantIdentifier()
     start_time = time.time()
     for k, name in enumerate(filenames):
-        probs, class_names = plant_identifier.predict(name)
+        results = plant_identifier.predict(name)
         print('[{}/{}] Time: {:.3}s  {}'.format(k+1, len(filenames), time.time() - start_time, name))
         start_time = time.time()
-        print(class_names[0], probs[0])
+        print(results[0])
 
 

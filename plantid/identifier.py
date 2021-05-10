@@ -26,33 +26,39 @@ class PlantIdentifier(object):
         
     @staticmethod
     def _preprocess(image):
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        image = resize_image_short(image, 320)
-        image = center_crop(image, 299, 299)
-        image = image.astype(np.float32)
-        image /= 255.0
-        image -= np.asarray([0.485, 0.456, 0.406])
-        image /= np.asarray([0.229, 0.224, 0.225])
-        return image
+        try:
+            image = normalize_image_shape(image)
+            image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+            image = resize_image_short(image, 320)
+            image = center_crop(image, 299, 299)
+            image = image.astype(np.float32)
+            image /= 255.0
+            image -= np.asarray([0.485, 0.456, 0.406])
+            image /= np.asarray([0.229, 0.224, 0.225])
+            return image
+        except:
+            return None
         
     def predict(self, filename, topk=5):
         image = imread_ex(filename, -1)
         if (image is None) or (image.dtype != np.uint8):
-            print('Image file corrupted!')
-            return None
-        try:
-            image = normalize_image_shape(image)
-        except:
-            return None
-
+            return -1
         image = self._preprocess(image)
-        blob = cv2.dnn.blobFromImage(image)
-        self.net.setInput(blob)
-        results = self.net.forward()
-        probs = softmax(results)
-        values, top_indices = find_topk(probs, kth=topk)
-        probs = values[0]
-        class_names = [self.label_name_dict[ind] for ind in top_indices[0]]
-        return probs, class_names
-
+        if image is None:
+            return -2
+        
+        try:
+            blob = cv2.dnn.blobFromImage(image)
+            self.net.setInput(blob)
+            logits = self.net.forward()
+            probs = softmax(logits)
+            values, top_indices = find_topk(probs, kth=topk)
+            results = []
+            for ind, prob in zip(top_indices[0], values[0]):
+                one_result = self.label_name_dict[ind]
+                one_result['probability'] = prob
+                results.append(one_result)
+            return results
+        except:
+            return -3
 
