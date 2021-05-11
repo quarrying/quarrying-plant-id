@@ -100,19 +100,14 @@ def normalize_image_shape(image):
     return image
 
 
-def _convert_indices(indices, num_cols):
-    num_rows = len(indices)
-    row_indices = np.arange(num_rows).reshape((-1, 1))
-    row_indices *= num_cols
-    indices = indices + row_indices
-    return indices
-    
-
-def find_topk(a, kth, order=None):
-    num_rows, num_cols = a.shape
-    top_indices = np.argsort(a, axis=-1, order=order)[:,-kth:][:, ::-1]
-    top_indices_take = _convert_indices(top_indices, num_cols)
-    values = a.take(top_indices_take)
-    return values, top_indices
+def find_topk(arr, kth, sort=True, order=None):
+    top_indices = np.argpartition(-arr, kth-1, axis=-1, order=order)[:,:kth]
+    top_values = np.take_along_axis(arr, top_indices, axis=-1)
+    if sort:
+        sorted_indices_in_topk = np.argsort(-top_values, axis=-1, order=order)
+        sorted_top_values = np.take_along_axis(top_values, sorted_indices_in_topk, axis=-1)
+        sorted_top_indices = np.take_along_axis(top_indices, sorted_indices_in_topk, axis=-1)
+        return sorted_top_values, sorted_top_indices
+    return top_values, top_indices
     
     
