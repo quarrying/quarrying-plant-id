@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plant Identification</title>
+    <style>
+    .a-upload {
+        position: relative;
+        display: inline-block;
+        background: #D0EEFF;
+        border: 1px solid #99D3F5;
+        border-radius: 4px;
+        padding: 4px 12px;
+        overflow: hidden;
+        color: #1E88C7;
+        text-decoration: none;
+        text-indent: 0;
+        line-height: 20px;
+    }
+    .a-upload input {
+        position: absolute;
+        font-size: 100px;
+        right: 0;
+        top: 0;
+        opacity: 0;
+    }
+    .a-upload:hover {
+        background: #AADFFD;
+        border-color: #78C3F3;
+        color: #004974;
+        text-decoration: none;
+    }
+    </style>
+    {% block results_table %}
+    {% endblock %}
+    
+</head>
+<body>
+    <h1>Plant Identification</h1>
+    <form action="" enctype='multipart/form-data' method='POST'>
+        <a href="javascript:;" class="a-upload">
+            <input type="file" name="image" onchange="this.form.submit()">Select an image file
+        </a>
+    </form>
+    
+    {% block results %}
+    {% endblock %}
+</body>
