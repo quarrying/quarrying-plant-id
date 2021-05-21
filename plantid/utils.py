@@ -100,14 +100,23 @@ def normalize_image_shape(image):
     return image
 
 
-def find_topk(arr, kth, sort=True, order=None):
-    top_indices = np.argpartition(-arr, kth-1, axis=-1, order=order)[:,:kth]
-    top_values = np.take_along_axis(arr, top_indices, axis=-1)
-    if sort:
-        sorted_indices_in_topk = np.argsort(-top_values, axis=-1, order=order)
-        sorted_top_values = np.take_along_axis(top_values, sorted_indices_in_topk, axis=-1)
-        sorted_top_indices = np.take_along_axis(top_indices, sorted_indices_in_topk, axis=-1)
-        return sorted_top_values, sorted_top_indices
-    return top_values, top_indices
+def find_topk(x, k, axis=-1, largest=True, sorted=True):
+    if largest:
+        index_array = np.argpartition(-x, k-1, axis=axis, order=None)
+    else:
+        index_array = np.argpartition(x, k-1, axis=axis, order=None)
+    topk_indices = np.take(index_array, range(k), axis=axis)
+    topk_values = np.take_along_axis(x, topk_indices, axis=axis)
+    if sorted:
+        if largest:
+            sorted_indices_in_topk = np.argsort(-topk_values, axis=axis, order=None)
+        else:
+            sorted_indices_in_topk = np.argsort(topk_values, axis=axis, order=None)
+        sorted_topk_values = np.take_along_axis(
+            topk_values, sorted_indices_in_topk, axis=axis)
+        sorted_topk_indices = np.take_along_axis(
+            topk_indices, sorted_indices_in_topk, axis=axis)
+        return sorted_topk_values, sorted_topk_indices
+    return topk_values, topk_indices
     
     

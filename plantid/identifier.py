@@ -52,7 +52,7 @@ class PlantIdentifier(object):
             self.net.setInput(blob)
             logits = self.net.forward()
             probs = softmax(logits)
-            values, top_indices = find_topk(probs, kth=topk)
+            values, top_indices = find_topk(probs, topk)
             results = []
             for ind, prob in zip(top_indices[0], values[0]):
                 one_result = self.label_name_dict[ind]
