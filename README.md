@@ -21,8 +21,8 @@ pip install -r requirements.txt
 import plantid
 
 plant_identifier = plantid.PlantIdentifier()
-probs, class_names = plant_identifier.predict(image_filename)
-print(class_names[0], probs[0])
+results = plant_identifier.predict(image_filename)
+print(results[0])
 ```
 You can also see [tools/test.py](<tools/test.py>).
 
