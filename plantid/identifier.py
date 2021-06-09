@@ -9,14 +9,14 @@ from .utils import *
 class PlantIdentifier(object):
     def __init__(self):
         current_dir = os.path.dirname(os.path.abspath(__file__))
-        model_filename = os.path.join(current_dir, 'models/quarrying_plantid_model.oonx')
+        model_filename = os.path.join(current_dir, 'models/quarrying_plantid_model.onnx')
         label_map_filename = os.path.join(current_dir, 'models/quarrying_plantid_label_map.txt')
         self.net = cv2.dnn.readNetFromONNX(model_filename)
         self.label_name_dict = self._get_label_name_dict(label_map_filename)
         
     @staticmethod
     def _get_label_name_dict(filename):
-        records = load_list(filename, 'utf-8')
+        records = load_list(filename)
         label_name_dict = {}
         for record in records:
             label, chinese_name, latin_name = record.split(',')
