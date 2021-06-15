@@ -35,6 +35,8 @@ class PlantIdentifier(object):
             image /= 255.0
             image -= np.asarray([0.485, 0.456, 0.406])
             image /= np.asarray([0.229, 0.224, 0.225])
+            image = np.transpose(image, (2,0,1))
+            image = np.expand_dims(image, axis=0)
             return image
         except:
             return None
@@ -48,8 +50,7 @@ class PlantIdentifier(object):
             return -2
         
         try:
-            blob = cv2.dnn.blobFromImage(image)
-            self.net.setInput(blob)
+            self.net.setInput(image)
             logits = self.net.forward()
             probs = softmax(logits)
             values, top_indices = find_topk(probs, topk)
