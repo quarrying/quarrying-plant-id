@@ -3,7 +3,7 @@ from collections import OrderedDict
 
 import cv2
 import numpy as np
-from .utils import *
+from . import utils
 
 
 class PlantIdentifier(object):
@@ -16,7 +16,7 @@ class PlantIdentifier(object):
         
     @staticmethod
     def _get_label_name_dict(filename):
-        records = load_list(filename)
+        records = utils.load_list(filename)
         label_name_dict = {}
         for record in records:
             label, chinese_name, latin_name = record.split(',')
@@ -27,10 +27,10 @@ class PlantIdentifier(object):
     @staticmethod
     def _preprocess(image):
         try:
-            image = normalize_image_shape(image)
+            image = utils.normalize_image_shape(image)
             image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-            image = resize_image_short(image, 320)
-            image = center_crop(image, 299, 299)
+            image = utils.resize_image_short(image, 320)
+            image = utils.center_crop(image, 299, 299)
             image = image.astype(np.float32)
             image /= 255.0
             image -= np.asarray([0.485, 0.456, 0.406])
@@ -42,7 +42,7 @@ class PlantIdentifier(object):
             return None
         
     def predict(self, filename, topk=5):
-        image = imread_ex(filename, -1)
+        image = utils.imread_ex(filename, -1)
         if (image is None) or (image.dtype != np.uint8):
             return -1
         inputs = self._preprocess(image)
@@ -52,8 +52,8 @@ class PlantIdentifier(object):
         try:
             self.net.setInput(inputs)
             logits = self.net.forward()
-            probs = softmax(logits)
-            values, top_indices = find_topk(probs, topk)
+            probs = utils.softmax(logits)
+            values, top_indices = utils.find_topk(probs, topk)
             results = []
             for ind, prob in zip(top_indices[0], values[0]):
                 one_result = self.label_name_dict[ind]
