@@ -45,12 +45,12 @@ class PlantIdentifier(object):
         image = imread_ex(filename, -1)
         if (image is None) or (image.dtype != np.uint8):
             return -1
-        image = self._preprocess(image)
-        if image is None:
+        inputs = self._preprocess(image)
+        if inputs is None:
             return -2
         
         try:
-            self.net.setInput(image)
+            self.net.setInput(inputs)
             logits = self.net.forward()
             probs = softmax(logits)
             values, top_indices = find_topk(probs, topk)
