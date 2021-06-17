@@ -23,7 +23,8 @@ if __name__ == '__main__':
     plant_identifier = plantid.PlantIdentifier()
     start_time = time.time()
     for k, name in enumerate(filenames):
-        results = plant_identifier.predict(name)
+        image = plantid.imread_ex(name)
+        results = plant_identifier.predict(image)
         print('[{}/{}] Time: {:.3}s  {}'.format(k+1, len(filenames), time.time() - start_time, name))
         start_time = time.time()
         print(results[0])

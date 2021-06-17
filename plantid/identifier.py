@@ -41,13 +41,10 @@ class PlantIdentifier(object):
         except:
             return None
         
-    def predict(self, filename, topk=5):
-        image = utils.imread_ex(filename, -1)
-        if (image is None) or (image.dtype != np.uint8):
-            return -1
+    def predict(self, image, topk=5):
         inputs = self._preprocess(image)
         if inputs is None:
-            return -2
+            return -1
         
         try:
             self.net.setInput(inputs)
@@ -61,5 +58,5 @@ class PlantIdentifier(object):
                 results.append(one_result)
             return results
         except:
-            return -3
+            return -2
 
