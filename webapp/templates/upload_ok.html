@@ -12,7 +12,7 @@
 {% block results %}
 <img src="{{ url_for('static', filename='images/' + image_filename, _t=timestamp) }}"/>
 
-<h2>Results：</h2>
+<h2>Results:</h2>
 <table>
     <thead>
     <tr>
@@ -22,11 +22,15 @@
     </tr>
     </thead>
     <tbody>
-    {% for record in records %}
+    {% for result in results %}
         <tr>
-            {% for part in record %}
-                <td>{{ part }}</td>
-            {% endfor %}
+            <!-- {% for part in record %} -->
+                <!-- <td>{{ part }}</td> -->
+            <!-- {% endfor %} -->
+            <td>{{ result['ChineseName'] }}</td>
+            <td>{{ result['LatinName'] }}</td>
+            <td>{{ result['Confidence'] }}</td>
+            
         </tr>
     {% endfor %}
     </tbody>

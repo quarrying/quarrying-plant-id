@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block results %}
+<img src="{{ url_for('static', filename='images/' + image_filename, _t=timestamp) }}"/>
+
+</br>
+<b>Status: </b> {{status}}
+</br>
+<b>Message: </b> {{message}}
+
+{% endblock %}
+
+
