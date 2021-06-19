@@ -37,7 +37,8 @@ class PlantIdentifier(object):
                 family_dict.setdefault(family_name, []).append(int(label))
             if len(underscore_parts) >= 2:
                 genus_name = underscore_parts[1]
-                genus_dict.setdefault(genus_name, []).append(int(label))
+                family_and_genus_name = '_'.join(underscore_parts[:2])
+                genus_dict.setdefault(family_and_genus_name, []).append(int(label))
         return family_dict, genus_dict
         
     @staticmethod
