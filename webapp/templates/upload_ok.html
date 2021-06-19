@@ -24,17 +24,54 @@
     <tbody>
     {% for result in results %}
         <tr>
-            <!-- {% for part in record %} -->
-                <!-- <td>{{ part }}</td> -->
-            <!-- {% endfor %} -->
-            <td>{{ result['ChineseName'] }}</td>
-            <td>{{ result['LatinName'] }}</td>
-            <td>{{ result['Confidence'] }}</td>
-            
+            <td>{{ result['chinese_name'] }}</td>
+            <td>{{ result['latin_name'] }}</td>
+            <td>{{ result['probability'] }}</td>
         </tr>
     {% endfor %}
     </tbody>
 </table>
+
+<h2>Results at family level:</h2>
+<table>
+    <thead>
+    <tr>
+        {% for label in labels %}
+            <th>{{ label }}</th>
+        {% endfor %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for result in family_results %}
+        <tr>
+            <td>{{ result['chinese_name'] }}</td>
+            <td>{{ result['latin_name'] }}</td>
+            <td>{{ result['probability'] }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<h2>Results at genus level:</h2>
+<table>
+    <thead>
+    <tr>
+        {% for label in labels %}
+            <th>{{ label }}</th>
+        {% endfor %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for result in genus_results %}
+        <tr>
+            <td>{{ result['chinese_name'] }}</td>
+            <td>{{ result['latin_name'] }}</td>
+            <td>{{ result['probability'] }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
 {% endblock %}
 
 

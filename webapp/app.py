@@ -24,39 +24,47 @@ MIN_IMAGE_SIZE_LENGTH = 16
 MAX_IMAGE_SIZE_LENGTH = 5160
 
 
-def convert_to_dict_list(chinese_names, latin_names, probs):
-    dict_list = []
-    for chinese_name, latin_name, prob in zip(chinese_names, latin_names, probs):
-        one_result = OrderedDict()
-        one_result['ChineseName'] = chinese_name
-        one_result['LatinName'] = latin_name
-        one_result['Confidence'] = prob
-        dict_list.append(one_result)
-    return dict_list
-    
-    
 def predict(image):
     if image is None:
-        return {"status": 1002, "message": "Image parsing error!", "results": []}
+        return {"status": 1002, 
+                "message": "Image parsing error!", 
+                "results": [], 
+                "family_results": [], 
+                "genus_results": []}
     if image.dtype != np.uint8:
-        return {"status": 1003, "message": "Image data type error, "
-                "only support uint8 data type.", "results": []}
+        return {"status": 1003, 
+                "message": "Image data type error, only support uint8 data type.", 
+                "results": [], 
+                "family_results": [], 
+                "genus_results": []}
     if max(image.shape[:2]) > MAX_IMAGE_SIZE_LENGTH or min(image.shape[:2]) < MIN_IMAGE_SIZE_LENGTH:
-        return {"status": 1004, "message": "Image size error, "
-                "the shorter edge must >= {}px, the longer edge must <= {}px".format(
-                MIN_IMAGE_SIZE_LENGTH, MAX_IMAGE_SIZE_LENGTH), "results": []}
+        return {"status": 1004, 
+                "message": "Image size error, shorter edge must >= {}px, longer edge must <= {}px".format(
+                           MIN_IMAGE_SIZE_LENGTH, MAX_IMAGE_SIZE_LENGTH), 
+                "results": [], 
+                "family_results": [], 
+                "genus_results": []}
 
     outputs = plant_identifier.predict(image)
-    if outputs == -1:
-        return {"status": 1005, "message": "Image preprocess error.", "results": []}
-    elif outputs == -2:
-        return {"status": 1006, "message": "Inference error.", "results": []}
-        
-    chinese_names = [item['chinese_name'] for item in outputs]
-    latin_names = [item['latin_name'] for item in outputs]
-    probs = ['{:.5f}'.format(item['probability']) for item in outputs]
-    return {"status": 0, "message": "OK", "results": convert_to_dict_list(chinese_names, latin_names, probs)}
-    
+    if outputs['status'] == -1:
+        return {"status": 1005, 
+                "message": "Image preprocess error.", 
+                "results": [], 
+                "family_results": [], 
+                "genus_results": []}
+    elif outputs['status'] == -2:
+        return {"status": 1006, 
+                "message": "Inference error.",
+                "results": [], 
+                "family_results": [], 
+                "genus_results": []}
+                
+    return {"status": 0, 
+            "message": "OK", 
+            "results": outputs['results'],
+            "family_results": outputs['family_results'], 
+            "genus_results": outputs['genus_results']}
+
 
 def allowed_file_type(filename):
     ALLOWED_EXTENSIONS = ['.png', '.jpg', '.jpeg', '.bmp']
@@ -77,10 +85,14 @@ def main():
         image_filename = os.path.basename(secure_filename(f.filename))
 
         if not (f and allowed_file_type(image_filename)):
-            results = {"status": 1001, "message": "Image file format error, "
-                       "only support png, jpg, jpeg, bmp.", "results": []}
+            outputs = {"status": 1001, 
+                       "message": "Image file format error, only support png, jpg, jpeg, bmp.", 
+                       "results": [], 
+                       "family_results": [], 
+                       "genus_results": []}
             return render_template('upload_error.html', 
-                                   status=results['status'], message=results['message'],
+                                   status=outputs['status'], 
+                                   message=outputs['message'],
                                    image_filename=image_filename, 
                                    timestamp=time.time())
                                    
@@ -90,18 +102,22 @@ def main():
         f.save(raw_image_filename)
         
         image = plantid.imread_ex(raw_image_filename, -1)
-        results = predict(image)
-        if len(results['results']) != 0:
+        outputs = predict(image)
+        if outputs['status'] == 0:
             image = plantid.resize_image_short(image, 512)
             cv2.imwrite(os.path.join(tmp_image_dir, new_image_filename), image)
             labels = ['Chinese Name', 'Latin Name', 'Confidence']
             return render_template('upload_ok.html', 
-                                   labels=labels, results=results['results'], 
+                                   labels=labels, 
+                                   results=outputs['results'], 
+                                   family_results=outputs['family_results'], 
+                                   genus_results=outputs['genus_results'], 
                                    image_filename=new_image_filename, 
                                    timestamp=time.time())
         else:
             return render_template('upload_error.html', 
-                                   status=status, message=message,
+                                   status=outputs['status'], 
+                                   message=outputs['message'],
                                    image_filename=new_image_filename, 
                                    timestamp=time.time())
     return render_template('upload.html')
