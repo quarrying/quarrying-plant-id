@@ -21,8 +21,13 @@ pip install -r requirements.txt
 import plantid
 
 plant_identifier = plantid.PlantIdentifier()
-results = plant_identifier.predict(image_filename)
-print(results[0])
+outputs = plant_identifier.predict(image_filename, topk=5)
+if outputs['status'] == 0:
+    print(outputs['results'])
+    print(outputs['family_results'])
+    print(outputs['genus_results'])
+else:
+    print(outputs)
 ```
 You can also see [tools/test.py](<tools/test.py>).
 
