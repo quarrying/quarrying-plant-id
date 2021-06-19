@@ -88,15 +88,17 @@ class PlantIdentifier(object):
              return {"status": -2, "message": "Inference error.", 
                      "results": results, "family_results": family_results,
                      "genus_results": genus_results}
-
-        topk_probs, topk_indices = utils.find_topk(probs, topk)
+                     
+        taxon_topk = min(probs.shape[-1], topk)
+        topk_probs, topk_indices = utils.find_topk(probs, taxon_topk)
         for ind, prob in zip(topk_indices[0], topk_probs[0]):
             one_result = self.label_name_dict[ind]
             one_result['probability'] = prob
             results.append(one_result)
 
         family_probs, family_names = self._get_collective_probs(probs, self.family_dict)
-        family_topk_probs, family_topk_indices = utils.find_topk(family_probs, topk)
+        family_topk = min(family_probs.shape[-1], topk)
+        family_topk_probs, family_topk_indices = utils.find_topk(family_probs, family_topk)
         for ind, prob in zip(family_topk_indices[0], family_topk_probs[0]):
             one_result = OrderedDict()
             one_result['chinese_name'] = family_names[ind]
@@ -105,7 +107,8 @@ class PlantIdentifier(object):
             family_results.append(one_result)
             
         genus_probs, genus_names = self._get_collective_probs(probs, self.genus_dict)
-        genus_topk_probs, genus_topk_indices = utils.find_topk(genus_probs, topk)
+        genus_topk = min(genus_probs.shape[-1], topk)
+        genus_topk_probs, genus_topk_indices = utils.find_topk(genus_probs, genus_topk)
         for ind, prob in zip(genus_topk_indices[0], genus_topk_probs[0]):
             one_result = OrderedDict()
             one_result['chinese_name'] = genus_names[ind]
