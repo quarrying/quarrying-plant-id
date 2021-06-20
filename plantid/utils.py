@@ -1,3 +1,6 @@
+import json
+from collections import OrderedDict
+
 import cv2
 import numpy as np
 
@@ -17,6 +20,12 @@ def load_list(filename, encoding='utf-8', start=0, stop=None):
     return lines
 
 
+def load_json(filename, encoding='utf-8'):
+    with open(filename, 'r', encoding=encoding) as f:
+        dict_obj = json.load(f, object_pairs_hook=OrderedDict)
+    return dict_obj
+    
+    
 def imread_ex(filename, flags=-1):
     """cv2.imread 的扩展, 使支持中文路径.
     """

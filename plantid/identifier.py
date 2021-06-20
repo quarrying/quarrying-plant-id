@@ -11,9 +11,13 @@ class PlantIdentifier(object):
         current_dir = os.path.dirname(os.path.abspath(__file__))
         model_filename = os.path.join(current_dir, 'models/quarrying_plantid_model.onnx')
         label_map_filename = os.path.join(current_dir, 'models/quarrying_plantid_label_map.txt')
+        family_name_map_filename = os.path.join(current_dir, 'models/family_name_map.json')
+        genus_name_map_filename = os.path.join(current_dir, 'models/genus_name_map.json')
         self.net = cv2.dnn.readNetFromONNX(model_filename)
         self.label_name_dict = self._get_label_name_dict(label_map_filename)
         self.family_dict, self.genus_dict = self._get_family_and_genus_dict(label_map_filename)
+        self.family_name_map = utils.load_json(family_name_map_filename)
+        self.genus_name_map = utils.load_json(genus_name_map_filename)
         
     @staticmethod
     def _get_label_name_dict(filename):
@@ -102,7 +106,7 @@ class PlantIdentifier(object):
         for ind, prob in zip(family_topk_indices[0], family_topk_probs[0]):
             one_result = OrderedDict()
             one_result['chinese_name'] = family_names[ind]
-            one_result['latin_name'] = ''
+            one_result['latin_name'] = self.family_name_map.get(family_names[ind], '')
             one_result['probability'] = prob
             family_results.append(one_result)
             
@@ -112,7 +116,7 @@ class PlantIdentifier(object):
         for ind, prob in zip(genus_topk_indices[0], genus_topk_probs[0]):
             one_result = OrderedDict()
             one_result['chinese_name'] = genus_names[ind]
-            one_result['latin_name'] = ''
+            one_result['latin_name'] = self.genus_name_map.get(genus_names[ind], '')
             one_result['probability'] = prob
             genus_results.append(one_result)
             
