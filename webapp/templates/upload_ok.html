@@ -26,7 +26,7 @@
         <tr>
             <td>{{ result['chinese_name'] }}</td>
             <td>{{ result['latin_name'] }}</td>
-            <td>{{ result['probability'] }}</td>
+            <td>{{ '%.5f' % result['probability'] }}</td>
         </tr>
     {% endfor %}
     </tbody>
@@ -46,7 +46,7 @@
         <tr>
             <td>{{ result['chinese_name'] }}</td>
             <td>{{ result['latin_name'] }}</td>
-            <td>{{ result['probability'] }}</td>
+            <td>{{ '%.5f' % result['probability'] }}</td>
         </tr>
     {% endfor %}
     </tbody>
@@ -66,7 +66,7 @@
         <tr>
             <td>{{ result['chinese_name'] }}</td>
             <td>{{ result['latin_name'] }}</td>
-            <td>{{ result['probability'] }}</td>
+            <td>{{ '%.5f' % result['probability'] }}</td>
         </tr>
     {% endfor %}
     </tbody>
