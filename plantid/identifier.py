@@ -28,17 +28,17 @@ class PlantIdentifier(object):
     @staticmethod
     def _get_family_and_genus_dict(filename):
         records = utils.load_list(filename)
+        # genus_dict should be understood as genus_or_above_taxon_dict
         family_dict, genus_dict = {}, {}
         for record in records:
-            label, chinese_name, latin_name = record.split(',')
+            label, chinese_name, _ = record.split(',')
             underscore_parts = chinese_name.split('_')
-            if len(underscore_parts) >= 1 and underscore_parts[0].endswith('科'):
-                family_name = underscore_parts[0]
-                family_dict.setdefault(family_name, []).append(int(label))
-            if len(underscore_parts) >= 2:
-                genus_name = underscore_parts[1]
-                family_and_genus_name = '_'.join(underscore_parts[:2])
-                genus_dict.setdefault(family_and_genus_name, []).append(int(label))
+            if len(underscore_parts) == 1:
+                family_dict.setdefault(underscore_parts[0], []).append(int(label))
+                genus_dict.setdefault(underscore_parts[0], []).append(int(label))
+            elif len(underscore_parts) > 1:
+                family_dict.setdefault(underscore_parts[0], []).append(int(label))
+                genus_dict.setdefault('_'.join(underscore_parts[:2]), []).append(int(label))
         return family_dict, genus_dict
         
     @staticmethod
