@@ -18,7 +18,7 @@ if __name__ == '__main__':
     for k, name in enumerate(filenames):
         image = plantid.imread_ex(name)
         outputs = plant_identifier.predict(image, topk=5)
-        print('[{}/{}] Time: {:.3}s  {}'.format(k+1, len(filenames), time.time() - start_time, name))
+        print('[{}/{}] Time: {:.3f}s  {}'.format(k+1, len(filenames), time.time() - start_time, name))
         start_time = time.time()
         if outputs['status'] == 0:
             print(outputs['results'][0])
