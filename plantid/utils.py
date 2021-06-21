@@ -27,8 +27,6 @@ def load_json(filename, encoding='utf-8'):
     
     
 def imread_ex(filename, flags=-1):
-    """cv2.imread 的扩展, 使支持中文路径.
-    """
     try:
         return cv2.imdecode(np.fromfile(filename, dtype=np.uint8), flags)
     except Exception as e:
@@ -52,7 +50,7 @@ def resize_image_short(image, dst_size, return_scale=False, interpolation='bilin
         `resize_min` in `https://github.com/pjreddie/darknet/blob/master/src/image.c`
     """
     src_height, src_width = image.shape[:2]
-    scale = max(dst_size / float(src_width), dst_size / float(src_height))
+    scale = max(dst_size / src_width, dst_size / src_height)
     dst_width = int(round(scale * src_width))
     dst_height = int(round(scale * src_height))
 
@@ -65,7 +63,7 @@ def resize_image_short(image, dst_size, return_scale=False, interpolation='bilin
 
 
 def center_crop(image, dst_height, dst_width):
-    assert (image.ndim == 2) or (image.ndim == 3)
+    assert image.ndim in [2, 3]
     assert (image.shape[0] >= dst_height) and (image.shape[1] >= dst_width)
     crop_top = (image.shape[0] - dst_height) // 2
     crop_left = (image.shape[1] - dst_width) // 2
@@ -86,8 +84,6 @@ def softmax(x, axis=-1, copy=True):
     
     
 def normalize_image_shape(image):
-    """归一化到三通道二维图像
-    """
     if image.ndim == 2:
         image = cv2.cvtColor(image, cv2.COLOR_GRAY2RGB)
     elif image.ndim == 3:
