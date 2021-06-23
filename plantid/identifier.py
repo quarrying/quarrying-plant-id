@@ -75,12 +75,13 @@ class PlantIdentifier(object):
         except:
             return None
         
-    def predict(self, image, topk=5):
-        results, family_results, genus_results = [], [], []
+    def identify(self, image, topk=5):
+        assert isinstance(topk, int)
         if topk <= 0:
             topk = max(len(self.label_name_dict), 
                        len(self.family_dict),
                        len(self.genus_dict))
+        results, family_results, genus_results = [], [], []
             
         inputs = self._preprocess(image)
         if inputs is None:

@@ -24,7 +24,7 @@ MIN_IMAGE_SIZE_LENGTH = 16
 MAX_IMAGE_SIZE_LENGTH = 5160
 
 
-def predict(image):
+def identify(image):
     if image is None:
         return {"status": 1002, 
                 "message": "Image parsing error!", 
@@ -45,7 +45,7 @@ def predict(image):
                 "family_results": [], 
                 "genus_results": []}
 
-    outputs = plant_identifier.predict(image)
+    outputs = plant_identifier.identify(image)
     if outputs['status'] == -1:
         return {"status": 1005, 
                 "message": "Image preprocess error.", 
@@ -102,7 +102,7 @@ def main():
         f.save(raw_image_filename)
         
         image = plantid.imread_ex(raw_image_filename, -1)
-        outputs = predict(image)
+        outputs = identify(image)
         if outputs['status'] == 0:
             image = plantid.resize_image_short(image, 512)
             cv2.imwrite(os.path.join(tmp_image_dir, new_image_filename), image)

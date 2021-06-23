@@ -21,7 +21,8 @@ pip install -r requirements.txt
 import plantid
 
 plant_identifier = plantid.PlantIdentifier()
-outputs = plant_identifier.predict(image_filename, topk=5)
+image = plantid.imread_ex(image_filename)
+outputs = plant_identifier.identify(image, topk=5)
 if outputs['status'] == 0:
     print(outputs['results'])
     print(outputs['family_results'])

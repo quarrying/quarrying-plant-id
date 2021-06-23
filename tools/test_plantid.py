@@ -17,13 +17,13 @@ if __name__ == '__main__':
     start_time = time.time()
     for k, name in enumerate(filenames):
         image = plantid.imread_ex(name)
-        outputs = plant_identifier.predict(image, topk=5)
+        outputs = plant_identifier.identify(image, topk=5)
         print('[{}/{}] Time: {:.3f}s  {}'.format(k+1, len(filenames), time.time() - start_time, name))
         start_time = time.time()
         if outputs['status'] == 0:
             print(outputs['results'][0])
-            print(outputs['family_results'][0])
             print(outputs['genus_results'][0])
+            print(outputs['family_results'][0])
         else:
             print(outputs)
             

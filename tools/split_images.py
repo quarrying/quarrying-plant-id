@@ -9,14 +9,14 @@ sys.path.insert(0, '..')
 import plantid
 
 
-def split_images_by_predict(src_dir, dst_dir):
+def split_images_by_identify(src_dir, dst_dir):
     plant_identifier = plantid.PlantIdentifier()
     
     filenames = glob.glob(os.path.join(src_dir, '*'))
     start_time = time.time()
     for k, filename in enumerate(filenames):
         image = plantid.imread_ex(filename)
-        outputs = plant_identifier.predict(image, topk=1)
+        outputs = plant_identifier.identify(image, topk=1)
         if outputs['status'] == 0:
             chinese_name = outputs['results'][0]['chinese_name']
             latin_name = outputs['results'][0]['latin_name']
@@ -47,6 +47,6 @@ if __name__ == '__main__':
     args = parse_arguments(sys.argv[1:])
     if not os.path.exists(args.src_dir):
         raise ValueError('src_dir does not exist!')
-    split_images_by_predict(args.src_dir, dst_dir=args.dst_dir)
+    split_images_by_identify(args.src_dir, dst_dir=args.dst_dir)
 
     
