@@ -13,11 +13,16 @@ class PlantIdentifier(object):
         label_map_filename = os.path.join(current_dir, 'models/quarrying_plantid_label_map.txt')
         family_name_map_filename = os.path.join(current_dir, 'models/family_name_map.json')
         genus_name_map_filename = os.path.join(current_dir, 'models/genus_name_map.json')
+        
         self.net = cv2.dnn.readNetFromONNX(model_filename)
         self.label_name_dict = self._get_label_name_dict(label_map_filename)
         self.family_dict, self.genus_dict = self._get_family_and_genus_dict(label_map_filename)
         self.family_name_map = utils.load_json(family_name_map_filename)
         self.genus_name_map = utils.load_json(genus_name_map_filename)
+        
+        self.names = [self.label_name_dict[i]['chinese_name'] for i in range(len(self.label_name_dict))]
+        self.family_names = list(self.family_dict.keys())
+        self.genus_names = list(self.genus_dict.keys())
         
     @staticmethod
     def _get_label_name_dict(filename):
@@ -55,8 +60,7 @@ class PlantIdentifier(object):
                 taxon_indices = collective_dict[collective_name]
                 collective_prob = sum(probs[batch_ind, index] for index in taxon_indices)
                 collective_probs[batch_ind, collective_ind] = collective_prob
-        collective_names = list(collective_dict.keys())
-        return collective_probs, collective_names
+        return collective_probs
         
     @staticmethod
     def _preprocess(image):
@@ -72,6 +76,9 @@ class PlantIdentifier(object):
         image = np.expand_dims(image, axis=0)
         return image
         
+    def get_plant_names(self):
+        return self.names, self.family_names, self.genus_names
+        
     def predict(self, image):
         try:
             inputs = self._preprocess(image)
@@ -85,12 +92,9 @@ class PlantIdentifier(object):
         except:
             return {"status": -2, "message": "Inference error.", "results": {}}
             
-        names = [self.label_name_dict[i]['chinese_name'] for i in range(len(self.label_name_dict))]
-        family_probs, family_names = self._get_collective_probs(probs, self.family_dict)
-        genus_probs, genus_names = self._get_collective_probs(probs, self.genus_dict)
-        results = {'probs': probs, 'names': names, 
-                   'family_probs': family_probs, 'family_names': family_names, 
-                   'genus_probs': genus_probs, 'genus_names': genus_names}
+        family_probs = self._get_collective_probs(probs, self.family_dict)
+        genus_probs = self._get_collective_probs(probs, self.genus_dict)
+        results = {'probs': probs, 'family_probs': family_probs, 'genus_probs': genus_probs,}
         return {"status": 0, "message": "OK", "results": results}
         
     def identify(self, image, topk=5):
@@ -111,10 +115,8 @@ class PlantIdentifier(object):
                     
         probs = outputs['results']['probs']
         family_probs = outputs['results']['family_probs']
-        family_names = outputs['results']['family_names']
         genus_probs = outputs['results']['genus_probs']
-        genus_names = outputs['results']['genus_names']
-        
+
         taxon_topk = min(probs.shape[-1], topk)
         topk_probs, topk_indices = utils.find_topk(probs, taxon_topk)
         for ind, prob in zip(topk_indices[0], topk_probs[0]):
@@ -126,8 +128,8 @@ class PlantIdentifier(object):
         family_topk_probs, family_topk_indices = utils.find_topk(family_probs, family_topk)
         for ind, prob in zip(family_topk_indices[0], family_topk_probs[0]):
             one_result = OrderedDict()
-            one_result['chinese_name'] = family_names[ind]
-            one_result['latin_name'] = self.family_name_map.get(family_names[ind], '')
+            one_result['chinese_name'] = self.family_names[ind]
+            one_result['latin_name'] = self.family_name_map.get(self.family_names[ind], '')
             one_result['probability'] = prob
             family_results.append(one_result)
             
@@ -135,8 +137,8 @@ class PlantIdentifier(object):
         genus_topk_probs, genus_topk_indices = utils.find_topk(genus_probs, genus_topk)
         for ind, prob in zip(genus_topk_indices[0], genus_topk_probs[0]):
             one_result = OrderedDict()
-            one_result['chinese_name'] = genus_names[ind]
-            one_result['latin_name'] = self.genus_name_map.get(genus_names[ind], '')
+            one_result['chinese_name'] = self.genus_names[ind]
+            one_result['latin_name'] = self.genus_name_map.get(self.genus_names[ind], '')
             one_result['probability'] = prob
             genus_results.append(one_result)
             
