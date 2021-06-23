@@ -77,7 +77,11 @@ class PlantIdentifier(object):
         
     def predict(self, image, topk=5):
         results, family_results, genus_results = [], [], []
-        
+        if topk <= 0:
+            topk = max(len(self.label_name_dict), 
+                       len(self.family_dict),
+                       len(self.genus_dict))
+            
         inputs = self._preprocess(image)
         if inputs is None:
             return {"status": -1, "message": "Inference preprocess error.", 
