@@ -29,8 +29,7 @@ def split_images_by_identify(src_dir, dst_dir):
                 dst_subdir =  os.path.join(dst_dir, taxon_name)
                 os.makedirs(dst_subdir, exist_ok=True)
                 
-                stem, extension = os.path.splitext(os.path.basename(filename))
-                dst_filename = os.path.join(dst_subdir, '{:.3f}_{}{}'.format(confidence, stem, extension))
+                dst_filename = os.path.join(dst_subdir, '{:.3f}_{}'.format(confidence, os.path.basename(filename)))
                 shutil.move(filename, dst_filename)
         print('[{}/{}] Time: {:.3f}s  {}'.format(k+1, len(filenames), time.time() - start_time, filename))
         start_time = time.time()
