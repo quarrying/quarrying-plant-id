@@ -85,17 +85,15 @@ def softmax(x, axis=-1, copy=True):
     
 def normalize_image_shape(image):
     if image.ndim == 2:
-        image = cv2.cvtColor(image, cv2.COLOR_GRAY2RGB)
+        image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
     elif image.ndim == 3:
         num_channels = image.shape[-1]
         if num_channels == 1:
-            gray = np.squeeze(image, -1)
-            image = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)
+            image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
         elif num_channels == 3:
             pass
         elif num_channels == 4:
-            gray = cv2.cvtColor(image, cv2.COLOR_BGRA2GRAY)
-            image = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)
+            image = cv2.cvtColor(image, cv2.COLOR_BGRA2BGR)
         else:
             raise ValueError('Unsupported!')
     else:
