@@ -64,12 +64,18 @@ class PlantIdentifier(object):
         
     @staticmethod
     def _preprocess(image):
+        image_dtype = image.dtype
+        assert image_dtype in [np.uint8, np.uint16]
+        
         image = utils.normalize_image_shape(image)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         image = utils.resize_image_short(image, 320)
         image = utils.center_crop(image, 299, 299)
         image = image.astype(np.float32)
-        image /= 255.0
+        if image_dtype == np.uint8:
+            image /= 255.0
+        else:
+            image /= 65535.0
         image -= np.asarray([0.485, 0.456, 0.406])
         image /= np.asarray([0.229, 0.224, 0.225])
         image = np.transpose(image, (2,0,1))
