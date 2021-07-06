@@ -4,6 +4,7 @@ import time
 import glob
 import argparse
 
+import khandy
 sys.path.insert(0, '..')
 import plantid
 
@@ -15,14 +16,14 @@ def rename_images_by_predict(src_dir, label=None):
     taxon_names, _, _ = plant_identifier.get_plant_names()
     taxon_index = taxon_names.index(label)
 
-    filenames = glob.glob(os.path.join(src_dir, '*'))
+    filenames = khandy.get_all_filenames(src_dir)
     start_time = time.time()
     for k, filename in enumerate(filenames):
         image = plantid.imread_ex(filename)
         outputs = plant_identifier.predict(image)
         if outputs['status'] == 0:
             confidence = outputs['results']['probs'][0, taxon_index]
-            dst_filename = os.path.join(src_dir, '{:.3f}_{}'.format(confidence, os.path.basename(filename)))
+            dst_filename = os.path.join(os.path.dirname(filename), '{:.3f}_{}'.format(confidence, os.path.basename(filename)))
             os.rename(filename, dst_filename)
         print('[{}/{}] Time: {:.3f}s  {}'.format(k+1, len(filenames), time.time() - start_time, filename))
         start_time = time.time()
