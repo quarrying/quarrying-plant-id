@@ -3,1628 +3,2000 @@
 2,丝缨花科_桃叶珊瑚属_花叶青木,Aucuba japonica var. variegata
 3,五列木科_厚皮香属_厚皮香,Ternstroemia gymnanthera
 4,五列木科_柃属_柃木,Eurya japonica
-5,五列木科_柃属_滨柃,Eurya emarginata
-6,五列木科_柃属_米碎花,Eurya chinensis
-7,五加科_五加属_刺五加,Eleutherococcus senticosus
-8,五加科_五加属_白簕,Eleutherococcus trifoliatus
-9,五加科_八角金盘属_八角金盘,Fatsia japonica
-10,五加科_南鹅掌柴属_孔雀木,Schefflera elegantissima
-11,五加科_南鹅掌柴属_鹅掌柴,Schefflera heptaphylla
-12,五加科_南鹅掌柴属_鹅掌藤,Schefflera arboricola
-13,五加科_天胡荽属_南美天胡荽,Hydrocotyle verticillata
-14,五加科_天胡荽属_天胡荽,Hydrocotyle sibthorpioides
-15,五加科_天胡荽属_破铜钱,Hydrocotyle sibthorpioides var. batrachium
-16,五加科_常春藤属_常春藤,Hedera nepalensis var. sinensis
-17,五加科_楤木属_楤木,Aralia elata
-18,五味子科_五味子属_五味子,Schisandra chinensis
-19,五味子科_八角属_八角,Illicium verum
-20,五味子科_八角属_大屿八角,Illicium angustisepalum
-21,五味子科_八角属_红毒茴,Illicium lanceolatum
-22,五味子科_冷饭藤属_黑老虎,Kadsura coccinea
-23,五桠果科_五桠果属_大花五桠果,Dillenia turbinata
-24,五福花科_接骨木属_接骨木,Sambucus williamsii
-25,五福花科_荚蒾属_日本珊瑚树,Viburnum odoratissimum var. awabuki
-26,五福花科_荚蒾属_粉团,Viburnum plicatum
-27,五福花科_荚蒾属_绣球荚蒾,Viburnum macrocephalum
-28,五福花科_荚蒾属_绣球荚蒾_琼花,Viburnum macrocephalum f. keteleeri
-29,五福花科_荚蒾属_蝴蝶戏珠花,Viburnum plicatum f. tomentosum
-30,五福花科_荚蒾属_鸡树条,Viburnum opulus subsp. calvescens
-31,亚麻科_亚麻属_亚麻&宿根亚麻,
-32,亚麻科_石海椒属_石海椒,Reinwardtia indica
-33,仙人掌科_乌羽玉属_乌羽玉,Lophophora williamsii
-34,仙人掌科_仙人指属_蟹爪兰,Schlumbergera truncata
-35,仙人掌科_仙人掌属_黄毛掌,Opuntia microdasys
-36,仙人掌科_仙人球属_白檀柱,Echinopsis chamaecereus
-37,仙人掌科_令箭荷花属_令箭荷花,Nopalxochia ackermannii
-38,仙人掌科_昙花属_昙花,Epiphyllum oxypetalum
-39,仙人掌科_星球属_鸾凤玉,Astrophytum myriostigma
-40,仙人掌科_管花柱属_猴尾柱,Cleistocactus colademononis
-41,仙人掌科_量天尺属_量天尺,Hylocereus undatus
-42,仙人掌科_金琥属_金琥,Echinocactus grusonii
-43,伞形科_当归属_紫花前胡,Angelica decursiva
-44,伞形科_星芹属_大星芹,Astrantia major
-45,伞形科_珊瑚菜属_珊瑚菜,Glehnia littoralis
-46,伞形科_积雪草属_积雪草,Centella asiatica
-47,伞形科_胡萝卜属_胡萝卜,Daucus carota var. sativa
-48,伞形科_芫荽属_芫荽,Coriandrum sativum
-49,伞形科_芹属_旱芹,Apium graveolens
-50,伞形科_茴香属_茴香,Foeniculum vulgare
-51,伞形科_蛇床属_蛇床,Cnidium monnieri
-52,使君子科_使君子属_使君子,Quisqualis indica
-53,使君子科_榄仁树属_阿江榄仁,Terminalia arjuna
-54,侧耳科_侧耳属_平菇,
-55,侧耳科_侧耳属_杏鲍菇,
-56,六出花科_六出花属_六出花,Alstroemeria hybrida
-57,兰科_兜兰属,Paphiopedilum
-58,兰科_兜兰属_紫纹兜兰,Paphiopedilum purpuratum
-59,兰科_兰属_墨兰,Cymbidium sinense
-60,兰科_兰属_建兰,Cymbidium ensifolium
-61,兰科_兰属_春兰,Cymbidium goeringii
-62,兰科_兰属_蕙兰,Cymbidium faberi
-63,兰科_卡特兰属_卡特兰,Cattleya hybrida
-64,兰科_小龙兰属_猴面小龙兰,Dracula simia
-65,兰科_带唇兰属_带唇兰,Tainia dunnii
-66,兰科_开唇兰属_金线兰,Anoectochilus roxburghii
-67,兰科_文心兰属,Oncidium
-68,兰科_斑叶兰属_多叶斑叶兰,Goodyera foliosa
-69,兰科_斑叶兰属_高斑叶兰,Goodyera procera
-70,兰科_杓兰属,Cypripedium
-71,兰科_杓兰属_宽口杓兰,Cypripedium wardii
-72,兰科_杓兰属_扇脉杓兰,Cypripedium japonicum
-73,兰科_杜鹃兰属_杜鹃兰,Cremastra appendiculata
-74,兰科_独蒜兰属_独蒜兰,Pleione bulbocodioides
-75,兰科_玉凤花属_橙黄玉凤花,Habenaria rhodocheila
-76,兰科_白及属_白及,Bletilla striata
-77,兰科_盆距兰属_盆距兰,Gastrochilus calceolaris
-78,兰科_石仙桃属_石仙桃,Pholidota chinensis
-79,兰科_石斛属_玫瑰石斛,Dendrobium crepidatum
-80,兰科_石斛属_球花石斛,Dendrobium thyrsiflorum
-81,兰科_石斛属_铁皮石斛,Dendrobium officinale
-82,兰科_石豆兰属_广东石豆兰,Bulbophyllum kwangtungense
-83,兰科_石豆兰属_芳香石豆兰,Bulbophyllum ambrosia
-84,兰科_章鱼兰属_章鱼兰,Prosthechea cochleata
-85,兰科_竹叶兰属_竹叶兰,Arundina graminifolia
-86,兰科_线柱兰属_线柱兰,Zeuxine strateumatica
-87,兰科_绶草属_绶草,Spiranthes sinensis
-88,兰科_虾脊兰属_三棱虾脊兰,Calanthe tricarinata
-89,兰科_虾脊兰属_三褶虾脊兰,Calanthe triplicata
-90,兰科_蝴蝶兰属_蝴蝶兰,Phalaenopsis aphrodite
-91,兰科_贝母兰属_流苏贝母兰,Coelogyne fimbriata
-92,兰科_鹤顶兰属,Phaius
-93,兰科_鹤顶兰属_黄花鹤顶兰,Phaius flavus
-94,兰科_黄兰属_黄兰,Cephalantheropsis obcordata
-95,冬青科_冬青属_华中枸骨,Ilex centrochinensis
-96,冬青科_冬青属_无刺枸骨,Ilex cornuta 'National'
-97,冬青科_冬青属_枸骨,Ilex cornuta
-98,冬青科_冬青属_秤星树,Ilex asprella
-99,冬青科_冬青属_铁冬青,Ilex rotunda
-100,凤仙花科_凤仙花属_凤仙花,Impatiens balsamina
-101,凤仙花科_凤仙花属_新几内亚凤仙花,Impatiens hawkeri
-102,凤仙花科_凤仙花属_水金凤,Impatiens noli-tangere
-103,凤仙花科_凤仙花属_管茎凤仙花,Impatiens tubulosa
-104,凤仙花科_凤仙花属_苏丹凤仙花,Impatiens walleriana
-105,凤尾蕨科_铁线蕨属_荷叶铁线蕨,Adiantum nelumboides
-106,凤梨科_凤梨属_凤梨,Ananas comosus
-107,凤梨科_姬凤梨属_姬凤梨,Cryptanthus acaulis
-108,凤梨科_水塔花属_水塔花,Billbergia pyramidalis
-109,凤梨科_铁兰属_紫花凤梨,Tillandsia cyanea
-110,列当科_地黄属_地黄,Rehmannia glutinosa
-111,列当科_地黄属_天目地黄,Rehmannia chingii
-112,列当科_小米草属_小米草,Euphrasia pectinata
-113,列当科_山罗花属_山罗花,Melampyrum roseum
-114,列当科_肉苁蓉属_肉苁蓉,Cistanche deserticola
-115,列当科_马先蒿属_藓生马先蒿,Pedicularis muscicola
-116,十字花科_屈曲花属_屈曲花,Iberis amara
-117,十字花科_播娘蒿属_播娘蒿,Descurainia sophia
-118,十字花科_独行菜属_独行菜,Lepidium apetalum
-119,十字花科_糖芥属_桂竹香,Erysimum × cheiri
-120,十字花科_紫罗兰属_紫罗兰,Matthiola incana
-121,十字花科_芝麻菜属_芝麻菜,Eruca vesicaria subsp. sativa
-122,十字花科_花旗杆属_花旗杆,Dontostemon dentatus
-123,十字花科_芸苔属_野甘蓝_罗马花椰菜,
-124,十字花科_芸薹属_芜青_白菜,Brassica rapa var. glabra
-125,十字花科_芸薹属_芜青_芸苔,Brassica rapa var. oleifera
-126,十字花科_芸薹属_芜青_青菜,Brassica rapa var. chinensis
-127,十字花科_芸薹属_芥菜,Brassica juncea
-128,十字花科_芸薹属_芥菜_抱子芥,Brassica juncea var. gemmifera
-129,十字花科_芸薹属_芥菜_雪里蕻,Brassica juncea var. multicep
-130,十字花科_芸薹属_野甘蓝_抱子甘蓝,Brassica oleracea var. gemmifera
-131,十字花科_芸薹属_野甘蓝_擘蓝,Brassica oleracea var. gongylodes
-132,十字花科_芸薹属_野甘蓝_甘蓝,Brassica oleracea var. capitata
-133,十字花科_芸薹属_野甘蓝_绿花菜,Brassica oleracea var. italica
-134,十字花科_芸薹属_野甘蓝_羽衣甘蓝,Brassica oleracea var. acephala
-135,十字花科_芸薹属_野甘蓝_花椰菜,Brassica oleracea var. botrytis
-136,十字花科_荠属_荠,Capsella bursa-pastoris
-137,十字花科_菥蓂属_菥蓂,Thlaspi arvense
-138,十字花科_萝卜属_萝卜,Raphanus sativus
-139,十字花科_蔊菜属_蔊菜,Rorippa indica
-140,十字花科_诸葛菜属_诸葛菜,Orychophragmus violaceus
-141,十字花科_豆瓣菜属_豆瓣菜,Nasturtium officinale
-142,十字花科_香雪球属_香雪球,Lobularia maritima
-143,千屈菜科_八宝树属_八宝树,Duabanga grandiflora
-144,千屈菜科_千屈菜属_千屈菜,Lythrum salicaria
-145,千屈菜科_海桑属_海桑,Sonneratia caseolaris
-146,千屈菜科_石榴属_石榴,Punica granatum
-147,千屈菜科_石榴属_石榴_白石榴,Punica granatum 'Albescens'
-148,千屈菜科_紫薇属_大花紫薇,Lagerstroemia speciosa
-149,千屈菜科_紫薇属_紫薇,Lagerstroemia indica
-150,千屈菜科_紫薇属_紫薇_银薇,Lagerstroemia indica f. alba
-151,千屈菜科_菱属_欧菱,Trapa natans
-152,千屈菜科_萼距花属_萼距花,Cuphea hookeriana
-153,千屈菜科_虾子花属_虾子花,Woodfordia fruticosa
-154,卫矛科_南蛇藤属_南蛇藤,Celastrus orbiculatus
-155,卫矛科_卫矛属_冬青卫矛,Euonymus japonicus
-156,卫矛科_卫矛属_冬青卫矛_金边黄杨,Euonymus japonicus 'Aurea-marginatus'
-157,卫矛科_卫矛属_大果卫矛,Euonymus myrianthus
-158,卫矛科_卫矛属_扶芳藤,Euonymus fortunei
-159,卫矛科_卫矛属_白杜,Euonymus maackii
-160,卫矛科_卫矛属_陕西卫矛,Euonymus schensianus
-161,卫矛科_胡桃桐属_伯力木,Brexia madagascariensis
-162,卷柏科_卷柏属_翠云草,Selaginella uncinata
-163,叠珠树科_伯乐树属_伯乐树,Bretschneidera sinensis
-164,口蘑科_金钱菌属_金针菇,
-165,口蘑科_香菇属_香菇,
-166,古柯科_古柯属_东方古柯,Erythroxylum sinense
-167,叶下珠科_五月茶属_五月茶,Antidesma bunius
-168,叶下珠科_叶下珠属_余甘子,Phyllanthus emblica
-169,叶下珠科_叶下珠属_叶下珠,Phyllanthus urinaria
-170,叶下珠科_叶下珠属_西印度醋栗,Phyllanthus acidus
-171,叶下珠科_木奶果属_木奶果,Baccaurea ramiflora
-172,叶下珠科_秋枫属_重阳木,Bischofia polycarpa
-173,叶下珠科_算盘子属_算盘子,Glochidion puberum
-174,叶下珠科_银柴属_银柴,Aporosa dioica
-175,叶下珠科_黑面神属_二列黑面神,Breynia disticha
-176,叶下珠科_黑面神属_黑面神,Breynia fruticosa
-177,唇形科_三对节属_蓝蝴蝶,Rotheca myricoides
-178,唇形科_假龙头花属_假龙头花,Physostegia virginiana
-179,唇形科_冬红属_冬红,Holmskioldia sanguinea
-180,唇形科_夏至草属_夏至草,Lagopsis supina
-181,唇形科_大青属_华丽龙吐珠,Clerodendrum splendens
-182,唇形科_大青属_垂茉莉,Clerodendrum wallichii
-183,唇形科_大青属_海州常山,Clerodendrum trichotomum
-184,唇形科_大青属_烟火树,Clerodendrum quadriloculare
-185,唇形科_大青属_红萼龙吐珠,Clerodendrum speciosum
-186,唇形科_大青属_臭牡丹,Clerodendrum bungei
-187,唇形科_大青属_苦郎树,Clerodendrum inerme
-188,唇形科_大青属_赪桐,Clerodendrum japonicum
-189,唇形科_大青属_龙吐珠,Clerodendrum thomsoniae
-190,唇形科_橙花糙苏属_橙花糙苏,Phlomis fruticosa
-191,唇形科_水苏属_绵毛水苏,Stachys byzantina
-192,唇形科_活血丹属_活血丹,Glechoma longituba
-193,唇形科_牡荆属_牡荆,Vitex negundo var. cannabifolia
-194,唇形科_牡荆属_穗花牡荆,Vitex agnus-castus
-195,唇形科_牡荆属_荆条,Vitex negundo var. heterophylla
-196,唇形科_狮耳花属_狮耳花,Leonotis leonurus
-197,唇形科_益母草属_益母草,Leonurus japonicus
-198,唇形科_石荠苎属_小鱼仙草,Mosla dianthera
-199,唇形科_筋骨草属_筋骨草,Ajuga ciliata
-200,唇形科_紫珠属_紫珠&白棠子树,
-201,唇形科_紫苏属_紫苏,Perilla frutescens
-202,唇形科_罗勒属_罗勒,Ocimum basilicum
-203,唇形科_美国薄荷属_美国薄荷,Monarda didyma
-204,唇形科_肾茶属_肾茶,Clerodendranthus spicatus
-205,唇形科_荆芥属_荆芥,Nepeta cataria
-206,唇形科_莸属_兰香草,Caryopteris incana
-207,唇形科_莸属_单花莸,Caryopteris nepetifolia
-208,唇形科_薄荷属_薄荷,Mentha canadensis
-209,唇形科_藿香属_藿香,Agastache rugosa
-210,唇形科_贝壳花属_贝壳花,Moluccella laevis
-211,唇形科_迷迭香属_迷迭香,Rosmarinus officinalis
-212,唇形科_野芝麻属_宝盖草,Lamium amplexicaule
-213,唇形科_野芝麻属_野芝麻,Lamium barbatum
-214,唇形科_鞘蕊花属_彩叶草&五彩苏,
-215,唇形科_香科科属_水果蓝,Teucrium fruticans
-216,唇形科_香薷属_华北香薷,Elsholtzia stauntonii
-217,唇形科_马刺花属_碰碰香,Plectranthus hadiensis var. tomentosus
-218,唇形科_马刺花属_艾克伦香茶菜,Plectranthus ecklonii
-219,唇形科_马刺花属_香妃草,Plectranthus glabratus
-220,唇形科_黄芩属_韩信草,Scutellaria indica
-221,唇形科_黄芩属_黄芩,Scutellaria baicalensis
-222,唇形科_鼠尾草属,Salvia
-223,唇形科_鼠尾草属_一串红,Salvia splendens
-224,唇形科_鼠尾草属_丹参,Salvia miltiorrhiza
-225,唇形科_鼠尾草属_墨西哥鼠尾草,Salvia leucantha
-226,唇形科_鼠尾草属_朱唇,Salvia coccinea
-227,唇形科_鼠尾草属_荔枝草,Salvia plebeia
-228,唇形科_龙头草属_高野山龙头草,Meehania montis-koyae
-229,商陆科_商陆属_垂序商陆,Phytolacca americana
-230,土人参科_土人参属_土人参,Talinum paniculatum
-231,堇菜科_三角车属_三角车,Rinorea bengalensis
-232,堇菜科_堇菜属_七星莲,Viola diffusa
-233,堇菜科_堇菜属_三色堇,Viola tricolor
-234,堇菜科_堇菜属_柔毛堇菜,Viola fargesii
-235,堇菜科_堇菜属_犁头草,Viola japonica
-236,堇菜科_堇菜属_紫花地丁,Viola philippica
-237,堇菜科_堇菜属_角堇,Viola cornuta
-238,壳斗科_栗属_栗,Castanea mollissima
-239,大戟科_三宝木属_异叶三宝木,Trigonostemon flavidus
-240,大戟科_乌桕属_乌桕,Triadica sebifera
-241,大戟科_变叶木属_变叶木,Codiaeum variegatum
-242,大戟科_变叶木属_戟叶变叶木,Codiaeum variegatum 'Excellent'
-243,大戟科_响盒子属_响盒子,Hura crepitans
-244,大戟科_大戟属_一品红,Euphorbia pulcherrima
-245,大戟科_大戟属_地锦草,Euphorbia humifusa
-246,大戟科_大戟属_斑地锦,Euphorbia maculata
-247,大戟科_大戟属_晃玉,Euphorbia obesa
-248,大戟科_大戟属_泽漆&乳浆大戟,
-249,大戟科_大戟属_火殃勒,Euphorbia antiquorum
-250,大戟科_大戟属_猩猩草,Euphorbia cyathophora
-251,大戟科_大戟属_白角麒麟,Euphorbia resinifera
-252,大戟科_大戟属_白雪木,Euphorbia leucocephala
-253,大戟科_大戟属_紫锦木,Euphorbia cotinifolia
-254,大戟科_大戟属_续随子,Euphorbia lathyris
-255,大戟科_大戟属_绿玉树,Euphorbia tirucalli
-256,大戟科_大戟属_铁海棠,Euphorbia milii
-257,大戟科_大戟属_银边翠,Euphorbia marginata
-258,大戟科_山麻秆属_山麻杆,Alchornea davidii
-259,大戟科_巴豆属_巴豆,Croton tiglium
-260,大戟科_木薯属_木薯,Manihot esculenta
-261,大戟科_油桐属_油桐&木油桐,
-262,大戟科_海漆属_海漆,Excoecaria agallocha
-263,大戟科_海漆属_红背桂,Excoecaria cochinchinensis
-264,大戟科_红雀珊瑚属_红雀珊瑚,Pedilanthus tithymaloides
-265,大戟科_蓖麻属_蓖麻,Ricinus communis
-266,大戟科_野桐属_杠香藤,Mallotus repandus var. chrysocarpus
-267,大戟科_野桐属_白背叶,Mallotus apelta
-268,大戟科_野桐属_石岩枫,Mallotus repandus
-269,大戟科_铁苋菜属_猫尾红,Acalypha reptans
-270,大戟科_铁苋菜属_红穗铁苋菜,Acalypha hispida
-271,大戟科_铁苋菜属_铁苋菜,Acalypha australis
-272,大戟科_麻风树属_佛肚树,Jatropha podagrica
-273,大戟科_麻风树属_琴叶珊瑚,Jatropha integerrima
-274,大戟科_麻风树属_麻风树,Jatropha curcas
-275,大麻科_大麻属_大麻,Cannabis sativa
-276,大麻科_朴属_朴树,Celtis sinensis
-277,大麻科_朴属_紫弹树,Celtis biondii
-278,大麻科_葎草属_啤酒花,Humulus lupulus
-279,大麻科_葎草属_葎草,Humulus scandens
-280,天南星科_五彩芋属_五彩芋,Caladium bicolor
-281,天南星科_半夏属_半夏,Pinellia ternata
-282,天南星科_喜林芋属_春羽,Philodendron selloum
-283,天南星科_喜林芋属_红苞喜林芋,Philodendron erubescens
-284,天南星科_大薸属_大薸,Pistia stratiotes
-285,天南星科_广东万年青属_广东万年青,Aglaonema modestum
-286,天南星科_海芋属_海芋,Alocasia odora
-287,天南星科_海芋属_黑叶观音莲,Alocasia 'Amazonica'
-288,天南星科_犁头尖属_犁头尖,Typhonium blumei
-289,天南星科_白鹤芋属_白鹤芋,Spathiphyllum kochii
-290,天南星科_芋属_芋,Colocasia esculenta
-291,天南星科_花烛属_花烛,Anthurium andraeanum
-292,天南星科_雪铁芋属_雪铁芋,Zamioculcas zamiifolia
-293,天南星科_马蹄莲属_马蹄莲,Zantedeschia aethiopica
-294,天南星科_麒麟叶属_绿萝,Epipremnum aureum
-295,天南星科_黛粉芋属_黛粉芋,Dieffenbachia seguine
-296,天南星科_龟背竹属_龟背竹,Monstera deliciosa
-297,天门冬科_丝兰属_凤尾丝兰,Yucca gloriosa
-298,天门冬科_假叶树属_假叶树,Ruscus aculeatus
-299,天门冬科_凤梨百合属_凤梨百合,Eucomis comosa
-300,天门冬科_吊兰属_吊兰,Chlorophytum comosum
-301,天门冬科_哨兵花属_弹簧草,Albuca namaquensis
-302,天门冬科_天门冬属_文竹,Asparagus setaceus
-303,天门冬科_山麦冬属_山麦冬,Liriope spicata
-304,天门冬科_开口箭属_筒花开口箭,Campylandra delavayi
-305,天门冬科_朱蕉属_朱蕉,Cordyline fruticosa
-306,天门冬科_油点百合属_油点百合,Ledebouria socialis
-307,天门冬科_沿阶草属_沿阶草,Ophiopogon bodinieri
-308,天门冬科_沿阶草属_麦冬,Ophiopogon japonicus
-309,天门冬科_玉簪属_玉簪,Hosta plantaginea
-310,天门冬科_玉簪属_紫萼,Hosta ventricosa
-311,天门冬科_白穗花属_白穗花,Speirantha gardenii
-312,天门冬科_纳金花属_绿花纳金花,Lachenalia viridiflora
-313,天门冬科_蓝壶花属_葡萄风信子,Muscari botryoides
-314,天门冬科_蓝瑰花属_雪光花,Scilla luciliae
-315,天门冬科_虎尾兰属_棒叶虎尾兰,Sansevieria gracilis
-316,天门冬科_虎尾兰属_虎尾兰,Sansevieria trifasciata
-317,天门冬科_虎尾兰属_金边虎尾兰,Sansevieria trifasciata var. laurentii
-318,天门冬科_蜘蛛抱蛋属_巨花蜘蛛抱蛋,Aspidistra grandiflora
-319,天门冬科_蜘蛛抱蛋属_流苏蜘蛛抱蛋,Aspidistra fimbriata
-320,天门冬科_酒瓶兰属_酒瓶兰,Beaucarnea recurvata
-321,天门冬科_铃兰属_铃兰,Convallaria majalis
-322,天门冬科_风信子属_风信子,Hyacinthus orientalis
-323,天门冬科_黄精属_玉竹,Polygonatum odoratum
-324,天门冬科_黄精属_黄精,Polygonatum sibiricum
-325,天门冬科_龙舌兰属_龙舌兰,Agave americana
-326,天门冬科_龙血树属_富贵竹,Dracaena sanderiana
-327,天门冬科_龙血树属_海南龙血树,Dracaena cambodiana
-328,天门冬科_龙血树属_百合竹,Dracaena reflexa
-329,天门冬科_龙血树属_香龙血树,Dracaena fragrans
-330,天门冬科_龙血树属_龙血树,Dracaena draco
-331,夹竹桃科_假虎刺属_大花假虎刺,Carissa macrocarpa
-332,夹竹桃科_凝蹄玉属_凝蹄玉,Pseudolithos migiurtinus
-333,夹竹桃科_匙羹藤属_匙羹藤,Gymnema sylvestre
-334,夹竹桃科_吊灯花属_爱之蔓,Ceropegia woodii
-335,夹竹桃科_夜来香属_夜来香,Telosma cordata
-336,夹竹桃科_夹竹桃属_夹竹桃,Nerium oleander
-337,夹竹桃科_夹竹桃属_夹竹桃_白花夹竹桃,Nerium oleander 'Paihua'
-338,夹竹桃科_山辣椒属_狗牙花,Tabernaemontana divaricata
-339,夹竹桃科_杠柳属_杠柳,Periploca sepium
-340,夹竹桃科_沙漠玫瑰属_沙漠玫瑰,Adenium obesum
-341,夹竹桃科_海杧果属_海杧果,Cerbera manghas
-342,夹竹桃科_清明花属_清明花,Beaumontia grandiflora
-343,夹竹桃科_牛角瓜属_牛角瓜,Calotropis gigantea
-344,夹竹桃科_犀角属,Stapelia
-345,夹竹桃科_球兰属_球兰,Hoya carnosa
-346,夹竹桃科_眼树莲属_百万心&圆叶眼树莲,
-347,夹竹桃科_纽子花属_大纽子花,Vallaris indecora
-348,夹竹桃科_络石属_络石,Trachelospermum jasminoides
-349,夹竹桃科_络石属_花叶络石,Trachelospermum jasminoides 'Flame'
-350,夹竹桃科_罗布麻属_罗布麻,Apocynum venetum
-351,夹竹桃科_羊角拗属_羊角拗,Strophanthus divaricatus
-352,夹竹桃科_耳药藤属_多花耳药藤,Stephanotis floribunda
-353,夹竹桃科_萝藦属_萝藦,Metaplexis japonica
-354,夹竹桃科_蔓长春花属_蔓长春花,Vinca major
-355,夹竹桃科_蔓长春花属_蔓长春花_花叶蔓长春花,Vinca major 'Variegata'
-356,夹竹桃科_蕊木属_红花蕊木,Kopsia fruticosa
-357,夹竹桃科_蕊木属_蕊木,Kopsia arborea
-358,夹竹桃科_钉头果属,Gomphocarpus
-359,夹竹桃科_长春花属_长春花,Catharanthus roseus
-360,夹竹桃科_飘香藤属_飘香藤,Mandevilla sanderi
-361,夹竹桃科_马利筋属_马利筋,Asclepias curassavica
-362,夹竹桃科_马利筋属_黄冠马利筋,Asclepias curassavica 'Flaviflora'
-363,夹竹桃科_鸡蛋花属_红鸡蛋花,Plumeria rubra
-364,夹竹桃科_鸡蛋花属_红鸡蛋花_鸡蛋花,Plumeria rubra 'Acutifolia'
-365,夹竹桃科_鸡蛋花属_缅雪花,Plumeria pudica
-366,夹竹桃科_鸡蛋花属_钝叶鸡蛋花,Plumeria obtusa
-367,夹竹桃科_鸡骨常山属_糖胶树,Alstonia scholaris
-368,夹竹桃科_鹅绒藤属_地梢瓜,Cynanchum thesioides
-369,夹竹桃科_鹅绒藤属_蔓剪草,Cynanchum chekiangense
-370,夹竹桃科_鹅绒藤属_鹅绒藤,Cynanchum chinense
-371,夹竹桃科_黄花夹竹桃属_黄花夹竹桃,Thevetia peruviana
-372,夹竹桃科_黄花夹竹桃属_黄花夹竹桃_红酒杯花,Thevetia peruviana 'Aurantiaca'
-373,夹竹桃科_黄蝉属_大紫蝉,Allamanda blanchetii
-374,夹竹桃科_黄蝉属_黄蝉&软枝黄蝉,
-375,姜科_姜属_姜,Zingiber officinale
-376,姜科_姜属_蘘荷,Zingiber mioga
-377,姜科_姜花属_姜花,Hedychium coronarium
-378,姜科_姜花属_峨眉姜花,Hedychium flavescens
-379,姜科_姜花属_红姜花,Hedychium coccineum
-380,姜科_姜花属_黄姜花,Hedychium flavum
-381,姜科_姜黄属_姜荷花,Curcuma alismatifolia
-382,姜科_姜黄属_姜黄,Curcuma longa
-383,姜科_山姜属_华山姜,Alpinia oblongifolia
-384,姜科_山姜属_艳山姜,Alpinia zerumbet
-385,姜科_山姜属_花叶艳山姜,Alpinia zerumbet 'Variegata'
-386,姜科_山柰属_山柰,Kaempferia galanga
-387,姜科_山柰属_海南三七,Kaempferia rotunda
-388,姜科_茴香砂仁属_火炬姜,Etlingera elatior
-389,姜科_闭鞘姜属_闭鞘姜,Cheilocostus speciosus
-390,安息香科_安息香属_白花龙,Styrax faberi
-391,安息香科_安息香属_野茉莉,Styrax japonicus
-392,安息香科_白辛树属_小叶白辛树,Pterostyrax corymbosus
-393,安息香科_秤锤树属_秤锤树,Sinojackia xylocarpa
-394,安息香科_陀螺果属_陀螺果,Melliodendron xylocarpum
-395,小檗科_十大功劳属_十大功劳,Mahonia fortunei
-396,小檗科_十大功劳属_阔叶十大功劳,Mahonia bealei
-397,小檗科_南天竹属_南天竹,Nandina domestica
-398,小檗科_小檗属_粉叶小檗,Berberis pruinosa
-399,小檗科_小檗属_紫叶小檗,Berberis thunbergii 'Atropurpurea'
-400,小檗科_小檗属_豪猪刺,Berberis julianae
-401,小檗科_山荷叶属_日本山荷叶,Diphylleia grayi
-402,小檗科_淫羊藿属_淫羊藿,Epimedium brevicornu
-403,小檗科_牡丹草属_江南牡丹草,Gymnospermium kiangnanense
-404,小檗科_鬼臼属_八角莲,Dysosma versipellis
-405,山柑科_鱼木属_鱼木,Crateva religiosa
-406,山榄科_桃榄属_蛋黄果,Pouteria campechiana
-407,山榄科_桃榄属_黄晶果,Pouteria caimito
-408,山榄科_神秘果属_神秘果,Synsepalum dulcificum
-409,山榄科_金叶树属_星萍果,Chrysophyllum cainito
-410,山榄科_铁线子属_人心果,Manilkara zapota
-411,山矾科_山矾属_光叶山矾,Symplocos lancifolia
-412,山矾科_山矾属_山矾,Symplocos sumuntia
-413,山矾科_山矾属_白檀,Symplocos paniculata
-414,山矾科_山矾属_老鼠矢,Symplocos stellaris
-415,山茱萸科_山茱萸属_四照花,Cornus kousa subsp. chinensis
-416,山茱萸科_山茱萸属_山茱萸,Cornus officinalis
-417,山茱萸科_山茱萸属_灯台树,Cornus controversa
-418,山茱萸科_山茱萸属_红瑞木,Cornus alba
-419,山茶科_山茶属_山茶,Camellia japonica
-420,山茶科_山茶属_杜鹃叶山茶,Camellia azalea
-421,山茶科_山茶属_油茶,Camellia oleifera
-422,山茶科_山茶属_茶梅,Camellia sasanqua
-423,山茶科_山茶属_越南抱茎茶,Camellia amplexicaulis
-424,山茶科_山茶属_金花茶,Camellia petelotii
-425,山茶科_核果茶属_大果核果茶,Pyrenaria spectabilis
-426,山茶科_紫茎属_紫茎,Stewartia sinensis
-427,山龙眼科_澳洲坚果属_澳洲坚果,Macadamia integrifolia
-428,山龙眼科_针垫花属_针垫花,Leucospermum nutans
-429,山龙眼科_银桦属_红花银桦,Grevillea banksii
-430,忍冬科_忍冬属_北京忍冬,Lonicera elisae
-431,忍冬科_忍冬属_忍冬,Lonicera japonica
-432,忍冬科_忍冬属_早花忍冬,Lonicera praeflorens
-433,忍冬科_忍冬属_苦糖果,Lonicera fragrantissima var. lancifolia
-434,忍冬科_忍冬属_蓝叶忍冬,Lonicera korolkowi
-435,忍冬科_忍冬属_蓝果忍冬,Lonicera caerulea
-436,忍冬科_忍冬属_郁香忍冬,Lonicera fragrantissima
-437,忍冬科_忍冬属_金银忍冬,Lonicera maackii
-438,忍冬科_猬实属_蝟实,Kolkwitzia amabilis
-439,忍冬科_糯米条属_大花六道木,Abelia × grandiflora
-440,忍冬科_糯米条属_糯米条,Abelia chinensis
-441,忍冬科_糯米条属_蓪梗花,Abelia uniflora
-442,忍冬科_蓝盆花属_蓝盆花,Scabiosa comosa
-443,忍冬科_锦带花属_红王子锦带花,Weigela florida 'Red Prince'
-444,忍冬科_锦带花属_锦带花,Weigela florida
-445,忍冬科_鬼吹箫属_鬼吹箫,Leycesteria formosa
-446,悬铃木科_悬铃木属,Platanus
-447,报春花科_仙客来属_仙客来,Cyclamen persicum
-448,报春花科_假婆婆纳属_假婆婆纳,Stimpsonia chamaedryoides
-449,报春花科_报春花属_欧报春,Primula acaulis
-450,报春花科_报春花属_球花报春,Primula denticulata
-451,报春花科_报春花属_胭脂花,Primula maximowiczii
-452,报春花科_杜茎山属_金珠柳,Maesa montana
-453,报春花科_点地梅属_点地梅,Androsace umbellata
-454,报春花科_珍珠菜属_临时救,Lysimachia congestiflora
-455,报春花科_珍珠菜属_泽珍珠菜,Lysimachia candida
-456,报春花科_琉璃繁缕属_琉璃繁缕,Anagallis arvensis
-457,报春花科_琉璃繁缕属_蓝花琉璃繁缕,Anagallis arvensis f. coerulea
-458,报春花科_紫金牛属_朱砂根,Ardisia crenata
-459,报春花科_紫金牛属_百两金,Ardisia crispa
-460,报春花科_蜡烛果属_蜡烛果,Aegiceras corniculatum
-461,报春花科_酸藤子属_当归藤,Embelia parviflora
-462,文定果科_文定果属_文定果,Muntingia calabura
-463,旋花科_土丁桂属_蓝星花,Evolvulus nuttallianus
-464,旋花科_打碗花属_肾叶打碗花,Calystegia soldanella
-465,旋花科_旋花属_田旋花,Convolvulus arvensis
-466,旋花科_牵牛属_大花牵牛,Pharbitis limbata
-467,旋花科_盒果藤属_盒果藤,Operculina turpethum
-468,旋花科_茑萝属_橙红茑萝,Quamoclit coccinea
-469,旋花科_茑萝属_茑萝松,Quamoclit pennata
-470,旋花科_茑萝属_葵叶茑萝,Quamoclit × sloteri
-471,旋花科_虎掌藤属_五爪金龙,Ipomoea cairica
-472,旋花科_虎掌藤属_月光花,Ipomoea alba
-473,旋花科_虎掌藤属_番薯,Ipomoea batatas
-474,旋花科_虎掌藤属_蕹菜,Ipomoea aquatica
-475,旋花科_虎掌藤属_裂叶牵牛&圆叶牵牛,
-476,旋花科_马蹄金属_马蹄金,Dichondra micrantha
-477,旋花科_鱼黄草属_篱栏网,Merremia hederacea
-478,旌节花科_旌节花属_中国旌节花,Stachyurus chinensis
-479,无患子科_七叶树属_七叶树,Aesculus chinensis
-480,无患子科_倒地铃属_倒地铃,Cardiospermum halicacabum
-481,无患子科_文冠果属_文冠果,Xanthoceras sorbifolium
-482,无患子科_无患子属_无患子,Sapindus saponaria
-483,无患子科_栾属_栾树,Koelreuteria paniculata
-484,无患子科_槭属_三角槭,Acer buergerianum
-485,无患子科_槭属_元宝槭,Acer truncatum
-486,无患子科_槭属_梣叶槭,Acer negundo
-487,无患子科_槭属_紫果槭,Acer cordatum
-488,无患子科_槭属_苦条枫,Acer tataricum subsp. theiferum
-489,无患子科_槭属_鸡爪槭,Acer palmatum
-490,无患子科_荔枝属_荔枝,Litchi chinensis
-491,无患子科_韶子属_红毛丹,Nephelium lappaceum
-492,无患子科_龙眼属_龙眼,Dimocarpus longan
-493,旱金莲科_旱金莲属_旱金莲,Tropaeolum majus
-494,星叶草科_独叶草属_独叶草,Kingdonia uniflora
-495,景天科_伽蓝菜属_棒叶落地生根,Kalanchoe delagoensis
-496,景天科_伽蓝菜属_江户紫,Kalanchoe marmorata
-497,景天科_伽蓝菜属_玉吊钟,Kalanchoe fedtschenkoi
-498,景天科_伽蓝菜属_褐斑伽蓝,Kalanchoe tomentosa
-499,景天科_伽蓝菜属_长寿花,Kalanchoe blossfeldiana
-500,景天科_八宝属_长药八宝,Hylotelephium spectabile
-501,景天科_厚石莲属_霜之朝,
-502,景天科_天锦木属_天锦章,Adromischus cristatus var. clavifolius
-503,景天科_山地玫瑰属,Greenovia
-504,景天科_景天属_佛甲草,Sedum lineare
-505,景天科_景天属_凹叶景天,Sedum emarginatum
-506,景天科_景天属_千佛手景天,Sedum sediforme
-507,景天科_景天属_垂盆草,Sedum sarmentosum
-508,景天科_景天属_珠芽景天,Sedum bulbiferum
-509,景天科_景天属_黄金万年草,Sedum acre 'Aurea'
-510,景天科_瓦松属_瓦松,Orostachys fimbriata
-511,景天科_瓦松属_钝叶瓦松,Orostachys malacophylla
-512,景天科_石莲花属_丽娜莲,Echeveria lilacina
-513,景天科_石莲花属_晚霞之舞,Echeveria 'Neon Breakers'
-514,景天科_石莲花属_特玉莲,Echeveria runyonii 'Topsy Turvy'
-515,景天科_石莲花属_紫珍珠,Echeveria 'Perle von Nurnberg'
-516,景天科_石莲花属_花月夜,Echeveria pulidonis
-517,景天科_石莲花属_锦晃星,Echeveria pulvinata
-518,景天科_莲花掌属_黑法师,Aeonium 'Zwartkop'
-519,景天科_落地生根属_落地生根,Bryophyllum pinnatum
-520,景天科_费菜属_费菜,Phedimus aizoon
-521,景天科_银波木属_熊童子,Cotyledon tomentosa
-522,景天科_长生草属_蛛丝卷绢,Sempervivum arachnoideum subsp. tomentosum
-523,景天科_青锁龙属_玉树,Crassula arborescens
-524,景天科_青锁龙属_筒叶花月,Crassula obliqua 'Gollum'
-525,景天科_青锁龙属_茜之塔,Crassula corymbulosa
-526,景天科_青锁龙属_钱串景天,Crassula marnieriana
-527,景天科_风车莲属_桃之卵,Graptopetalum amethystinum
-528,木兰科_北美木兰属_荷花玉兰,Magnolia grandiflora
-529,木兰科_厚朴属_厚朴,Houpoea officinalis
-530,木兰科_含笑属_含笑花,Michelia figo
-531,木兰科_含笑属_深山含笑,Michelia maudiae
-532,木兰科_含笑属_白兰,Michelia × alba
-533,木兰科_含笑属_紫花含笑,Michelia crassipes
-534,木兰科_含笑属_黄兰含笑,Michelia champaca
-535,木兰科_天女花属_天女花,Oyama sieboldii
-536,木兰科_玉兰属_二乔玉兰,Yulania × soulangeana
-537,木兰科_玉兰属_宝华玉兰,Yulania zenii
-538,木兰科_玉兰属_星花玉兰,Yulania stellata
-539,木兰科_玉兰属_望春玉兰,Yulania biondii
-540,木兰科_玉兰属_玉兰,Yulania denudata
-541,木兰科_玉兰属_紫玉兰,Yulania liliiflora
-542,木兰科_玉兰属_飞黄玉兰,Yulania denudata 'Fei Huang'
-543,木兰科_长喙木兰属_夜香木兰,Lirianthe coco
-544,木兰科_鹅掌楸属_鹅掌楸,Liriodendron chinense
-545,木犀科_丁香属,Syringa
-546,木犀科_丁香属_暴马丁香,Syringa reticulata subsp. amurensis
-547,木犀科_丁香属_白丁香,
-548,木犀科_女贞属_女贞,Ligustrum lucidum
-549,木犀科_女贞属_小叶女贞,Ligustrum quihoui
-550,木犀科_女贞属_小蜡,Ligustrum sinense
-551,木犀科_女贞属_水蜡,Ligustrum obtusifolium
-552,木犀科_女贞属_金叶女贞,Ligustrum × vicaryi
-553,木犀科_木犀属_木犀,Osmanthus fragrans
-554,木犀科_梣属_白蜡树,Fraxinus chinensis
-555,木犀科_流苏树属_流苏树,Chionanthus retusus
-556,木犀科_素馨属_多花素馨,Jasminum polyanthum
-557,木犀科_素馨属_扭肚藤,Jasminum elongatum
-558,木犀科_素馨属_探春花,Jasminum floridum
-559,木犀科_素馨属_素馨花,Jasminum grandiflorum
-560,木犀科_素馨属_茉莉花,Jasminum sambac
-561,木犀科_素馨属_迎春花,Jasminum nudiflorum
-562,木犀科_连翘属_连翘,Forsythia suspensa
-563,木犀科_雪柳属_雪柳,Fontanesia phillyreoides subsp. fortunei
-564,木耳科_木耳属_黑木耳,
-565,木贼科_木贼属_节节草,Equisetum ramosissimum
-566,木通科_木通属_三叶木通,Akebia trifoliata
-567,杜仲科_杜仲属_杜仲,Eucommia ulmoides
-568,杜英科_杜英属_杜英,Elaeocarpus decipiens
-569,杜英科_杜英属_水石榕,Elaeocarpus hainanensis
-570,杜英科_杜英属_长芒杜英,Elaeocarpus apiculatus
-571,杜鹃花科_假沙晶兰属_球果假沙晶兰,Monotropastrum humile
-572,杜鹃花科_吊钟花属_灯笼树,Enkianthus chinensis
-573,杜鹃花科_山月桂属_山月桂,Kalmia latifolia
-574,杜鹃花科_杜鹃花属_杜鹃,Rhododendron simsii
-575,杜鹃花科_杜鹃花属_白花杜鹃,Rhododendron mucronatum
-576,杜鹃花科_杜鹃花属_羊踯躅,Rhododendron molle
-577,杜鹃花科_杜鹃花属_锦绣杜鹃,Rhododendron × pulchrum
-578,杜鹃花科_杜鹃花属_黄山杜鹃,Rhododendron maculiferum subsp. anwheiense
-579,杜鹃花科_树萝卜属_灯笼花,Agapetes lacei
-580,杜鹃花科_树萝卜属_缅甸树萝卜,Agapetes burmanica
-581,杜鹃花科_水晶兰属_水晶兰,Monotropa uniflora
-582,杜鹃花科_越橘属_南烛,Vaccinium bracteatum
-583,杜鹃花科_越橘属_笃斯越橘,Vaccinium uliginosum
-584,杜鹃花科_越橘属_蔓越莓,
-585,杜鹃花科_马醉木属_马醉木,Pieris japonica
-586,杨柳科_天料木属_天料木,Homalium cochinchinense
-587,杨柳科_天料木属_红花天料木,Homalium ceylanicum
-588,杨柳科_杨属_杨树,Populus simonii var. przewalskii
-589,杨柳科_柳属,Salix
-590,杨柳科_柳属_彩叶杞柳,Salix integra 'Hakuro Nishiki'
-591,杨柳科_柳属_杞柳,Salix integra
-592,杨梅科_香杨梅属_杨梅,Myrica rubra
-593,松科_松属_马尾松,Pinus massoniana
-594,柏科_侧柏属_侧柏,Platycladus orientalis
-595,柳叶菜科_丁香蓼属_水龙,Ludwigia adscendens
-596,柳叶菜科_丁香蓼属_黄花水龙,Ludwigia peploides subsp. stipulacea
-597,柳叶菜科_仙女扇属_古代稀,Clarkia amoena
-598,柳叶菜科_倒挂金钟属_倒挂金钟,Fuchsia hybrida
-599,柳叶菜科_山桃草属_山桃草,Gaura lindheimeri
-600,柳叶菜科_月见草属_月见草&黄花月见草,
-601,柳叶菜科_月见草属_海边月见草,Oenothera drummondii
-602,柳叶菜科_月见草属_美丽月见草,Oenothera speciosa
-603,柳叶菜科_柳兰属_柳兰,Chamerion angustifolium
-604,柳叶菜科_柳叶菜属_柳叶菜,Epilobium hirsutum
-605,柳叶菜科_露珠草属_露珠草,Circaea cordata
-606,柽柳科_柽柳属_柽柳,Tamarix chinensis
-607,柿科_柿属_乌柿,Diospyros cathayensis
-608,柿科_柿属_君迁子,Diospyros lotus
-609,柿科_柿属_柿,Diospyros kaki
-610,柿科_柿属_瓶兰花,Diospyros armata
-611,柿科_柿属_老鸦柿,Diospyros rhombifolia
-612,柿科_柿属_黑柿,Diospyros nitida
-613,桃金娘科_树番樱属_嘉宝果,Plinia cauliflora
-614,桃金娘科_桃金娘属_桃金娘,Rhodomyrtus tomentosa
-615,桃金娘科_桉属_银叶桉,Eucalyptus cinerea
-616,桃金娘科_番樱桃属_巴西番樱桃,Eugenia brasiliensis
-617,桃金娘科_番樱桃属_红果仔,Eugenia uniflora
-618,桃金娘科_番石榴属_番石榴,Psidium guajava
-619,桃金娘科_白千层属_白千层,Melaleuca cajuputi subsp. cumingiana
-620,桃金娘科_红千层属_红千层,Callistemon rigidus
-621,桃金娘科_蒲桃属_洋蒲桃,Syzygium samarangense
-622,桃金娘科_蒲桃属_肖蒲桃,Syzygium acuminatissimum
-623,桃金娘科_蒲桃属_蒲桃,Syzygium jambos
-624,桃金娘科_野凤榴属_菲油果,Acca sellowiana
-625,桃金娘科_风蜡花属_蜡花,Chamelaucium uncinatum
-626,桃金娘科_鱼柳梅属_松红梅,Leptospermum scoparium
-627,桑寄生科_钝果寄生属_广寄生,Taxillus chinensis
-628,桑科_构属_构树,Broussonetia papyrifera
-629,桑科_构属_藤构,Broussonetia kaempferi var. australis
-630,桑科_桑属_桑,Morus alba
-631,桑科_榕属_印度榕,Ficus elastica
-632,桑科_榕属_大果榕,Ficus auriculata
-633,桑科_榕属_无花果,Ficus carica
-634,桑科_榕属_琴叶榕,Ficus pandurata
-635,桑科_榕属_菩提树,Ficus religiosa
-636,桑科_榕属_薜荔,Ficus pumila
-637,桑科_榕属_高山榕,Ficus altissima
-638,桑科_橙桑属_柘,Maclura tricuspidata
-639,桑科_波罗蜜属_波罗蜜,Artocarpus heterophyllus
-640,桑科_波罗蜜属_面包树,Artocarpus communis
-641,桔梗科_党参属_羊乳,Codonopsis lanceolata
-642,桔梗科_半边莲属_六倍利,Lobelia erinus
-643,桔梗科_半边莲属_半边莲,Lobelia chinensis
-644,桔梗科_半边莲属_铜锤玉带草,Lobelia nummularia
-645,桔梗科_桔梗属_桔梗,Platycodon grandiflorus
-646,桔梗科_沙参属_沙参,Adenophora stricta
-647,桔梗科_长星花属_长星花,Lithotoma axillaris
-648,桔梗科_风铃草属,Campanula
-649,桔梗科_马醉草属_马醉草,Hippobroma longiflora
-650,棕榈科_散尾葵属_散尾葵,Chrysalidocarpus lutescens
-651,棕榈科_棕榈属_棕榈,Trachycarpus fortunei
-652,棕榈科_椰子属_椰子,Cocos nucifera
-653,棕榈科_槟榔属_槟榔,Areca catechu
-654,棕榈科_蛇皮果属_蛇皮果,Salacca edulis
-655,棕榈科_鱼尾葵属_鱼尾葵,Caryota maxima
-656,楝科_山楝属_山楝,Aphanamixis polystachya
-657,楝科_桃花心木属_大叶桃花心木,Swietenia macrophylla
-658,楝科_楝属_楝,Melia azedarach
-659,楝科_米仔兰属_米仔兰,Aglaia odorata
-660,楝科_香椿属_香椿,Toona sinensis
-661,楝科_鹧鸪花属_鹧鸪花,Heynea trijuga
-662,榆科_榆属_榆树,Ulmus pumila
-663,槐叶𬞟科_槐叶𬞟属_人厌槐叶苹,Salvinia molesta
-664,樟科_月桂属_月桂,Laurus nobilis
-665,樟科_樟属_兰屿肉桂,Cinnamomum kotoense
-666,樟科_樟属_天竺桂,Cinnamomum japonicum
-667,樟科_樟属_樟,Cinnamomum camphora
-668,樟科_樟属_阴香,Cinnamomum burmannii
-669,樟科_檫木属_檫木,Sassafras tzumu
-670,樟科_鳄梨属_鳄梨,Persea americana
-671,橄榄科_橄榄属_橄榄,Canarium album
-672,母草科_蝴蝶草属_蓝猪耳,Torenia fournieri
-673,母草科_陌上菜属_母草,Lindernia crustacea
-674,毛茛科_乌头属,Aconitum
-675,毛茛科_侧金盏花属,Adonis
-676,毛茛科_唐松草属_唐松草,Thalictrum aquilegiifolium var. sibiricum
-677,毛茛科_唐松草属_瓣蕊唐松草,Thalictrum petaloideum
-678,毛茛科_天葵属_天葵,Semiaquilegia adoxoides
-679,毛茛科_毛茛属_石龙芮,Ranunculus sceleratus
-680,毛茛科_毛茛属_花毛茛,Ranunculus asiaticus
-681,毛茛科_白头翁属_白头翁,Pulsatilla chinensis
-682,毛茛科_翠雀属_还亮草,Delphinium anthriscifolium
-683,毛茛科_翠雀属_高翠雀花,Delphinium elatum
-684,毛茛科_耧斗菜属_耧斗菜,Aquilegia viridiflora
-685,毛茛科_莲花升麻属_莲花升麻,Anemonopsis macrophylla
-686,毛茛科_金莲花属_金莲花,Trollius chinensis
-687,毛茛科_铁筷子属_铁筷子,Helleborus thibetanus
-688,毛茛科_铁线莲属,Clematis
-689,毛茛科_铁线莲属_单叶铁线莲,Clematis henryi
-690,毛茛科_铁线莲属_威灵仙,Clematis chinensis
-691,毛茛科_铁线莲属_槭叶铁线莲,Clematis acerifolia
-692,毛茛科_铁线莲属_毛柱铁线莲,Clematis meyeniana
-693,毛茛科_铁线莲属_甘青铁线莲,Clematis tangutica
-694,毛茛科_银莲花属_大火草&野棉花,
-695,毛茛科_银莲花属_欧洲银莲花,Anemone coronaria
-696,毛茛科_银莲花属_鹅掌草,Anemone flaccida
-697,毛茛科_飞燕草属_飞燕草,Consolida ajacis
-698,毛茛科_驴蹄草属_驴蹄草,Caltha palustris
-699,毛茛科_黑种草属_黑种草,Nigella damascena
-700,水卷耳科_露薇花属_露薇花,Lewisia cotyledon
-701,水鳖科_水车前属_海菜花,Ottelia acuminata
-702,水龙骨科_鹿角蕨属_鹿角蕨,Platycerium wallichii
-703,沼金花科_肺筋草属_粉条儿菜,Aletris spicata
-704,泡桐科_泡桐属,Paulownia
-705,泽泻科_慈姑属_爆米花慈姑,Sagittaria montevidensis
-706,泽泻科_慈姑属_野慈姑,Sagittaria trifolia
-707,泽泻科_水金英属_水金英,Hydrocleys nymphoides
-708,泽泻科_黄花蔺属_黄花蔺,Limnocharis flava
-709,海桐科_海桐属_海桐,Pittosporum tobira
-710,海桐科_海桐属_海金子,Pittosporum illicioides
-711,漆树科_南酸枣属_南酸枣,Choerospondias axillaris
-712,漆树科_杧果属_杧果,Mangifera indica
-713,漆树科_盐麸木属_火炬树,Rhus typhina
-714,漆树科_盐麸木属_盐肤木,Rhus chinensis
-715,漆树科_腰果属_腰果,Anacardium occidentale
-716,漆树科_黄栌属_黄栌,Cotinus coggygria
-717,漆树科_黄连木属_阿月浑子,Pistacia vera
-718,灯心草科_灯心草属_笄石菖,Juncus prismatocarpus
-719,爵床科_假杜鹃属_假杜鹃,Barleria cristata
-720,爵床科_十万错属_宽叶十万错,Asystasia gangetica
-721,爵床科_十字爵床属_十字爵床,Crossandra infundibuliformis
-722,爵床科_单药花属_单药花,Aphelandra squarrosa
-723,爵床科_喜花草属_喜花草,Eranthemum pulchellum
-724,爵床科_孩儿草属_密花孩儿草,Rungia densiflora
-725,爵床科_山壳骨属_金叶拟美花,Pseuderanthemum reticulatum var. ovarifolium
-726,爵床科_山牵牛属_山牵牛,Thunbergia grandiflora
-727,爵床科_山牵牛属_桂叶山牵牛,Thunbergia laurifolia
-728,爵床科_山牵牛属_直立山牵牛,Thunbergia erecta
-729,爵床科_山牵牛属_红花山牵牛,Thunbergia coccinea
-730,爵床科_山牵牛属_翼叶山牵牛,Thunbergia alata
-731,爵床科_山牵牛属_黄花老鸦嘴,Thunbergia mysorensis
-732,爵床科_爵床属_爵床,Justicia procumbens
-733,爵床科_爵床属_虾衣花,Justicia brandegeeana
-734,爵床科_爵床属_鸭嘴花,Justicia adhatoda
-735,爵床科_珊瑚花属_珊瑚花,Cyrtanthera carnea
-736,爵床科_网纹草属_网纹草,Fittonia albivenis
-737,爵床科_老鼠簕属_老鼠簕,Acanthus ilicifolius
-738,爵床科_老鼠簕属_虾蟆花,Acanthus mollis
-739,爵床科_芦莉草属_大花芦莉,Ruellia elegans
-740,爵床科_芦莉草属_蓝花草,Ruellia simplex
-741,爵床科_观音草属_九头狮子草,Peristrophe japonica
-742,爵床科_赤苞花属_赤苞花,Megaskepasma erythrochlamys
-743,爵床科_金苞花属_金苞花,Pachystachys lutea
-744,爵床科_马蓝属_叉花草,Strobilanthes hamiltoniana
-745,爵床科_马蓝属_四子马蓝,Strobilanthes tetrasperma
-746,爵床科_马蓝属_板蓝,Strobilanthes cusia
-747,爵床科_马蓝属_球花马蓝,Strobilanthes dimorphotricha
-748,爵床科_鸡冠爵床属_鸡冠爵床,Odontonema strictum
-749,爵床科_黄脉爵床属_金脉爵床,Sanchezia speciosa
-750,牻牛儿苗科_天竺葵属_天竺葵,Pelargonium hortorum
-751,牻牛儿苗科_牻牛儿苗属_牻牛儿苗,Erodium stephanianum
-752,牻牛儿苗科_老鹳草属_老鹳草,Geranium wilfordii
-753,狸藻科_狸藻属_黄花狸藻,Utricularia aurea
-754,猕猴桃科_猕猴桃属_中华猕猴桃,Actinidia chinensis
-755,猕猴桃科_猕猴桃属_软枣猕猴桃,Actinidia arguta
-756,猪笼草科_猪笼草属_猪笼草,Nepenthes mirabilis
-757,玄参科_玉芙蓉属_红花玉芙蓉,Leucophyllum frutescens
-758,玄参科_醉鱼草属_醉鱼草,Buddleja lindleyana
-759,玄参科_龙面花属_龙面花,Nemesia strumosa
-760,玉蕊科_炮弹树属_炮弹树,Couroupita guianensis
-761,玉蕊科_玉蕊属_滨玉蕊,Barringtonia asiatica
-762,玉蕊科_玉蕊属_玉蕊,Barringtonia racemosa
-763,玉蕊科_玉蕊属_红花玉蕊,Barringtonia acutangula
-764,瑞香科_沉香属_土沉香,Aquilaria sinensis
-765,瑞香科_狼毒属_狼毒,Stellera chamaejasme
-766,瑞香科_瑞香属_毛瑞香,Daphne kiusiana var. atrocaulis
-767,瑞香科_瑞香属_瑞香,Daphne odora
-768,瑞香科_瑞香属_芫花,Daphne genkwa
-769,瑞香科_瑞香属_黄瑞香,Daphne giraldii
-770,瑞香科_结香属_结香,Edgeworthia chrysantha
-771,番木瓜科_番木瓜属_番木瓜,Carica papaya
-772,番杏科_日中花属_冰叶日中花,Mesembryanthemum crystallinum
-773,番杏科_日中花属_心叶日中花,Mesembryanthemum cordifolium
-774,番杏科_松叶菊属_美丽日中花,Lampranthus spectabilis
-775,番杏科_生石花属_生石花,Lithops pseudotruncatella subsp. archerae
-776,番杏科_窗玉属_五十铃玉,Fenestraria aurantiaca
-777,番杏科_舌叶花属_宝绿,Glottiphyllum longum
-778,番杏科_菱叶草属_快刀乱麻,Rhombophyllum nelii
-779,番杏科_鹿角海棠属_鹿角海棠,Astridia velutina
-780,番荔枝科_依兰属_依兰,Cananga odorata
-781,番荔枝科_瓜馥木属_瓜馥木,Fissistigma oldhamii
-782,番荔枝科_番荔枝属_番荔枝,Annona squamosa
-783,番荔枝科_紫玉盘属_山椒子,Uvaria grandiflora
-784,番荔枝科_紫玉盘属_扣匹,Uvaria tonkinensis
-785,番荔枝科_紫玉盘属_紫玉盘,Uvaria macrophylla
-786,番荔枝科_鹰爪花属_鹰爪花,Artabotrys hexapetalus
-787,白刺科_骆驼蓬属_骆驼蓬,Peganum harmala
-788,白花丹科_海石竹属_海石竹,Armeria maritima
-789,白花丹科_白花丹属_白花丹,Plumbago zeylanica
-790,白花丹科_白花丹属_紫花丹,Plumbago indica
-791,白花丹科_白花丹属_蓝花丹,Plumbago auriculata
-792,白花丹科_补血草属_二色补血草,Limonium bicolor
-793,白花丹科_补血草属_补血草,Limonium sinense
-794,白花菜科_醉蝶花属_醉蝶花,Tarenaya hassleriana
-795,百合科_大百合属_大百合,Cardiocrinum giganteum
-796,百合科_油点草属_油点草,Tricyrtis macropoda
-797,百合科_油点草属_黄花油点草,Tricyrtis pilosa
-798,百合科_猪牙花属_猪牙花,Erythronium japonicum
-799,百合科_百合属,Lilium
-800,百合科_百合属_卷丹,Lilium tigrinum
-801,百合科_百合属_宝兴百合,Lilium duchartrei
-802,百合科_百合属_山丹,Lilium pumilum
-803,百合科_老鸦瓣属_老鸦瓣,Amana edulis
-804,百合科_豹子花属_豹子花,Nomocharis pardanthina
-805,百合科_贝母属_平贝母,Fritillaria ussuriensis
-806,百合科_贝母属_波斯贝母,Fritillaria persica
-807,百合科_贝母属_浙贝母,Fritillaria thunbergii
-808,百合科_贝母属_皇冠贝母,Fritillaria imperialis
-809,百合科_贝母属_花格贝母,Fritillaria meleagris
-810,百合科_郁金香属_郁金香,Tulipa gesneriana
-811,百岁兰科_百岁兰属_百岁兰,Welwitschia mirabilis
-812,省沽油科_野鸦椿属_野鸦椿,Euscaphis japonica
-813,眼子菜科_眼子菜属_眼子菜,Potamogeton distinctus
-814,眼子菜科_眼子菜属_菹草,Potamogeton crispus
-815,睡莲科_王莲属_王莲,Victoria amazonica
-816,睡莲科_睡莲属,Nymphaea
-817,睡莲科_睡莲属_延药睡莲,Nymphaea nouchali
-818,睡莲科_芡属_芡实,Euryale ferox
-819,睡莲科_萍蓬草属_萍蓬草,Nuphar pumila
-820,睡菜科_荇菜属_荇菜,Nymphoides peltata
-821,睡菜科_荇菜属_金银莲花,Nymphoides indica
-822,石竹科_剪秋罗属_剪秋罗,Lychnis fulgens
-823,石竹科_卷耳属_球序卷耳,Cerastium glomeratum
-824,石竹科_漆姑草属_漆姑草,Sagina japonica
-825,石竹科_石头花属_圆锥石头花,Gypsophila paniculata
-826,石竹科_石竹属_瞿麦,Dianthus superbus
-827,石竹科_石竹属_石竹,Dianthus chinensis
-828,石竹科_石竹属_香石竹,Dianthus caryophyllus
-829,石竹科_繁缕属_繁缕,Stellaria media
-830,石竹科_繁缕属_雀舌草,Stellaria alsine
-831,石竹科_肥皂草属_肥皂草,Saponaria officinalis
-832,石竹科_蝇子草属_麦瓶草,Silene conoidea
-833,石竹科_鹅肠菜属_鹅肠菜,Myosoton aquaticum
-834,石竹科_麦仙翁属_麦仙翁,Agrostemma githago
-835,石竹科_麦蓝菜属_麦蓝菜,Vaccaria hispanica
-836,石蒜科_南美水仙属_南美水仙,Eucharis amazonica
-837,石蒜科_君子兰属_君子兰,Clivia miniata
-838,石蒜科_君子兰属_垂笑君子兰,Clivia nobilis
-839,石蒜科_君子兰属_黄花君子兰,Clivia × hybrida
-840,石蒜科_文殊兰属_文殊兰,Crinum asiaticum var. sinicum
-841,石蒜科_文殊兰属_穆氏文殊兰,Crinum moorei
-842,石蒜科_文殊兰属_红花文殊兰,Crinum amabile
-843,石蒜科_晚香玉属_晚香玉,Polianthes tuberosa
-844,石蒜科_曲管花属_垂筒花,Cyrtanthus mackenii
-845,石蒜科_朱顶红属_朱顶红,Hippeastrum rutilum
-846,石蒜科_朱顶红属_白肋朱顶红,Hippeastrum reticulatum
-847,石蒜科_水仙属_围裙水仙,Narcissus bulbocodium
-848,石蒜科_水仙属_水仙,Narcissus tazetta var. chinensis
-849,石蒜科_水仙属_黄水仙,Narcissus pseudonarcissus
-850,石蒜科_水鬼蕉属_蜘蛛兰&水鬼蕉,
-851,石蒜科_百子莲属_百子莲,Agapanthus africanus
-852,石蒜科_石蒜属_忽地笑,Lycoris aurea
-853,石蒜科_石蒜属_换锦花,Lycoris sprengeri
-854,石蒜科_石蒜属_石蒜,Lycoris radiata
-855,石蒜科_紫娇花属_紫娇花,Tulbaghia violacea
-856,石蒜科_葱属_大花葱,Allium giganteum
-857,石蒜科_葱属_洋葱,Allium cepa
-858,石蒜科_葱属_葱,Allium fistulosum
-859,石蒜科_葱属_蒜,Allium sativum
-860,石蒜科_葱属_藠头,Allium chinense
-861,石蒜科_葱属_韭,Allium tuberosum
-862,石蒜科_葱莲属_葱莲,Zephyranthes candida
-863,石蒜科_葱莲属_韭莲,Zephyranthes carinata
-864,石蒜科_葱莲属_黄风雨花,Zephyranthes citrina
-865,石蒜科_虎耳兰属_网球花,Haemanthus multiflorus
-866,石蒜科_虎耳兰属_虎耳兰,Haemanthus albiflos
-867,石蒜科_雪片莲属_雪滴花,Leucojum vernum
-868,石蒜科_龙须石蒜属_龙须石蒜,Eucrosia bicolor
-869,禾本科_兔尾草属_兔尾草,Lagurus ovatus
-870,禾本科_刚竹属_紫竹,Phyllostachys nigra
-871,禾本科_小麦属_普通小麦,Triticum aestivum
-872,禾本科_燕麦属_野燕麦,Avena fatua
-873,禾本科_狗尾草属_狗尾草,Setaria viridis
-874,禾本科_狗尾草属_粟,Setaria italica var. germanica
-875,禾本科_狼尾草属_御谷,Pennisetum glaucum
-876,禾本科_玉蜀黍属_玉蜀黍,Zea mays
-877,禾本科_甘蔗属_甘蔗,Saccharum officinarum
-878,禾本科_看麦娘属_看麦娘,Alopecurus aequalis
-879,禾本科_稻属_稻,Oryza sativa
-880,禾本科_穇属_牛筋草,Eleusine indica
-881,禾本科_竹亚科,
-882,禾本科_簕竹属_佛肚竹,Bambusa ventricosa
-883,禾本科_芦竹属_芦竹,Arundo donax
-884,禾本科_菰属_菰,Zizania latifolia
-885,禾本科_蒲苇属_蒲苇,Cortaderia selloana
-886,禾本科_薏苡属_薏苡,Coix lacryma-jobi
-887,禾本科_高粱属_高粱,Sorghum bicolor
-888,秋水仙科_万寿竹属_万寿竹,Disporum cantoniense
-889,秋水仙科_万寿竹属_宝珠草,Disporum viridescens
-890,秋水仙科_嘉兰属_嘉兰,Gloriosa superba
-891,秋水仙科_提灯花属_宫灯百合,Sandersonia aurantiaca
-892,秋水仙科_秋水仙属_秋水仙,Colchicum autumnale
-893,秋海棠科_秋海棠属_丽格海棠,Begonia × hiemalis
-894,秋海棠科_秋海棠属_四季海棠,Begonia cucullata var. hookeri
-895,秋海棠科_秋海棠属_竹节秋海棠,Begonia maculata
-896,秋海棠科_秋海棠属_紫背天葵,Begonia fimbristipula
-897,秋海棠科_秋海棠属_铁甲秋海棠,Begonia masoniana
-898,竹芋科_水竹芋属_再力花,Thalia dealbata
-899,竹芋科_水竹芋属_垂花再力花,Thalia geniculata
-900,竹芋科_竹芋属&肖竹芋属,
-901,竹芋科_竹芋属_豹斑竹芋,Maranta leuconeura
-902,紫茉莉科_叶子花属_叶子花&光叶子花,
-903,紫茉莉科_紫茉莉属_紫茉莉,Mirabilis jalapa
-904,紫草科_勿忘草属_勿忘草,Myosotis alpestris
-905,紫草科_厚壳树属_厚壳树,Ehretia acuminata
-906,紫草科_斑种草属_斑种草,Bothriospermum chinense
-907,紫草科_斑种草属_柔弱斑种草,Bothriospermum zeylanicum
-908,紫草科_玻璃苣属_玻璃苣,Borago officinalis
-909,紫草科_琉璃草属_倒提壶,Cynoglossum amabile
-910,紫草科_盾果草属_盾果草,Thyrocarpus sampsonii
-911,紫草科_粉蝶花属_斑花喜林草,Nemophila maculata
-912,紫草科_粉蝶花属_粉蝶花,Nemophila menziesii
-913,紫草科_紫筒草属_紫筒草,Stenosolenium saxatile
-914,紫草科_紫草属_梓木草,Lithospermum zollingeri
-915,紫草科_聚合草属_聚合草,Symphytum officinale
-916,紫草科_蓝蓟属_野蓝蓟,Echium wildpretii
-917,紫草科_附地菜属_附地菜,Trigonotis peduncularis
-918,紫葳科_凌霄属_凌霄,Campsis grandiflora
-919,紫葳科_吊灯树属_吊灯树,Kigelia africana
-920,紫葳科_梓属_梓,Catalpa ovata
-921,紫葳科_梓属_楸,Catalpa bungei
-922,紫葳科_火烧花属_火烧花,Mayodendron igneum
-923,紫葳科_火焰树属_火焰树,Spathodea campanulata
-924,紫葳科_炮仗藤属_炮仗花,Pyrostegia venusta
-925,紫葳科_猫尾木属_毛叶猫尾木,Markhamia stipulata var. kerrii
-926,紫葳科_猫爪藤属_猫爪藤,Macfadyena unguis-cati
-927,紫葳科_粉花凌霄属_粉花凌霄,Pandorea jasminoides
-928,紫葳科_粉铃木属_掌叶黄钟木,Tabebuia rosea
-929,紫葳科_菜豆树属_菜豆树&海南菜豆树,
-930,紫葳科_蒜香藤属_蒜香藤,Mansoa alliacea
-931,紫葳科_蓝花楹属_蓝花楹,Jacaranda mimosifolia
-932,紫葳科_非洲凌霄属_非洲凌霄,Podranea ricasoliana
-933,紫葳科_风铃木属_黄花风铃木,Handroanthus chrysanthus
-934,紫葳科_黄钟花属_硬骨凌霄,Tecoma capensis
-935,紫葳科_黄钟花属_黄钟树,Tecoma stans
-936,红树科_木榄属_木榄,Bruguiera gymnorhiza
-937,红树科_秋茄树属_秋茄树,Kandelia obovata
-938,红豆杉科_榧属_香榧,Torreya grandis 'Merrillii'
-939,红豆杉科_红豆杉属_红豆杉,Taxus wallichiana var. chinensis
-940,绣球花科_山梅花属_太平花,Philadelphus pekinensis
-941,绣球花科_山梅花属_浙江山梅花,Philadelphus zhejiangensis
-942,绣球花科_绣球属,Hydrangea
-943,绣球花科_绣球属_狭叶绣球,Hydrangea lingii
-944,罂粟科_博落回属_博落回,Macleaya cordata
-945,罂粟科_白屈菜属_白屈菜,Chelidonium majus
-946,罂粟科_秃疮花属_秃疮花,Dicranostigma leptopodum
-947,罂粟科_紫堇属_全叶延胡索,Corydalis repens
-948,罂粟科_紫堇属_地丁草,Corydalis bungeana
-949,罂粟科_紫堇属_夏天无,Corydalis decumbens
-950,罂粟科_紫堇属_延胡索,Corydalis yanhusuo
-951,罂粟科_紫堇属_紫堇,Corydalis edulis
-952,罂粟科_紫堇属_黄堇,Corydalis pallida
-953,罂粟科_绿绒蒿属,Meconopsis
-954,罂粟科_绿绒蒿属_全缘叶绿绒蒿,Meconopsis integrifolia
-955,罂粟科_绿绒蒿属_红花绿绒蒿,Meconopsis punicea
-956,罂粟科_罂粟属_罂粟,Papaver somniferum
-957,罂粟科_罂粟属_虞美人,Papaver rhoeas
-958,罂粟科_花菱草属_花菱草,Eschscholzia californica
-959,罂粟科_荷包牡丹属_荷包牡丹,Lamprocapnos spectabilis
-960,罂粟科_荷包牡丹属_荷包牡丹_白花荷包牡丹,Lamprocapnos spectabilis f. alba
-961,罂粟科_荷青花属_荷青花,Hylomecon japonica
-962,罂粟科_蓟罂粟属_蓟罂粟,Argemone mexicana
-963,罗汉松科_竹柏属_竹柏,Nageia nagi
-964,罗汉松科_罗汉松属_罗汉松,Podocarpus macrophyllus
-965,美人蕉科_美人蕉属,Canna
-966,美人蕉科_美人蕉属_紫叶美人蕉,Canna warscewiezii
-967,肾蕨科_肾蕨属_肾蕨,Nephrolepis cordifolia
-968,胡桃科_山核桃属_美国山核桃,Carya illinoinensis
-969,胡桃科_枫杨属_枫杨,Pterocarya stenoptera
-970,胡桃科_胡桃属_胡桃,Juglans regia
-971,胡椒科_胡椒属_假蒟,Piper sarmentosum
-972,胡椒科_胡椒属_山蒟,Piper hancei
-973,胡椒科_胡椒属_胡椒,Piper nigrum
-974,胡椒科_草胡椒属_皱叶椒草,Peperomia caperata
-975,胡椒科_草胡椒属_荷叶椒草,Peperomia polybotrya
-976,胡椒科_草胡椒属_西瓜皮椒草,Peperomia argyreia
-977,胡椒科_草胡椒属_豆瓣绿,Peperomia tetraphylla
-978,胡颓子科_沙棘属_沙棘,Hippophae rhamnoides
-979,胡颓子科_胡颓子属_密花胡颓子,Elaeagnus conferta
-980,胡颓子科_胡颓子属_翅果油树,Elaeagnus mollis
-981,胡颓子科_胡颓子属_胡颓子,Elaeagnus pungens
-982,胡颓子科_胡颓子属_金边胡颓子,Elaeagnus Pungens 'Aurea'
-983,芍药科_芍药属_牡丹,Paeonia suffruticosa
-984,芍药科_芍药属_芍药,Paeonia lactiflora
-985,芝麻科_芝麻属_芝麻,Sesamum indicum
-986,芭蕉科_地涌金莲属_地涌金莲,Musella lasiocarpa
-987,芭蕉科_芭蕉属_香蕉,Musa nana
-988,花荵科_电灯花属_电灯花,Cobaea scandens
-989,花荵科_福禄考属,Phlox
-990,花荵科_福禄考属_小天蓝绣球,Phlox drummondii
-991,花荵科_福禄考属_针叶天蓝绣球,Phlox subulata
-992,芸香科_九里香属_九里香,Murraya exotica
-993,芸香科_吴茱萸属_吴茱萸,Tetradium ruticarpum
-994,芸香科_山小橘属_山小橘,Glycosmis pentaphylla
-995,芸香科_柑橘属_佛手,Citrus medica 'Fingered'
-996,芸香科_柑橘属_手指柠檬,Citrus australasica
-997,芸香科_柑橘属_枳,Citrus trifoliata
-998,芸香科_柑橘属_柑橘,Citrus reticulata
-999,芸香科_柑橘属_柑橘_丑橘,
-1000,芸香科_柑橘属_柚,Citrus maxima
-1001,芸香科_柑橘属_柠檬,Citrus × limon
-1002,芸香科_柑橘属_甜橙,Citrus sinensis
-1003,芸香科_柑橘属_金柑,Citrus japonica
-1004,芸香科_花椒属_两面针,Zanthoxylum nitidum
-1005,芸香科_花椒属_胡椒木,Zanthoxylum piperitum
-1006,芸香科_花椒属_花椒,Zanthoxylum bungeanum
-1007,芸香科_茵芋属_茵芋,Skimmia reevesiana
-1008,芸香科_黄皮属_黄皮,Clausena lansium
-1009,苋科_千日红属_千日红,Gomphrena globosa
-1010,苋科_地肤属_地肤,Kochia scoparia
-1011,苋科_甜菜属_甜菜,Beta vulgaris
-1012,苋科_苋属_刺苋,Amaranthus spinosus
-1013,苋科_苋属_苋,Amaranthus tricolor
-1014,苋科_莲子草属_喜旱莲子草,Alternanthera philoxeroides
-1015,苋科_菠菜属_菠菜,Spinacia oleracea
-1016,苋科_藜属_藜,Chenopodium album
-1017,苋科_青葙属_青葙,Celosia argentea
-1018,苋科_青葙属_鸡冠花,Celosia cristata
-1019,苏铁科_苏铁属_苏铁,Cycas revoluta
-1020,苦木科_臭椿属_臭椿,Ailanthus altissima
-1021,苦木科_鸦胆子属_鸦胆子,Brucea javanica
-1022,苦苣苔科_唇柱苣苔属_蚂蝗七,Chirita fimbrisepala
-1023,苦苣苔科_喜荫花属_喜荫花,Episcia cupreata
-1024,苦苣苔科_大岩桐属_大岩桐,Sinningia speciosa
-1025,苦苣苔科_大岩桐属_断崖女王,Sinningia leucotricha
-1026,苦苣苔科_海角苣苔属_堇兰,Streptocarpus hybrids
-1027,苦苣苔科_海角苣苔属_海豚花,Streptocarpus saxorum
-1028,苦苣苔科_芒毛苣苔属_口红花,Aeschynanthus pulcher
-1029,苦苣苔科_袋鼠花属_金鱼吊兰,Nematanthus wettsteinii
-1030,苦苣苔科_非洲堇属_非洲紫罗兰,Saintpaulia ionantha
-1031,茄科_假酸浆属_假酸浆,Nicandra physalodes
-1032,茄科_夜香树属_黄花夜香树,Cestrum aurantiacum
-1033,茄科_天仙子属_天仙子,Hyoscyamus niger
-1034,茄科_曼陀罗属_曼陀罗,Datura stramonium
-1035,茄科_木曼陀罗属_大花木曼陀罗,Brugmansia suaveolens
-1036,茄科_枸杞属_枸杞,Lycium chinense
-1037,茄科_树番茄属_树番茄,Cyphomandra betacea
-1038,茄科_棱瓶花属_棱瓶花,Juanulloa aurantiaca
-1039,茄科_烟草属_烟草,Nicotiana tabacum
-1040,茄科_烟草属_花烟草,Nicotiana alata
-1041,茄科_番茄属_番茄,Lycopersicon esculentum
-1042,茄科_矮牵牛属_碧冬茄,Petunia × hybrida
-1043,茄科_舞春花属_舞春花,Calibrachoa hybrids
-1044,茄科_茄参属_茄参,Mandragora caulescens
-1045,茄科_茄属_乳茄,Solanum mammosum
-1046,茄科_茄属_人参果,Solanum muricatum
-1047,茄科_茄属_喀西茄,Solanum aculeatissimum
-1048,茄科_茄属_大花茄,Solanum wrightii
-1049,茄科_茄属_珊瑚豆,Solanum pseudocapsicum var. diflorum
-1050,茄科_茄属_白英,Solanum lyratum
-1051,茄科_茄属_茄,Solanum melongena
-1052,茄科_茄属_蓝花茄,Solanum rantonnetii
-1053,茄科_茄属_金银茄,Solanum texanum
-1054,茄科_茄属_阳芋,Solanum tuberosum
-1055,茄科_茄属_青杞,Solanum septemlobum
-1056,茄科_茄属_黄果茄,Solanum virginianum
-1057,茄科_茄属_龙葵,Solanum nigrum
-1058,茄科_蛾蝶花属_蛾蝶花,Schizanthus pinnatus
-1059,茄科_辣椒属_辣椒,Capsicum annuum
-1060,茄科_酸浆属,Physalis
-1061,茄科_酸浆属_毛酸浆,Physalis philadelphica
-1062,茄科_金盏藤属_金杯藤,Solandra maxima
-1063,茄科_鸳鸯茉莉属_鸳鸯茉莉,Brunfelsia brasiliensis
-1064,茅膏菜科_捕蝇草属_捕蝇草,Dionaea muscipula
-1065,茅膏菜科_茅膏菜属_茅膏菜,Drosera peltata
-1066,茜草科_九节属_蔓九节,Psychotria serpens
-1067,茜草科_五星花属_五星花,Pentas lanceolata
-1068,茜草科_咖啡属,Coffea
-1069,茜草科_巴戟天属_海滨木巴戟,Morinda citrifolia
-1070,茜草科_拉拉藤属_猪殃殃,Galium spurium
-1071,茜草科_栀子属_栀子,Gardenia jasminoides
-1072,茜草科_水团花属_细叶水团花,Adina rubella
-1073,茜草科_玉叶金花属_玉叶金花,Mussaenda pubescens
-1074,茜草科_玉叶金花属_粉纸扇,Mussaenda 'Alicia'
-1075,茜草科_玉叶金花属_红纸扇,Mussaenda erythrophylla
-1076,茜草科_白马骨属_六月雪,Serissa japonica
-1077,茜草科_白马骨属_金边六月雪,Serissa japonica 'Variegata'
-1078,茜草科_蛇根草属_日本蛇根草,Ophiorrhiza japonica
-1079,茜草科_郎德木属_银叶郎德木,Rondeletia leucophylla
-1080,茜草科_野丁香属_薄皮木,Leptodermis oblonga
-1081,茜草科_钮扣草属_阔叶丰花草,Spermacoce alata
-1082,茜草科_长隔木属_长隔木,Hamelia patens
-1083,茜草科_鸡矢藤属_鸡矢藤,Paederia foetida
-1084,茜草科_龙船花属_龙船花,Ixora chinensis
-1085,茶茱萸科_定心藤属_定心藤,Mappianthus iodoides
-1086,茶藨子科_茶藨子属_刺果茶藨子,Ribes burejense
-1087,茶藨子科_茶藨子属_红茶藨子,Ribes rubrum
-1088,茶藨子科_茶藨子属_黑茶藨子,Ribes nigrum
-1089,荨麻科_冷水花属_冷水花,Pilea notata
-1090,荨麻科_冷水花属_花叶冷水花,Pilea cadierei
-1091,荨麻科_水麻属_水麻,Debregeasia orientalis
-1092,荨麻科_花点草属_毛花点草,Nanocnide lobata
-1093,荨麻科_苎麻属_苎麻,Boehmeria nivea
-1094,荨麻科_蝎子草属_蝎子草,Girardinia diversifolia subsp. suborbiculata
-1095,荷包花科_荷包花属_蒲包花,Calceolaria crenatiflora
-1096,莎草科_刺子莞属_白鹭莞,Rhynchospora colorata
-1097,莎草科_水蜈蚣属_水蜈蚣,Kyllinga polyphylla
-1098,莎草科_荸荠属_荸荠,Eleocharis dulcis
-1099,莎草科_莎草属_风车草,Cyperus involucratus
-1100,莎草科_莎草属_香附子,Cyperus rotundus
-1101,莎草科_薹草属_浆果薹草,Carex baccans
-1102,莲科_莲属_莲,Nelumbo nucifera
-1103,菊科_一枝黄花属_加拿大一枝黄花,Solidago canadensis
-1104,菊科_万寿菊属_万寿菊,Tagetes erecta
-1105,菊科_假泽兰属_微甘菊,Mikania micrantha
-1106,菊科_假臭草属_假臭草,Praxelis clematidea
-1107,菊科_假还阳参属_假还阳参,Crepidiastrum lanceolatum
-1108,菊科_假还阳参属_尖裂假还阳参,Crepidiastrum sonchifolium
-1109,菊科_兔儿伞属_兔儿伞,Syneilesis aconitifolia
-1110,菊科_勋章菊属_勋章菊,Gazania rigens
-1111,菊科_包果菊属_雪莲果,Smallanthus sonchifolius
-1112,菊科_千里光属_兰松,Senecio serpens
-1113,菊科_千里光属_千里光,Senecio scandens
-1114,菊科_千里光属_翡翠珠,Senecio rowleyanus
-1115,菊科_千里光属_银叶菊,Senecio cineraria
-1116,菊科_千里光属_银月,Senecio haworthii
-1117,菊科_向日葵属_千瓣葵,Helianthus decapetalus
-1118,菊科_向日葵属_向日葵,Helianthus annuus
-1119,菊科_向日葵属_菊芋,Helianthus tuberosus
-1120,菊科_大丽花属_大丽花,Dahlia pinnata
-1121,菊科_大吴风草属_大吴风草,Farfugium japonicum
-1122,菊科_天人菊属_天人菊&宿根天人菊,
-1123,菊科_天名精属_天名精,Carpesium abrotanoides
-1124,菊科_小苦荬属_小苦荬,Ixeridium dentatum
-1125,菊科_川木香属_川木香,Dolomiaea souliei
-1126,菊科_旋覆花属_土木香,Inula helenium
-1127,菊科_旋覆花属_旋覆花,Inula japonica
-1128,菊科_木茼蒿属_木茼蒿,Argyranthemum frutescens
-1129,菊科_松果菊属_松果菊,Echinacea purpurea
-1130,菊科_松香草属_串叶松香草,Silphium perfoliatum
-1131,菊科_橐吾属_橐吾,Ligularia sibirica
-1132,菊科_款冬属_款冬,Tussilago farfara
-1133,菊科_泥胡菜属_泥胡菜,Hemisteptia lyrata
-1134,菊科_泽兰属_佩兰,Eupatorium fortunei
-1135,菊科_漏芦属_漏芦,Rhaponticum uniflorum
-1136,菊科_火石花属_非洲菊,Gerbera jamesonii
-1137,菊科_火绒草属_火绒草,Leontopodium leontopodioides
-1138,菊科_牛膝菊属_牛膝菊,Galinsoga parviflora
-1139,菊科_牛蒡属_牛蒡,Arctium lappa
-1140,菊科_瓜叶菊属_瓜叶菊,Pericallis hybrida
-1141,菊科_百日菊属_百日菊,Zinnia elegans
-1142,菊科_矢车菊属_蓝花矢车菊,Cyanus segetum
-1143,菊科_秋英属_秋英,Cosmos bipinnatus
-1144,菊科_秋英属_黄秋英,Cosmos sulphureus
-1145,菊科_稻槎菜属_稻槎菜,Lapsanastrum apogonoides
-1146,菊科_紫菀属_狗娃花,Aster hispidus
-1147,菊科_紫菀属_荷兰菊,Aster novi-belgii
-1148,菊科_紫菀属_马兰,Aster indicus
-1149,菊科_红花属_红花,Carthamus tinctorius
-1150,菊科_翠菊属_翠菊,Callistephus chinensis
-1151,菊科_芙蓉菊属_芙蓉菊,Crossostephium chinensis
-1152,菊科_苍耳属_苍耳,Xanthium strumarium
-1153,菊科_苦苣菜属_花叶滇苦菜,Sonchus asper
-1154,菊科_苦荬菜属_中华苦荬菜,Ixeris chinensis
-1155,菊科_茼蒿属_茼蒿,Glebionis coronaria
-1156,菊科_莴苣属_山莴苣,Lactuca sibirica
-1157,菊科_莴苣属_翅果菊,Lactuca indica
-1158,菊科_莴苣属_莴苣,Lactuca sativa
-1159,菊科_莴苣属_莴苣_生菜,Lactuca sativa var. ramosa
-1160,菊科_菊三七属_紫鹅绒,Gynura aurantiaca
-1161,菊科_菊三七属_红凤菜,Gynura bicolor
-1162,菊科_菊属_菊花,Chrysanthemum × morifolium
-1163,菊科_菊苣属_栽培菊苣,Cichorium endivia
-1164,菊科_菊苣属_菊苣,Cichorium intybus
-1165,菊科_菜蓟属_菜蓟,Cynara scolymus
-1166,菊科_蒲儿根属_蒲儿根,Sinosenecio oldhamianus
-1167,菊科_蒲公英属_蒲公英,Taraxacum mongolicum
-1168,菊科_蒿属_艾,Artemisia argyi
-1169,菊科_蒿属_蒌蒿,Artemisia selengensis
-1170,菊科_蒿属_青蒿,Artemisia caruifolia
-1171,菊科_蓍属_蓍,Achillea millefolium
-1172,菊科_蓟属_刺儿菜,Cirsium arvense var. integrifolium
-1173,菊科_蓟属_蓟,Cirsium japonicum
-1174,菊科_藿香蓟属_熊耳草,Ageratum houstonianum
-1175,菊科_藿香蓟属_藿香蓟,Ageratum conyzoides
-1176,菊科_蚂蚱腿子属_蚂蚱腿子,Myripnois dioica
-1177,菊科_蛇鞭菊属_蛇鞭菊,Liatris spicata
-1178,菊科_蜂斗菜属_蜂斗菜,Petasites japonicus
-1179,菊科_蜡菊属_蜡菊,Xerochrysum bracteatum
-1180,菊科_蟛蜞菊属_南美蟛蜞菊,Sphagneticola trilobata
-1181,菊科_豨莶属_豨莶,Sigesbeckia orientalis
-1182,菊科_野茼蒿属_野茼蒿,Crassocephalum crepidioides
-1183,菊科_金光菊属_二色金光菊,Rudbeckia bicolor
-1184,菊科_金光菊属_全缘金光菊,Rudbeckia fulgida
-1185,菊科_金光菊属_金光菊,Rudbeckia laciniata
-1186,菊科_金光菊属_金色风暴全缘叶金光菊,Rudbeckia fulgida 'Goldsturm'
-1187,菊科_金光菊属_黑心金光菊,Rudbeckia hirta
-1188,菊科_金盏花属_金盏花,Calendula officinalis
-1189,菊科_金鸡菊属_两色金鸡菊,Coreopsis tinctoria
-1190,菊科_金鸡菊属_金鸡菊,Coreopsis basalis
-1191,菊科_雏菊属_雏菊,Bellis perennis
-1192,菊科_风毛菊属_水母雪兔子,Saussurea medusa
-1193,菊科_风毛菊属_雪莲花,Saussurea involucrata
-1194,菊科_飞廉属_飞廉,Carduus nutans
-1195,菊科_飞蓬属_一年蓬,Erigeron annuus
-1196,菊科_飞蓬属_小蓬草,Erigeron canadensis
-1197,菊科_飞蓬属_苏门白酒草,Erigeron sumatrensis
-1198,菊科_骨子菊属_南非万寿菊,Osteospermum ecklonis
-1199,菊科_鬼针草属_大狼杷草,Bidens frondosa
-1200,菊科_鬼针草属_鬼针草,Bidens pilosa
-1201,菊科_鳢肠属_鳢肠,Eclipta prostrata
-1202,菊科_鹅河菊属_姬小菊,Brachyscome angustifolia
-1203,菊科_黄蓉菊属_黄金菊,Euryops pectinatus
-1204,菊科_黄顶菊属_黄顶菊,Flaveria bidentis
-1205,菊科_黄鹌菜属_异叶黄鹌菜,Youngia heterophylla
-1206,菊科_黄鹌菜属_黄鹌菜,Youngia japonica
-1207,菊科_鼠麴草属,Gnaphalium
-1208,菝葜科_菝葜属_菝葜,Smilax china
-1209,萝藦科_秦岭藤属_祛风藤,Biondia microcentra
-1210,落葵科_落葵属_落葵,Basella alba
-1211,落葵科_落葵薯属_落葵薯,Anredera cordifolia
-1212,葡萄科_地锦属_五叶地锦,Parthenocissus quinquefolia
-1213,葡萄科_地锦属_地锦,Parthenocissus tricuspidata
-1214,葡萄科_崖爬藤属_扁担藤,Tetrastigma planicaule
-1215,葡萄科_葡萄属_葡萄,Vitis vinifera
-1216,葡萄科_葡萄属_蘡薁,Vitis bryoniifolia
-1217,葫芦科_丝瓜属_丝瓜,Luffa aegyptiaca
-1218,葫芦科_佛手瓜属_佛手瓜,Sechium edule
-1219,葫芦科_冬瓜属_冬瓜,Benincasa hispida
-1220,葫芦科_南瓜属_南瓜,Cucurbita moschata
-1221,葫芦科_南瓜属_西葫芦,Cucurbita pepo
-1222,葫芦科_栝楼属_栝楼,Trichosanthes kirilowii
-1223,葫芦科_栝楼属_蛇瓜,Trichosanthes anguina
-1224,葫芦科_番马㼎儿属_拇指西瓜,Melothria scabra
-1225,葫芦科_盒子草属_盒子草,Actinostemma tenerum
-1226,葫芦科_绞股蓝属_绞股蓝,Gynostemma pentaphyllum
-1227,葫芦科_苦瓜属_木鳖子,Momordica cochinchinensis
-1228,葫芦科_苦瓜属_苦瓜,Momordica charantia
-1229,葫芦科_葫芦属_葫芦,Lagenaria siceraria
-1230,葫芦科_葫芦属_葫芦_瓠瓜,
-1231,葫芦科_西瓜属_西瓜,Citrullus lanatus
-1232,葫芦科_马㼎儿属_马㼎儿,Zehneria japonica
-1233,葫芦科_黄瓜属_刺角瓜,Cucumis metuliferus
-1234,葫芦科_黄瓜属_甜瓜,Cucumis melo
-1235,葫芦科_黄瓜属_甜瓜_哈密瓜,
-1236,葫芦科_黄瓜属_甜瓜_黄金瓜,
-1237,葫芦科_黄瓜属_菜瓜,Cucumis melo subsp. agrestis
-1238,葫芦科_黄瓜属_黄瓜,Cucumis sativus
-1239,蒜香草科_数珠珊瑚属_蕾芬,Rivina humilis
-1240,蒺藜科_蒺藜属_蒺藜,Tribulus terrestris
-1241,蓝果树科_喜树属_喜树,Camptotheca acuminata
-1242,蓝果树科_珙桐属_珙桐,Davidia involucrata
-1243,蓼科_千叶兰属_千叶吊兰,Muehlenbeckia complexa
-1244,蓼科_大黄属_塔黄,Rheum nobile
-1245,蓼科_珊瑚藤属_珊瑚藤,Antigonon leptopus
-1246,蓼科_荞麦属_荞麦,Fagopyrum esculentum
-1247,蓼科_荞麦属_金荞麦,Fagopyrum dibotrys
-1248,蓼科_萹蓄属_刺蓼,Polygonum senticosum
-1249,蓼科_萹蓄属_头花蓼,Polygonum capitatum
-1250,蓼科_萹蓄属_杠板归,Polygonum perfoliatum
-1251,蓼科_萹蓄属_红蓼,Polygonum orientale
-1252,蓼科_萹蓄属_萹蓄,Polygonum aviculare
-1253,蓼科_虎杖属_虎杖,Reynoutria japonica
-1254,蓼科_酸模属_酸模,Rumex acetosa
-1255,蔷薇科_委陵菜属_朝天委陵菜,Potentilla supina
-1256,蔷薇科_山楂属_山楂,Crataegus pinnatifida
-1257,蔷薇科_悬钩子属_寒莓,Rubus buergeri
-1258,蔷薇科_悬钩子属_山莓,Rubus corchorifolius
-1259,蔷薇科_悬钩子属_插田泡,Rubus coreanus
-1260,蔷薇科_悬钩子属_空心泡,Rubus rosifolius
-1261,蔷薇科_悬钩子属_茅莓,Rubus parvifolius
-1262,蔷薇科_悬钩子属_覆盆子&蓬蘽,
-1263,蔷薇科_悬钩子属_高粱泡,Rubus lambertianus
-1264,蔷薇科_扁核木属_扁核木,Prinsepia utilis
-1265,蔷薇科_木瓜海棠属_木瓜,Chaenomeles sinensis
-1266,蔷薇科_木瓜海棠属_皱皮木瓜,Chaenomeles speciosa
-1267,蔷薇科_李属_李,Prunus salicina
-1268,蔷薇科_李属_紫叶李,Prunus cerasifera f. atropurpurea
-1269,蔷薇科_杏属_杏,Armeniaca vulgaris
-1270,蔷薇科_杏属_梅,Armeniaca mume
-1271,蔷薇科_杏属_梅_宫粉梅,Armeniaca mume var. mume f. alphandii
-1272,蔷薇科_杏属_梅_朱砂梅,Armeniaca mume var. mume f. purpurea
-1273,蔷薇科_杏属_梅_绿萼梅,Armeniaca mume var. mume f. viridicalyx
-1274,蔷薇科_枇杷属_枇杷,Eriobotrya japonica
-1275,蔷薇科_栒子属_水栒子,Cotoneaster multiflorus
-1276,蔷薇科_桃属_扁桃,Amygdalus communis
-1277,蔷薇科_桃属_桃,Amygdalus persica
-1278,蔷薇科_桃属_榆叶梅,Amygdalus triloba
-1279,蔷薇科_桃属_菊花桃,Amygdalus persica 'Juhuatao'
-1280,蔷薇科_梨属,Pyrus
-1281,蔷薇科_梨属_新疆梨,Pyrus sinkiangensis
-1282,蔷薇科_梨属_杜梨,Pyrus betulifolia
-1283,蔷薇科_梨属_褐梨,Pyrus phaeocarpa
-1284,蔷薇科_梨属_豆梨,Pyrus calleryana
-1285,蔷薇科_棣棠花属_棣棠花,Kerria japonica
-1286,蔷薇科_棣棠花属_棣棠花_重瓣棣棠花,Kerria japonica f. pleniflora
-1287,蔷薇科_榅桲属_榅桲,Cydonia oblonga
-1288,蔷薇科_樱属_山樱花_日本晚樱,Cerasus serrulata var. lannesiana
-1289,蔷薇科_樱属_樱桃,Cerasus pseudocerasus
-1290,蔷薇科_樱属_毛樱桃,Cerasus tomentosa
-1291,蔷薇科_樱属_郁李,Cerasus japonica
-1292,蔷薇科_樱属_钟花樱桃,Cerasus campanulata
-1293,蔷薇科_火棘属_小丑火棘,Pyracantha fortuneana 'Harlequin'
-1294,蔷薇科_火棘属_火棘,Pyracantha fortuneana
-1295,蔷薇科_火棘属_窄叶火棘,Pyracantha angustifolia
-1296,蔷薇科_珍珠梅属_珍珠梅,Sorbaria sorbifolia
-1297,蔷薇科_白鹃梅属_白鹃梅,Exochorda racemosa
-1298,蔷薇科_石斑木属_石斑木,Rhaphiolepis indica
-1299,蔷薇科_石楠属_球花石楠,Photinia glomerata
-1300,蔷薇科_石楠属_石楠,Photinia serratifolia
-1301,蔷薇科_石楠属_红叶石楠,Photinia × fraseri
-1302,蔷薇科_稠李属_稠李,Padus avium
-1303,蔷薇科_绣线菊属,Spiraea
-1304,蔷薇科_绣线菊属_李叶绣线菊,Spiraea prunifolia
-1305,蔷薇科_绣线菊属_珍珠绣线菊,Spiraea thunbergii
-1306,蔷薇科_绣线菊属_粉花绣线菊,Spiraea japonica
-1307,蔷薇科_绣线菊属_细枝绣线菊,Spiraea myrtilloides
-1308,蔷薇科_绣线菊属_绣球绣线菊,Spiraea blumei
-1309,蔷薇科_绣线菊属_菱叶绣线菊,Spiraea × vanhouttei
-1310,蔷薇科_绣线菊属_蒙古绣线菊,Spiraea mongolica
-1311,蔷薇科_绣线菊属_金山绣线菊,Spiraea × bumalda 'Goalden Mound'
-1312,蔷薇科_绣线菊属_金焰绣线菊,Spiraea × bumalda 'coldfiame'
-1313,蔷薇科_绣线菊属_高山绣线菊,Spiraea alpina
-1314,蔷薇科_花楸属_花楸树,Sorbus pohuashanensis
-1315,蔷薇科_苹果属_八棱海棠,Malus × robusta
-1316,蔷薇科_苹果属_北美海棠,Malus 'American'
-1317,蔷薇科_苹果属_垂丝海棠,Malus halliana
-1318,蔷薇科_苹果属_苹果,Malus pumila
-1319,蔷薇科_苹果属_西府海棠,Malus × micromalus
-1320,蔷薇科_草莓属_草莓,Fragaria × ananassa
-1321,蔷薇科_蔷薇属_七姊妹,Rosa multiflora var. carnea
-1322,蔷薇科_蔷薇属_月季花,Rosa chinensis
-1323,蔷薇科_蔷薇属_木香花,Rosa banksiae
-1324,蔷薇科_蔷薇属_木香花_黄木香花,Rosa banksiae f. lutea
-1325,蔷薇科_蔷薇属_玫瑰,Rosa rugosa
-1326,蔷薇科_蔷薇属_玫瑰_白花重瓣玫瑰,Rosa rugosa f. albo-plena
-1327,蔷薇科_蔷薇属_粉团蔷薇,Rosa multiflora var. cathayensis
-1328,蔷薇科_蔷薇属_缫丝花,Rosa roxburghii
-1329,蔷薇科_蔷薇属_缫丝花_单瓣缫丝花,Rosa roxburghii f. normalis
-1330,蔷薇科_蔷薇属_金樱子,Rosa laevigata
-1331,蔷薇科_蔷薇属_黄刺玫,Rosa xanthina
-1332,蔷薇科_蔷薇属_黄刺玫_单瓣黄刺玫,Rosa xanthina var. normalis
-1333,蔷薇科_蛇莓属_蛇莓,Duchesnea indica
-1334,蔷薇科_龙牙草属_龙芽草,Agrimonia pilosa
-1335,蕈树科_枫香树属_枫香树,Liquidambar formosana
-1336,薯蓣科_蒟蒻薯属_箭根薯,Tacca chantrieri
-1337,薯蓣科_薯蓣属_薯蓣,Dioscorea polystachya
-1338,薯蓣科_薯蓣属_黄独,Dioscorea bulbifera
-1339,薯蓣科_薯蓣属_龟甲龙,Dioscorea elephantipes
-1340,藜芦科_丫蕊花属_丫蕊花,Ypsilandra thibetica
-1341,藜芦科_藜芦属_藜芦,Veratrum nigrum
-1342,藜芦科_重楼属,Paris
-1343,藤黄科_藤黄属_大叶藤黄,Garcinia xanthochymus
-1344,藤黄科_藤黄属_莽吉柿,Garcinia mangostana
-1345,虎皮楠科_虎皮楠属_牛耳枫,Daphniphyllum calycinum
-1346,虎耳草科_矾根属,Heuchera
-1347,虎耳草科_落新妇属_落新妇,Astilbe chinensis
-1348,虎耳草科_虎耳草属_虎耳草,Saxifraga stolonifera
-1349,虎耳草科_黄水枝属_黄水枝,Tiarella polyphylla
-1350,蜡梅科_夏蜡梅属_夏蜡梅,Calycanthus chinensis
-1351,蜡梅科_夏蜡梅属_美国蜡梅,Calycanthus floridus
-1352,蜡梅科_蜡梅属_山蜡梅,Chimonanthus nitens
-1353,蜡梅科_蜡梅属_蜡梅,Chimonanthus praecox
-1354,蝎尾蕉科_蝎尾蕉属_蝎尾蕉,Heliconia metallica
-1355,蝎尾蕉科_蝎尾蕉属_黄苞蝎尾蕉,Heliconia latispatha
-1356,西番莲科_时钟花属_时钟花,Turnera ulmifolia
-1357,西番莲科_时钟花属_白时钟花,Turnera subulata
-1358,西番莲科_西番莲属_尤卡坦西番莲,Passiflora yucatanensis
-1359,西番莲科_西番莲属_红花西番莲,Passiflora coccinea
-1360,西番莲科_西番莲属_翅茎西番莲,Passiflora alata
-1361,西番莲科_西番莲属_鸡蛋果,Passiflora edulis
-1362,西番莲科_西番莲属_龙珠果,Passiflora foetida
-1363,豆科_云实属_云实,Caesalpinia decapetala
-1364,豆科_云实属_喙荚云实,Caesalpinia minax
-1365,豆科_云实属_洋金凤,Caesalpinia pulcherrima
-1366,豆科_仪花属_短萼仪花,Lysidice brevicalyx
-1367,豆科_决明属_双荚决明,Senna bicapsularis
-1368,豆科_决明属_翅荚决明,Senna alata
-1369,豆科_决明属_黄槐决明,Senna surattensis
-1370,豆科_凤凰木属_凤凰木,Delonix regia
-1371,豆科_刀豆属_刀豆,Canavalia gladiata
-1372,豆科_刺桐属,Erythrina
-1373,豆科_刺桐属_鸡冠刺桐,Erythrina crista-galli
-1374,豆科_刺槐属_刺槐,Robinia pseudoacacia
-1375,豆科_刺槐属_红花刺槐,Robinia pseudoacacia f. decaisneana
-1376,豆科_合欢属_合欢,Albizia julibrissin
-1377,豆科_含羞草属_含羞草,Mimosa pudica
-1378,豆科_大豆属_大豆,Glycine max
-1379,豆科_小冠花属_绣球小冠花,Coronilla varia
-1380,豆科_山黧豆属_香豌豆,Lathyrus odoratus
-1381,豆科_扁豆属_扁豆,Lablab purpureus
-1382,豆科_排钱树属_排钱树,Phyllodium pulchellum
-1383,豆科_无忧花属_中国无忧花,Saraca dives
-1384,豆科_朱缨花属_朱缨花,Calliandra haematocephala
-1385,豆科_槐属_槐,Styphnolobium japonicum
-1386,豆科_沙冬青属_沙冬青,Ammopiptanthus mongolicus
-1387,豆科_油麻藤属_大果油麻藤,Mucuna macrocarpa
-1388,豆科_油麻藤属_常春油麻藤,Mucuna sempervirens
-1389,豆科_油麻藤属_白花油麻藤,Mucuna birdwoodiana
-1390,豆科_油麻藤属_红花油麻藤,Mucuna bennettii
-1391,豆科_狸尾豆属_猫尾草,Uraria crinita
-1392,豆科_猪屎豆属_猪屎豆,Crotalaria pallida
-1393,豆科_甘草属_甘草,Glycyrrhiza uralensis
-1394,豆科_百脉根属_百脉根,Lotus corniculatus
-1395,豆科_相思子属_相思子,Abrus precatorius
-1396,豆科_相思树属_台湾相思,Acacia confusa
-1397,豆科_相思树属_大叶相思,Acacia auriculiformis
-1398,豆科_相思树属_珍珠金合欢,Acacia podalyriifolia
-1399,豆科_相思树属_金合欢,Acacia farnesiana
-1400,豆科_紫矿属_紫矿,Butea monosperma
-1401,豆科_紫穗槐属_紫穗槐,Amorpha fruticosa
-1402,豆科_紫荆属_广西紫荆,Cercis chuniana
-1403,豆科_紫荆属_紫荆,Cercis chinensis
-1404,豆科_紫藤属_紫藤&藤萝,
-1405,豆科_羊蹄甲属_橙羊蹄甲藤,Bauhinia kockiana
-1406,豆科_羊蹄甲属_橙花羊蹄甲,Bauhinia galpinii
-1407,豆科_羊蹄甲属_洋紫荆,Bauhinia variegata
-1408,豆科_羊蹄甲属_洋紫荆_白花洋紫荆,Bauhinia variegata var. candida
-1409,豆科_羊蹄甲属_红花羊蹄甲,Bauhinia × blakeana
-1410,豆科_羊蹄甲属_首冠藤,Bauhinia corymbosa
-1411,豆科_羊蹄甲属_黄花羊蹄甲,Bauhinia tomentosa
-1412,豆科_羽扇豆属_羽扇豆,Lupinus micranthus
-1413,豆科_翡翠葛属_绿玉藤,Strongylodon macrobotrys
-1414,豆科_腊肠树属_腊肠树,Cassia fistula
-1415,豆科_舞草属_舞草,Codoriocalyx motorius
-1416,豆科_苜蓿属_南苜蓿,Medicago polymorpha
-1417,豆科_苜蓿属_紫苜蓿,Medicago sativa
-1418,豆科_苦马豆属_苦马豆,Sphaerophysa salsula
-1419,豆科_菜豆属_荷包豆,Phaseolus coccineus
-1420,豆科_菜豆属_菜豆,Phaseolus vulgaris
-1421,豆科_落花生属_落花生,Arachis hypogaea
-1422,豆科_葛属_葛,Pueraria montana
-1423,豆科_葛属_须弥葛,Pueraria wallichii
-1424,豆科_藤槐属_藤槐,Bowringia callicarpa
-1425,豆科_蝶豆属_蝶豆,Clitoria ternatea
-1426,豆科_豆薯属_豆薯,Pachyrhizus erosus
-1427,豆科_豇豆属_绿豆,Vigna radiata
-1428,豆科_豇豆属_豇豆,Vigna unguiculata
-1429,豆科_豌豆属_豌豆,Pisum sativum
-1430,豆科_车轴草属_白车轴草,Trifolium repens
-1431,豆科_车轴草属_红车轴草,Trifolium pratense
-1432,豆科_酸豆属_酸豆,Tamarindus indica
-1433,豆科_野豌豆属_蚕豆,Vicia faba
-1434,豆科_野豌豆属_野豌豆,Vicia sepium
-1435,豆科_银合欢属_银合欢,Leucaena leucocephala
-1436,豆科_锦鸡儿属,Caragana
-1437,豆科_锦鸡儿属_红花锦鸡儿,Caragana rosea
-1438,豆科_鱼鳔槐属_鱼鳔槐,Colutea arborescens
-1439,豆科_鸡眼草属_鸡眼草,Kummerowia striata
-1440,豆科_鸡血藤属,Callerya
-1441,豆科_鹿藿属_鹿藿,Rhynchosia volubilis
-1442,豆科_黄芪属_紫云英,Astragalus sinicus
-1443,车前科_假马齿苋属_百可花,Bacopa diffusa
-1444,车前科_兔尾苗属_穗花,Pseudolysimachion spicatum
-1445,车前科_婆婆纳属_直立婆婆纳,Veronica arvensis
-1446,车前科_婆婆纳属_阿拉伯婆婆纳,Veronica persica
-1447,车前科_柳穿鱼属_柳穿鱼,Linaria vulgaris subsp. chinensis
-1448,车前科_毛地黄属_毛地黄,Digitalis purpurea
-1449,车前科_爆仗竹属_爆仗竹,Russelia equisetiformis
-1450,车前科_蓝金花属_蓝金花,Otacanthus azureus
-1451,车前科_蔓柳穿鱼属_蔓柳穿鱼,Cymbalaria muralis
-1452,车前科_车前属_北美车前,Plantago virginica
-1453,车前科_车前属_大车前,Plantago major
-1454,车前科_车前属_平车前,Plantago depressa
-1455,车前科_车前属_车前,Plantago asiatica
-1456,车前科_金鱼草属_金鱼草,Antirrhinum majus
-1457,车前科_钓钟柳属,Penstemon
-1458,车前科_香彩雀属_香彩雀,Angelonia angustifolia
-1459,远志科_远志属_瓜子金,Polygala japonica
-1460,远志科_远志属_荷包山桂花,Polygala arillata
-1461,连香树科_连香树属_连香树,Cercidiphyllum japonicum
-1462,通泉草科_通泉草属_通泉草,Mazus pumilus
-1463,酢浆草科_酢浆草属,Oxalis
-1464,酢浆草科_酢浆草属_关节酢浆草,Oxalis articulata
-1465,酢浆草科_酢浆草属_山酢浆草,Oxalis griffithii
-1466,酢浆草科_酢浆草属_棕榈叶酢浆草,Oxalis palmifrons
-1467,酢浆草科_酢浆草属_紫叶酢浆草,Oxalis triangularis 'Urpurea'
-1468,酢浆草科_酢浆草属_红花酢浆草,Oxalis corymbosa
-1469,酢浆草科_酢浆草属_芙蓉酢浆草,Oxalis purpurea
-1470,酢浆草科_酢浆草属_黄花酢浆草,Oxalis pes-caprae
-1471,酢浆草科_阳桃属_阳桃,Averrhoa carambola
-1472,野牡丹科_虎颜花属_虎颜花,Tigridiopalma magnifica
-1473,野牡丹科_酸脚杆属_粉苞酸脚杆,Medinilla magnifica
-1474,野牡丹科_野牡丹属_地菍,Melastoma dodecandrum
-1475,野牡丹科_野牡丹属_野牡丹,Melastoma malabathricum
-1476,金丝桃科_金丝桃属_元宝草,Hypericum sampsonii
-1477,金丝桃科_金丝桃属_红果金丝桃,Hypericum 'Excellent Flair'
-1478,金丝桃科_金丝桃属_金丝桃,Hypericum monogynum
-1479,金丝桃科_金丝桃属_金丝梅,Hypericum patulum
-1480,金粟兰科_草珊瑚属_草珊瑚,Sarcandra glabra
-1481,金粟兰科_金粟兰属_银线草,Chloranthus japonicus
-1482,金缕梅科_檵木属_檵木,Loropetalum chinense
-1483,金缕梅科_檵木属_红花檵木,Loropetalum chinense var. rubrum
-1484,金缕梅科_水丝梨属_水丝梨,Sycopsis sinensis
-1485,金缕梅科_秀柱花属_秀柱花,Eustigma oblongifolium
-1486,金缕梅科_红花荷属_红花荷,Rhodoleia championii
-1487,金缕梅科_蚊母树属_蚊母树,Distylium racemosum
-1488,金缕梅科_蜡瓣花属_蜡瓣花,Corylopsis sinensis
-1489,金缕梅科_金缕梅属_金缕梅,Hamamelis mollis
-1490,金缕梅科_金缕梅属_间型金缕梅,Hamamelis × intermedia
-1491,金莲木科_金莲木属_桂叶黄梅,Ochna thomasiana
-1492,金虎尾科_三星果属_三星果,Tristellateia australasiae
-1493,金虎尾科_异翅藤属_狭叶异翅藤,Heteropterys glabra
-1494,金虎尾科_风筝果属_风筝果,Hiptage benghalensis
-1495,钩吻科_钩吻属_常绿钩吻藤,Gelsemium sempervirens
-1496,铁角蕨科_铁角蕨属_巢蕨,Asplenium nidus
-1497,银杏科_银杏属_银杏,Ginkgo biloba
-1498,银耳科_银耳属_银耳,
-1499,锦葵科_南非葵属_小木槿,Anisodontea capensis
-1500,锦葵科_可可属_可可,Theobroma cacao
-1501,锦葵科_吉贝属_吉贝,Ceiba pentandra
-1502,锦葵科_吉贝属_美丽异木棉,Ceiba speciosa
-1503,锦葵科_悬铃花属_垂花悬铃花,Malvaviscus penduliflorus
-1504,锦葵科_昂天莲属_昂天莲,Ambroma augustum
-1505,锦葵科_木棉属_木棉,Bombax ceiba
-1506,锦葵科_木槿属_吊灯扶桑,Hibiscus schizopetalus
-1507,锦葵科_木槿属_大花秋葵,Hibiscus grandiflorus
-1508,锦葵科_木槿属_木槿,Hibiscus syriacus
-1509,锦葵科_木槿属_木槿_白花单瓣木槿,Hibiscus syriacus var. syriacus f. totus-albus
-1510,锦葵科_木槿属_木芙蓉,Hibiscus mutabilis
-1511,锦葵科_木槿属_朱槿,Hibiscus rosa-sinensis
-1512,锦葵科_木槿属_玫瑰茄,Hibiscus sabdariffa
-1513,锦葵科_木槿属_重瓣朱槿,Hibiscus rosa-sinensis var. rubro-plenus
-1514,锦葵科_木槿属_野西瓜苗,Hibiscus trionum
-1515,锦葵科_木槿属_黄槿,Hibiscus tiliaceus
-1516,锦葵科_梧桐属_梧桐,Firmiana simplex
-1517,锦葵科_梵天花属_地桃花,Urena lobata
-1518,锦葵科_梵天花属_小叶梵天花,Urena procumbens var. microphylla
-1519,锦葵科_梵天花属_梵天花,Urena procumbens
-1520,锦葵科_棉属,Gossypium
-1521,锦葵科_榴梿属_榴梿,Durio zibethinus
-1522,锦葵科_猴面包树属_猴面包树,Adansonia digitata
-1523,锦葵科_瓜栗属_马拉巴栗,Pachira glabra
-1524,锦葵科_田麻属_田麻,Corchoropsis crenata
-1525,锦葵科_秋葵属_咖啡黄葵,Abelmoschus esculentus
-1526,锦葵科_秋葵属_箭叶秋葵,Abelmoschus sagittifolius
-1527,锦葵科_翅苹婆属_翅苹婆,Pterygota alata
-1528,锦葵科_苘麻属_红萼苘麻,Abutilon megapotamicum
-1529,锦葵科_苘麻属_苘麻,Abutilon theophrasti
-1530,锦葵科_苘麻属_金铃花,Abutilon pictum
-1531,锦葵科_苹婆属_假苹婆,Sterculia lanceolata
-1532,锦葵科_苹婆属_苹婆,Sterculia monosperma
-1533,锦葵科_蜀葵属_蜀葵,Alcea rosea
-1534,锦葵科_赛葵属_赛葵,Malvastrum coromandelianum
-1535,锦葵科_银叶树属_银叶树,Heritiera littoralis
-1536,锦葵科_锦葵属_冬葵,Malva verticillata var. crispa
-1537,锦葵科_锦葵属_锦葵,Malva cathayensis
-1538,锦葵科_非洲芙蓉属_非洲芙蓉,Dombeya wallichii
-1539,锦葵科_鹧鸪麻属_鹧鸪麻,Kleinhovia hospita
-1540,闭鞘姜科_宝塔姜属_宝塔姜,Costus barbatus
-1541,闭鞘姜科_宝塔姜属_红闭鞘姜,Costus woodsonii
-1542,防己科_千金藤属_地不容&金线山乌龟,
-1543,防己科_木防己属_木防己,Cocculus orbiculatus
-1544,防己科_蝙蝠葛属_蝙蝠葛,Menispermum dauricum
-1545,阿福花科_十二卷属_条纹十二卷,Haworthia fasciata
-1546,阿福花科_十二卷属_玉露,Haworthia cooperi var. pilifera
-1547,阿福花科_十二卷属_绿玉扇,Haworthia truncata
-1548,阿福花科_山菅兰属_山菅,Dianella ensifolia
-1549,阿福花科_火把莲属_火炬花,Kniphofia uvaria
-1550,阿福花科_芦荟属_不夜城芦荟,Aloe mitriformis
-1551,阿福花科_芦荟属_芦荟,Aloe vera
-1552,阿福花科_萱草属_萱草,Hemerocallis fulva
-1553,阿福花科_萱草属_金娃娃萱草,Hemerocallis fulva 'Golden Doll'
-1554,阿福花科_鲨鱼掌属_虎之卷_子宝,Gasteria gracilis var. minima
-1555,雨久花科_凤眼莲属_凤眼蓝,Eichhornia crassipes
-1556,雨久花科_梭鱼草属_梭鱼草,Pontederia cordata
-1557,雨久花科_雨久花属_雨久花,Monochoria korsakowii
-1558,露兜树科_露兜树属_露兜树,Pandanus tectorius
-1559,青皮木科_青皮木属_华南青皮木,Schoepfia chinensis
-1560,青荚叶科_青荚叶属_青荚叶,Helwingia japonica
-1561,香蒲科_香蒲属,Typha
-1562,香蒲科_黑三棱属_黑三棱,Sparganium stoloniferum
-1563,马兜铃科_细辛属_细辛,Asarum heterotropoides
-1564,马兜铃科_马兜铃属_寻骨风,Aristolochia mollissima
-1565,马兜铃科_马兜铃属_木本马兜铃,Aristolochia arborea
-1566,马兜铃科_马兜铃属_马兜铃,Aristolochia debilis
-1567,马鞭草科_假连翘属_假连翘,Duranta erecta
-1568,马鞭草科_美女樱属_细叶美女樱,Glandularia tenera
-1569,马鞭草科_美女樱属_美女樱,Glandularia × hybrida
-1570,马鞭草科_蓝花藤属_蓝花藤,Petrea volubilis
-1571,马鞭草科_马缨丹属_蔓马缨丹,Lantana montevidensis
-1572,马鞭草科_马缨丹属_马缨丹,Lantana camara
-1573,马鞭草科_马鞭草属_柳叶马鞭草,Verbena bonariensis
-1574,马齿苋科_马齿苋属_大花马齿苋,Portulaca grandiflora
-1575,马齿苋科_马齿苋属_小松针牡丹,Portulaca gilliesii
-1576,马齿苋科_马齿苋属_金钱木,Portulaca molokiniensis
-1577,马齿苋科_马齿苋属_阔叶半枝莲,Portulaca oleracea var. granatus
-1578,马齿苋科_马齿苋属_马齿苋,Portulaca oleracea
-1579,鬼笔科_竹荪属_竹荪,
-1580,鬼笔科_鬼笔属_红鬼笔,
-1581,鸢尾科_唐菖蒲属_唐菖蒲,Gladiolus gandavensis
-1582,鸢尾科_射干属_射干,Belamcanda chinensis
-1583,鸢尾科_巴西鸢尾属_巴西鸢尾,Neomarica gracilis
-1584,鸢尾科_庭菖蒲属_庭菖蒲,sisyrinchium rosulatum
-1585,鸢尾科_番红花属_番红花,Crocus sativus
-1586,鸢尾科_离被鸢尾属_双色野鸢尾,Dietes bicolor
-1587,鸢尾科_谷鸢尾属_绿花谷鸢尾,Ixia viridiflora
-1588,鸢尾科_雄黄兰属_雄黄兰,Crocosmia × crocosmiiflora
-1589,鸢尾科_香雪兰属_香雪兰,Freesia refracta
-1590,鸢尾科_魔杖花属_三色魔杖,Sparaxis tricolor
-1591,鸢尾科_鸢尾属_小花鸢尾,Iris speculatrix
-1592,鸢尾科_鸢尾属_德国鸢尾,Iris germanica
-1593,鸢尾科_鸢尾属_扁竹兰,Iris confusa
-1594,鸢尾科_鸢尾属_溪荪,Iris sanguinea
-1595,鸢尾科_鸢尾属_蝴蝶花,Iris japonica
-1596,鸢尾科_鸢尾属_马蔺,Iris lactea
-1597,鸢尾科_鸢尾属_鸢尾,Iris tectorum
-1598,鸢尾科_鸢尾属_黄菖蒲,Iris pseudacorus
-1599,鸭跖草科_杜若属_杜若,Pollia japonica
-1600,鸭跖草科_水竹叶属_水竹叶,Murdannia triquetra
-1601,鸭跖草科_穿鞘花属_穿鞘花,Amischotolype hispida
-1602,鸭跖草科_紫露草属_吊竹梅,Tradescantia zebrina
-1603,鸭跖草科_紫露草属_油画婚礼紫露草,Tradescantia cerinthoides 'Nanouk'
-1604,鸭跖草科_紫露草属_白花紫露草,Tradescantia fluminensis
-1605,鸭跖草科_紫露草属_紫竹梅,Tradescantia pallida
-1606,鸭跖草科_紫露草属_紫背万年青,Tradescantia spathacea
-1607,鸭跖草科_紫露草属_紫露草,Tradescantia ohiensis
-1608,鸭跖草科_蓝耳草属_蛛丝毛蓝耳草,Cyanotis arachnoidea
-1609,鸭跖草科_鸭跖草属_竹节菜,Commelina diffusa
-1610,鸭跖草科_鸭跖草属_鸭跖草,Commelina communis
-1611,鹤望兰科_鹤望兰属_大鹤望兰,Strelitzia nicolai
-1612,鹤望兰科_鹤望兰属_鹤望兰,Strelitzia reginae
-1613,黄杨科_野扇花属_野扇花,Sarcococca ruscifolia
-1614,黄杨科_黄杨属_黄杨,Buxus sinica
-1615,鼠李科_枣属_枣,Ziziphus jujuba
-1616,鼠李科_枳椇属_枳椇,Hovenia acerba
-1617,鼠李科_美洲茶属,Ceanothus
-1618,鼠李科_雀梅藤属_雀梅藤,Sageretia thea
-1619,鼠李科_马甲子属_铜钱树,Paliurus hemsleyanus
-1620,鼠李科_鼠李属_冻绿,Rhamnus utilis
-1621,龙胆科_匙叶草属_匙叶草,Latouchea fokienensis
-1622,龙胆科_双蝴蝶属_双蝴蝶,Tripterospermum chinense
-1623,龙胆科_洋桔梗属_洋桔梗,Eustoma grandiflorum
-1624,龙胆科_灰莉属_灰莉,Fagraea ceilanica
-1625,龙胆科_獐牙菜属_獐牙菜,Swertia bimaculata
-1626,龙胆科_穿心草属_穿心草,Canscora lucidissima
-1627,龙胆科_藻百年属_紫芳草,Exacum affine
-1628,龙胆科_龙胆属_笔龙胆,Gentiana zollingeri
-1629,𬞟科_𬞟属_𬞟,Marsilea quadrifolia
+5,五列木科_柃属_格药柃,Eurya muricata
+6,五列木科_柃属_滨柃,Eurya emarginata
+7,五列木科_柃属_米碎花,Eurya chinensis
+8,五加科_五加属_刺五加,Eleutherococcus senticosus
+9,五加科_五加属_白簕,Eleutherococcus trifoliatus
+10,五加科_八角金盘属_八角金盘,Fatsia japonica
+11,五加科_刺楸属_刺楸,Kalopanax septemlobus
+12,五加科_刺通草属_刺通草,Trevesia palmata
+13,五加科_南鹅掌柴属_孔雀木,Schefflera elegantissima
+14,五加科_南鹅掌柴属_鹅掌柴,Schefflera heptaphylla
+15,五加科_南鹅掌柴属_鹅掌藤,Schefflera arboricola
+16,五加科_天胡荽属_南美天胡荽,Hydrocotyle verticillata
+17,五加科_天胡荽属_天胡荽,Hydrocotyle sibthorpioides
+18,五加科_天胡荽属_破铜钱,Hydrocotyle sibthorpioides var. batrachium
+19,五加科_常春藤属_常春藤,Hedera nepalensis var. sinensis
+20,五加科_楤木属_楤木,Aralia elata
+21,五味子科_五味子属_五味子,Schisandra chinensis
+22,五味子科_五味子属_华中五味子,Schisandra sphenanthera
+23,五味子科_八角属_八角,Illicium verum
+24,五味子科_八角属_大屿八角,Illicium angustisepalum
+25,五味子科_八角属_红毒茴,Illicium lanceolatum
+26,五味子科_冷饭藤属_南五味子,Kadsura longipedunculata
+27,五味子科_冷饭藤属_异形南五味子,Kadsura heteroclita
+28,五味子科_冷饭藤属_黑老虎,Kadsura coccinea
+29,五桠果科_五桠果属_大花五桠果,Dillenia turbinata
+30,五福花科_接骨木属_接骨木,Sambucus williamsii
+31,五福花科_接骨木属_接骨草,Sambucus javanica
+32,五福花科_荚蒾属_日本珊瑚树,Viburnum odoratissimum var. awabuki
+33,五福花科_荚蒾属_粉团,Viburnum plicatum
+34,五福花科_荚蒾属_绣球荚蒾,Viburnum macrocephalum
+35,五福花科_荚蒾属_绣球荚蒾_琼花,Viburnum macrocephalum f. keteleeri
+36,五福花科_荚蒾属_茶荚蒾,Viburnum setigerum
+37,五福花科_荚蒾属_蝴蝶戏珠花,Viburnum plicatum f. tomentosum
+38,五福花科_荚蒾属_鸡树条,Viburnum opulus subsp. calvescens
+39,亚麻科_亚麻属_亚麻&宿根亚麻,
+40,亚麻科_石海椒属_石海椒,Reinwardtia indica
+41,仙人掌科_乌羽玉属_乌羽玉,Lophophora williamsii
+42,仙人掌科_仙人指属_蟹爪兰,Schlumbergera truncata
+43,仙人掌科_仙人掌属_黄毛掌,Opuntia microdasys
+44,仙人掌科_仙人球属_白檀柱,Echinopsis chamaecereus
+45,仙人掌科_令箭荷花属_令箭荷花,Nopalxochia ackermannii
+46,仙人掌科_强刺球属_巨鹫玉,Ferocactus peninsulae
+47,仙人掌科_昙花属_昙花,Epiphyllum oxypetalum
+48,仙人掌科_星球属_鸾凤玉,Astrophytum myriostigma
+49,仙人掌科_管花柱属_猴尾柱,Cleistocactus colademononis
+50,仙人掌科_量天尺属_量天尺,Hylocereus undatus
+51,仙人掌科_金琥属_金琥,Echinocactus grusonii
+52,伞形科_变豆菜属_直刺变豆菜,Sanicula orthacantha
+53,伞形科_当归属_拐芹,Angelica polymorpha
+54,伞形科_当归属_紫花前胡,Angelica decursiva
+55,伞形科_星芹属_大星芹,Astrantia major
+56,伞形科_珊瑚菜属_珊瑚菜,Glehnia littoralis
+57,伞形科_积雪草属_积雪草,Centella asiatica
+58,伞形科_胡萝卜属_胡萝卜,Daucus carota var. sativa
+59,伞形科_芫荽属_芫荽,Coriandrum sativum
+60,伞形科_芹属_旱芹,Apium graveolens
+61,伞形科_茴香属_茴香,Foeniculum vulgare
+62,伞形科_蛇床属_蛇床,Cnidium monnieri
+63,使君子科_使君子属_使君子,Quisqualis indica
+64,使君子科_榄仁树属_阿江榄仁,Terminalia arjuna
+65,侧耳科_侧耳属_平菇,
+66,侧耳科_侧耳属_杏鲍菇,
+67,六出花科_六出花属_六出花,Alstroemeria hybrida
+68,兰科_兜兰属,Paphiopedilum
+69,兰科_兜兰属_紫纹兜兰,Paphiopedilum purpuratum
+70,兰科_兰属_墨兰,Cymbidium sinense
+71,兰科_兰属_寒兰,Cymbidium kanran
+72,兰科_兰属_建兰,Cymbidium ensifolium
+73,兰科_兰属_春兰,Cymbidium goeringii
+74,兰科_兰属_蕙兰,Cymbidium faberi
+75,兰科_卡特兰属_卡特兰,Cattleya hybrida
+76,兰科_宿苞兰属_玫瑰宿苞兰,Cryptochilus roseus
+77,兰科_小龙兰属_猴面小龙兰,Dracula simia
+78,兰科_带唇兰属_带唇兰,Tainia dunnii
+79,兰科_开唇兰属_金线兰,Anoectochilus roxburghii
+80,兰科_文心兰属,Oncidium
+81,兰科_斑叶兰属_多叶斑叶兰,Goodyera foliosa
+82,兰科_斑叶兰属_绿花斑叶兰,Goodyera viridiflora
+83,兰科_斑叶兰属_高斑叶兰,Goodyera procera
+84,兰科_杓兰属_东北杓兰,Cypripedium × ventricosum
+85,兰科_杓兰属_丽江杓兰,Cypripedium lichiangense
+86,兰科_杓兰属_云南杓兰,Cypripedium yunnanense
+87,兰科_杓兰属_大花杓兰,Cypripedium macranthos
+88,兰科_杓兰属_宽口杓兰,Cypripedium wardii
+89,兰科_杓兰属_山西杓兰,Cypripedium shanxiense
+90,兰科_杓兰属_扇脉杓兰,Cypripedium japonicum
+91,兰科_杓兰属_无苞杓兰,Cypripedium bardolphianum
+92,兰科_杓兰属_毛杓兰,Cypripedium franchetii
+93,兰科_杓兰属_离萼杓兰,Cypripedium plectrochilum
+94,兰科_杓兰属_紫点杓兰,Cypripedium guttatum
+95,兰科_杓兰属_绿花杓兰,Cypripedium henryi
+96,兰科_杓兰属_褐花杓兰,Cypripedium calcicola
+97,兰科_杓兰属_西藏杓兰,Cypripedium tibeticum
+98,兰科_杓兰属_黄花杓兰,Cypripedium flavum
+99,兰科_杜鹃兰属_杜鹃兰,Cremastra appendiculata
+100,兰科_火焰兰属_火焰兰,Renanthera coccinea
+101,兰科_独蒜兰属_独蒜兰,Pleione bulbocodioides
+102,兰科_玉凤花属_橙黄玉凤花,Habenaria rhodocheila
+103,兰科_白及属_白及,Bletilla striata
+104,兰科_白及属_黄花白及,Bletilla ochracea
+105,兰科_盆距兰属_盆距兰,Gastrochilus calceolaris
+106,兰科_石仙桃属_石仙桃,Pholidota chinensis
+107,兰科_石仙桃属_细叶石仙桃,Pholidota cantonensis
+108,兰科_石仙桃属_节茎石仙桃,Pholidota articulata
+109,兰科_石斛属_玫瑰石斛,Dendrobium crepidatum
+110,兰科_石斛属_球花石斛,Dendrobium thyrsiflorum
+111,兰科_石斛属_铁皮石斛,Dendrobium officinale
+112,兰科_石斛属_鼓槌石斛,Dendrobium chrysotoxum
+113,兰科_石豆兰属_广东石豆兰,Bulbophyllum kwangtungense
+114,兰科_石豆兰属_斑唇卷瓣兰,Bulbophyllum pecten-veneris
+115,兰科_石豆兰属_芳香石豆兰,Bulbophyllum ambrosia
+116,兰科_章鱼兰属_章鱼兰,Prosthechea cochleata
+117,兰科_竹叶兰属_竹叶兰,Arundina graminifolia
+118,兰科_线柱兰属_白花线柱兰,Zeuxine parvifolia
+119,兰科_线柱兰属_线柱兰,Zeuxine strateumatica
+120,兰科_绶草属_绶草,Spiranthes sinensis
+121,兰科_羊耳蒜属_扇唇羊耳蒜,Liparis stricklandiana
+122,兰科_羊耳蒜属_见血青,Liparis nervosa
+123,兰科_美冠兰属_无叶美冠兰,Eulophia zollingeri
+124,兰科_美冠兰属_美冠兰,Eulophia graminea
+125,兰科_脆兰属_多花脆兰,Acampe rigida
+126,兰科_虾脊兰属_三棱虾脊兰,Calanthe tricarinata
+127,兰科_虾脊兰属_三褶虾脊兰,Calanthe triplicata
+128,兰科_虾脊兰属_钩距虾脊兰,Calanthe graciliflora
+129,兰科_虾脊兰属_长距虾脊兰,Calanthe sylvatica
+130,兰科_蛇舌兰属_蛇舌兰,Diploprora championii
+131,兰科_蛤兰属_蛤兰,Conchidium pusillum
+132,兰科_蝴蝶兰属_蝴蝶兰,Phalaenopsis aphrodite
+133,兰科_血叶兰属_血叶兰,Ludisia discolor
+134,兰科_贝母兰属_流苏贝母兰,Coelogyne fimbriata
+135,兰科_鹤顶兰属,Phaius
+136,兰科_鹤顶兰属_黄花鹤顶兰,Phaius flavus
+137,兰科_黄兰属_黄兰,Cephalantheropsis obcordata
+138,冬青科_冬青属_华中枸骨,Ilex centrochinensis
+139,冬青科_冬青属_大果冬青,Ilex macrocarpa
+140,冬青科_冬青属_无刺枸骨,Ilex cornuta 'National'
+141,冬青科_冬青属_枸骨,Ilex cornuta
+142,冬青科_冬青属_毛冬青,Ilex pubescens
+143,冬青科_冬青属_秤星树,Ilex asprella
+144,冬青科_冬青属_铁冬青,Ilex rotunda
+145,凤仙花科_凤仙花属_凤仙花,Impatiens balsamina
+146,凤仙花科_凤仙花属_新几内亚凤仙花,Impatiens hawkeri
+147,凤仙花科_凤仙花属_水金凤,Impatiens noli-tangere
+148,凤仙花科_凤仙花属_管茎凤仙花,Impatiens tubulosa
+149,凤仙花科_凤仙花属_苏丹凤仙花,Impatiens walleriana
+150,凤仙花科_凤仙花属_香港凤仙花,Impatiens hongkongensis
+151,凤尾蕨科_铁线蕨属_荷叶铁线蕨,Adiantum nelumboides
+152,凤梨科_凤梨属_凤梨,Ananas comosus
+153,凤梨科_姬凤梨属_姬凤梨,Cryptanthus acaulis
+154,凤梨科_水塔花属_水塔花,Billbergia pyramidalis
+155,凤梨科_铁兰属_紫花凤梨,Tillandsia cyanea
+156,列当科_地黄属_地黄,Rehmannia glutinosa
+157,列当科_地黄属_天目地黄,Rehmannia chingii
+158,列当科_小米草属_小米草,Euphrasia pectinata
+159,列当科_山罗花属_山罗花,Melampyrum roseum
+160,列当科_肉苁蓉属_肉苁蓉,Cistanche deserticola
+161,列当科_野菰属_野菰,Aeginetia indica
+162,列当科_马先蒿属_藓生马先蒿,Pedicularis muscicola
+163,刺戟木科_树马齿苋属_树马齿苋,Portulacaria afra
+164,刺戟木科_树马齿苋属_雅乐之舞,Portulacaria afra 'Variegata'
+165,十字花科_屈曲花属_屈曲花,Iberis amara
+166,十字花科_播娘蒿属_播娘蒿,Descurainia sophia
+167,十字花科_独行菜属_独行菜,Lepidium apetalum
+168,十字花科_糖芥属_桂竹香,Erysimum × cheiri
+169,十字花科_糖芥属_糖芥,Erysimum amurense
+170,十字花科_紫罗兰属_紫罗兰,Matthiola incana
+171,十字花科_芝麻菜属_芝麻菜,Eruca vesicaria subsp. sativa
+172,十字花科_花旗杆属_花旗杆,Dontostemon dentatus
+173,十字花科_芸苔属_野甘蓝_罗马花椰菜,
+174,十字花科_芸薹属_芜青_白菜,Brassica rapa var. glabra
+175,十字花科_芸薹属_芜青_芸苔,Brassica rapa var. oleifera
+176,十字花科_芸薹属_芜青_青菜,Brassica rapa var. chinensis
+177,十字花科_芸薹属_芥菜,Brassica juncea
+178,十字花科_芸薹属_芥菜_抱子芥,Brassica juncea var. gemmifera
+179,十字花科_芸薹属_芥菜_雪里蕻,Brassica juncea var. multicep
+180,十字花科_芸薹属_野甘蓝_抱子甘蓝,Brassica oleracea var. gemmifera
+181,十字花科_芸薹属_野甘蓝_擘蓝,Brassica oleracea var. gongylodes
+182,十字花科_芸薹属_野甘蓝_甘蓝,Brassica oleracea var. capitata
+183,十字花科_芸薹属_野甘蓝_绿花菜,Brassica oleracea var. italica
+184,十字花科_芸薹属_野甘蓝_羽衣甘蓝,Brassica oleracea var. acephala
+185,十字花科_芸薹属_野甘蓝_花椰菜,Brassica oleracea var. botrytis
+186,十字花科_荠属_荠,Capsella bursa-pastoris
+187,十字花科_菥蓂属_菥蓂,Thlaspi arvense
+188,十字花科_萝卜属_萝卜,Raphanus sativus
+189,十字花科_蔊菜属_蔊菜,Rorippa indica
+190,十字花科_诸葛菜属_诸葛菜,Orychophragmus violaceus
+191,十字花科_豆瓣菜属_豆瓣菜,Nasturtium officinale
+192,十字花科_香雪球属_香雪球,Lobularia maritima
+193,千屈菜科_八宝树属_八宝树,Duabanga grandiflora
+194,千屈菜科_千屈菜属_千屈菜,Lythrum salicaria
+195,千屈菜科_海桑属_海桑,Sonneratia caseolaris
+196,千屈菜科_石榴属_石榴,Punica granatum
+197,千屈菜科_石榴属_石榴_白石榴,Punica granatum 'Albescens'
+198,千屈菜科_紫薇属_南紫薇,Lagerstroemia subcostata
+199,千屈菜科_紫薇属_大花紫薇,Lagerstroemia speciosa
+200,千屈菜科_紫薇属_广东紫薇,Lagerstroemia fordii
+201,千屈菜科_紫薇属_福建紫薇,Lagerstroemia limii
+202,千屈菜科_紫薇属_紫薇,Lagerstroemia indica
+203,千屈菜科_紫薇属_紫薇_银薇,Lagerstroemia indica f. alba
+204,千屈菜科_节节菜属_圆叶节节菜,Rotala rotundifolia
+205,千屈菜科_菱属_欧菱,Trapa natans
+206,千屈菜科_萼距花属_萼距花,Cuphea hookeriana
+207,千屈菜科_虾子花属_虾子花,Woodfordia fruticosa
+208,千屈菜科_黄薇属_黄薇,Heimia myrtifolia
+209,卫矛科_南蛇藤属_南蛇藤,Celastrus orbiculatus
+210,卫矛科_卫矛属_冬青卫矛,Euonymus japonicus
+211,卫矛科_卫矛属_冬青卫矛_金边黄杨,Euonymus japonicus 'Aurea-marginatus'
+212,卫矛科_卫矛属_大果卫矛,Euonymus myrianthus
+213,卫矛科_卫矛属_扶芳藤,Euonymus fortunei
+214,卫矛科_卫矛属_栓翅卫矛,Euonymus phellomanus
+215,卫矛科_卫矛属_白杜,Euonymus maackii
+216,卫矛科_卫矛属_肉花卫矛,Euonymus carnosus
+217,卫矛科_卫矛属_陕西卫矛,Euonymus schensianus
+218,卫矛科_胡桃桐属_伯力木,Brexia madagascariensis
+219,卷柏科_卷柏属_翠云草,Selaginella uncinata
+220,叠珠树科_伯乐树属_伯乐树,Bretschneidera sinensis
+221,口蘑科_金钱菌属_金针菇,
+222,口蘑科_香菇属_香菇,
+223,古柯科_古柯属_东方古柯,Erythroxylum sinense
+224,叶下珠科_五月茶属_五月茶,Antidesma bunius
+225,叶下珠科_叶下珠属_云桂叶下珠,Phyllanthus pulcher
+226,叶下珠科_叶下珠属_余甘子,Phyllanthus emblica
+227,叶下珠科_叶下珠属_叶下珠,Phyllanthus urinaria
+228,叶下珠科_叶下珠属_西印度醋栗,Phyllanthus acidus
+229,叶下珠科_叶下珠属_青灰叶下珠,Phyllanthus glaucus
+230,叶下珠科_木奶果属_木奶果,Baccaurea ramiflora
+231,叶下珠科_秋枫属_重阳木,Bischofia polycarpa
+232,叶下珠科_算盘子属_算盘子,Glochidion puberum
+233,叶下珠科_银柴属_银柴,Aporosa dioica
+234,叶下珠科_黑面神属_二列黑面神,Breynia disticha
+235,叶下珠科_黑面神属_黑面神,Breynia fruticosa
+236,唇形科_三对节属_蓝蝴蝶,Rotheca myricoides
+237,唇形科_假龙头花属_假龙头花,Physostegia virginiana
+238,唇形科_冬红属_冬红,Holmskioldia sanguinea
+239,唇形科_夏枯草属_夏枯草,Prunella vulgaris
+240,唇形科_夏至草属_夏至草,Lagopsis supina
+241,唇形科_大青属_华丽龙吐珠,Clerodendrum splendens
+242,唇形科_大青属_垂茉莉,Clerodendrum wallichii
+243,唇形科_大青属_尖齿臭茉莉,Clerodendrum lindleyi
+244,唇形科_大青属_海州常山,Clerodendrum trichotomum
+245,唇形科_大青属_烟火树,Clerodendrum quadriloculare
+246,唇形科_大青属_红萼龙吐珠,Clerodendrum speciosum
+247,唇形科_大青属_臭牡丹,Clerodendrum bungei
+248,唇形科_大青属_臭茉莉,Clerodendrum chinense var. simplex
+249,唇形科_大青属_苦郎树,Clerodendrum inerme
+250,唇形科_大青属_赪桐,Clerodendrum japonicum
+251,唇形科_大青属_重瓣臭茉莉,Clerodendrum chinense
+252,唇形科_大青属_龙吐珠,Clerodendrum thomsoniae
+253,唇形科_小野芝麻属_小野芝麻,Galeobdolon chinense
+254,唇形科_广防风属_广防风,Anisomeles indica
+255,唇形科_橙花糙苏属_橙花糙苏,Phlomis fruticosa
+256,唇形科_水苏属_绵毛水苏,Stachys byzantina
+257,唇形科_活血丹属_活血丹,Glechoma longituba
+258,唇形科_牡荆属_牡荆,Vitex negundo var. cannabifolia
+259,唇形科_牡荆属_穗花牡荆,Vitex agnus-castus
+260,唇形科_牡荆属_荆条,Vitex negundo var. heterophylla
+261,唇形科_狮耳花属_狮耳花,Leonotis leonurus
+262,唇形科_益母草属_益母草,Leonurus japonicus
+263,唇形科_石荠苎属_小鱼仙草,Mosla dianthera
+264,唇形科_筋骨草属_白苞筋骨草,Ajuga lupulina
+265,唇形科_筋骨草属_筋骨草,Ajuga ciliata
+266,唇形科_筋骨草属_金疮小草,Ajuga decumbens
+267,唇形科_紫珠属_紫珠&白棠子树,
+268,唇形科_紫苏属_紫苏,Perilla frutescens
+269,唇形科_罗勒属_罗勒,Ocimum basilicum
+270,唇形科_美国薄荷属_美国薄荷,Monarda didyma
+271,唇形科_肾茶属_肾茶,Clerodendranthus spicatus
+272,唇形科_荆芥属_荆芥,Nepeta cataria
+273,唇形科_莸属_兰香草,Caryopteris incana
+274,唇形科_莸属_单花莸,Caryopteris nepetifolia
+275,唇形科_莸属_蓝花莸,Caryopteris × clandonensis
+276,唇形科_薄荷属_薄荷,Mentha canadensis
+277,唇形科_薰衣草属_西班牙薰衣草,Lavandula stoechas
+278,唇形科_薰衣草属_齿叶薰衣草,Lavandula dentata
+279,唇形科_藿香属_藿香,Agastache rugosa
+280,唇形科_贝壳花属_贝壳花,Moluccella laevis
+281,唇形科_迷迭香属_迷迭香,Rosmarinus officinalis
+282,唇形科_野芝麻属_宝盖草,Lamium amplexicaule
+283,唇形科_野芝麻属_野芝麻,Lamium barbatum
+284,唇形科_鞘蕊花属_彩叶草&五彩苏,
+285,唇形科_风轮菜属_寸金草,Clinopodium megalanthum
+286,唇形科_风轮菜属_邻近风轮菜,Clinopodium confine
+287,唇形科_风轮菜属_风轮菜,Clinopodium chinense
+288,唇形科_香科科属_水果蓝,Teucrium fruticans
+289,唇形科_香简草属_香薷状香简草,Keiskea elsholtzioides
+290,唇形科_香薷属_华北香薷,Elsholtzia stauntonii
+291,唇形科_马刺花属_碰碰香,Plectranthus hadiensis var. tomentosus
+292,唇形科_马刺花属_艾克伦香茶菜,Plectranthus ecklonii
+293,唇形科_马刺花属_香妃草,Plectranthus glabratus
+294,唇形科_黄芩属_韩信草,Scutellaria indica
+295,唇形科_黄芩属_黄芩,Scutellaria baicalensis
+296,唇形科_鼠尾草属,Salvia
+297,唇形科_鼠尾草属_一串红,Salvia splendens
+298,唇形科_鼠尾草属_丹参,Salvia miltiorrhiza
+299,唇形科_鼠尾草属_南丹参,Salvia bowleyana
+300,唇形科_鼠尾草属_墨西哥鼠尾草,Salvia leucantha
+301,唇形科_鼠尾草属_朱唇,Salvia coccinea
+302,唇形科_鼠尾草属_荔枝草,Salvia plebeia
+303,唇形科_龙头草属_高野山龙头草,Meehania montis-koyae
+304,商陆科_商陆属_垂序商陆,Phytolacca americana
+305,土人参科_土人参属_土人参,Talinum paniculatum
+306,堇菜科_三角车属_三角车,Rinorea bengalensis
+307,堇菜科_堇菜属_七星莲,Viola diffusa
+308,堇菜科_堇菜属_三色堇,Viola tricolor
+309,堇菜科_堇菜属_戟叶堇菜,Viola betonicifolia
+310,堇菜科_堇菜属_柔毛堇菜,Viola fargesii
+311,堇菜科_堇菜属_犁头草,Viola japonica
+312,堇菜科_堇菜属_紫花地丁,Viola philippica
+313,堇菜科_堇菜属_紫花堇菜,Viola grypoceras
+314,堇菜科_堇菜属_角堇,Viola cornuta
+315,壳斗科_栗属_栗,Castanea mollissima
+316,大戟科_三宝木属_异叶三宝木,Trigonostemon flavidus
+317,大戟科_乌桕属_乌桕,Triadica sebifera
+318,大戟科_乌桕属_山乌桕,Triadica cochinchinensis
+319,大戟科_变叶木属_变叶木,Codiaeum variegatum
+320,大戟科_变叶木属_戟叶变叶木,Codiaeum variegatum 'Excellent'
+321,大戟科_响盒子属_响盒子,Hura crepitans
+322,大戟科_大戟属_一品红,Euphorbia pulcherrima
+323,大戟科_大戟属_地锦草,Euphorbia humifusa
+324,大戟科_大戟属_斑地锦,Euphorbia maculata
+325,大戟科_大戟属_晃玉,Euphorbia obesa
+326,大戟科_大戟属_泽漆&乳浆大戟,
+327,大戟科_大戟属_火殃勒,Euphorbia antiquorum
+328,大戟科_大戟属_猩猩草,Euphorbia cyathophora
+329,大戟科_大戟属_白花虎刺梅,Euphorbia milii var. alba
+330,大戟科_大戟属_白角麒麟,Euphorbia resinifera
+331,大戟科_大戟属_白雪木,Euphorbia leucocephala
+332,大戟科_大戟属_紫锦木,Euphorbia cotinifolia
+333,大戟科_大戟属_续随子,Euphorbia lathyris
+334,大戟科_大戟属_绿玉树,Euphorbia tirucalli
+335,大戟科_大戟属_铁海棠,Euphorbia milii
+336,大戟科_大戟属_银边翠,Euphorbia marginata
+337,大戟科_守宫木属_守宫木,Sauropus androgynus
+338,大戟科_山麻秆属_山麻杆,Alchornea davidii
+339,大戟科_巴豆属_巴豆,Croton tiglium
+340,大戟科_星油藤属_南美油藤,Plukenetia volubilis
+341,大戟科_木薯属_木薯,Manihot esculenta
+342,大戟科_油桐属_油桐&木油桐,
+343,大戟科_海漆属_海漆,Excoecaria agallocha
+344,大戟科_海漆属_红背桂,Excoecaria cochinchinensis
+345,大戟科_红雀珊瑚属_红雀珊瑚,Pedilanthus tithymaloides
+346,大戟科_蓖麻属_蓖麻,Ricinus communis
+347,大戟科_野桐属_杠香藤,Mallotus repandus var. chrysocarpus
+348,大戟科_野桐属_毛桐,Mallotus barbatus
+349,大戟科_野桐属_白楸,Mallotus paniculatus
+350,大戟科_野桐属_白背叶,Mallotus apelta
+351,大戟科_野桐属_石岩枫,Mallotus repandus
+352,大戟科_野桐属_野梧桐,Mallotus japonicus
+353,大戟科_铁苋菜属_猫尾红,Acalypha reptans
+354,大戟科_铁苋菜属_红穗铁苋菜,Acalypha hispida
+355,大戟科_铁苋菜属_铁苋菜,Acalypha australis
+356,大戟科_麻风树属_佛肚树,Jatropha podagrica
+357,大戟科_麻风树属_琴叶珊瑚,Jatropha integerrima
+358,大戟科_麻风树属_麻风树,Jatropha curcas
+359,大麻科_大麻属_大麻,Cannabis sativa
+360,大麻科_山黄麻属_山油麻,Trema cannabina var. dielsiana
+361,大麻科_朴属_朴树,Celtis sinensis
+362,大麻科_朴属_紫弹树,Celtis biondii
+363,大麻科_葎草属_啤酒花,Humulus lupulus
+364,大麻科_葎草属_葎草,Humulus scandens
+365,天南星科_五彩芋属_五彩芋,Caladium bicolor
+366,天南星科_半夏属_半夏,Pinellia ternata
+367,天南星科_半夏属_滴水珠,Pinellia cordata
+368,天南星科_喜林芋属_春羽,Philodendron selloum
+369,天南星科_喜林芋属_红苞喜林芋,Philodendron erubescens
+370,天南星科_大薸属_大薸,Pistia stratiotes
+371,天南星科_天南星属_一把伞南星,Arisaema erubescens
+372,天南星科_天南星属_灯台莲,Arisaema bockii
+373,天南星科_广东万年青属_广东万年青,Aglaonema modestum
+374,天南星科_海芋属_海芋,Alocasia odora
+375,天南星科_海芋属_黑叶观音莲,Alocasia 'Amazonica'
+376,天南星科_犁头尖属_犁头尖,Typhonium blumei
+377,天南星科_白鹤芋属_白鹤芋,Spathiphyllum kochii
+378,天南星科_芋属_芋,Colocasia esculenta
+379,天南星科_花烛属_花烛,Anthurium andraeanum
+380,天南星科_雪铁芋属_雪铁芋,Zamioculcas zamiifolia
+381,天南星科_马蹄莲属,
+382,天南星科_魔芋属_东亚蘑芋,Amorphophallus kiusianus
+383,天南星科_魔芋属_疣柄蘑芋,Amorphophallus paeoniifolius
+384,天南星科_魔芋属_花蘑芋,Amorphophallus konjac
+385,天南星科_麒麟叶属_绿萝,Epipremnum aureum
+386,天南星科_黛粉芋属_黛粉芋,Dieffenbachia seguine
+387,天南星科_龟背竹属_龟背竹,Monstera deliciosa
+388,天门冬科_丝兰属_凤尾丝兰,Yucca gloriosa
+389,天门冬科_假叶树属_假叶树,Ruscus aculeatus
+390,天门冬科_凤梨百合属_凤梨百合,Eucomis comosa
+391,天门冬科_吊兰属_吊兰,Chlorophytum comosum
+392,天门冬科_哨兵花属_弹簧草,Albuca namaquensis
+393,天门冬科_天门冬属_文竹,Asparagus setaceus
+394,天门冬科_天门冬属_非洲天门冬,Asparagus densiflorus
+395,天门冬科_山麦冬属_山麦冬,Liriope spicata
+396,天门冬科_开口箭属_筒花开口箭,Campylandra delavayi
+397,天门冬科_异蕊草属_异蕊草,Thysanotus chinensis
+398,天门冬科_春慵花属_橙花虎眼万年青,Ornithogalum dubium
+399,天门冬科_春慵花属_虎眼万年青,Ornithogalum caudatum
+400,天门冬科_朱蕉属_朱蕉,Cordyline fruticosa
+401,天门冬科_油点百合属_油点百合,Ledebouria socialis
+402,天门冬科_沿阶草属_沿阶草,Ophiopogon bodinieri
+403,天门冬科_沿阶草属_麦冬,Ophiopogon japonicus
+404,天门冬科_玉簪属_玉簪,Hosta plantaginea
+405,天门冬科_玉簪属_紫萼,Hosta ventricosa
+406,天门冬科_白穗花属_白穗花,Speirantha gardenii
+407,天门冬科_纳金花属_绿花纳金花,Lachenalia viridiflora
+408,天门冬科_舞鹤草属_舞鹤草,Maianthemum bifolium
+409,天门冬科_蓝壶花属_葡萄风信子,Muscari botryoides
+410,天门冬科_蓝瑰花属_雪光花,Scilla luciliae
+411,天门冬科_虎尾兰属_棒叶虎尾兰,Sansevieria gracilis
+412,天门冬科_虎尾兰属_虎尾兰,Sansevieria trifasciata
+413,天门冬科_虎尾兰属_金边虎尾兰,Sansevieria trifasciata var. laurentii
+414,天门冬科_蜘蛛抱蛋属_巨花蜘蛛抱蛋,Aspidistra grandiflora
+415,天门冬科_蜘蛛抱蛋属_流苏蜘蛛抱蛋,Aspidistra fimbriata
+416,天门冬科_酒瓶兰属_酒瓶兰,Beaucarnea recurvata
+417,天门冬科_铃兰属_铃兰,Convallaria majalis
+418,天门冬科_风信子属_风信子,Hyacinthus orientalis
+419,天门冬科_黄精属_多花黄精,Polygonatum cyrtonema
+420,天门冬科_黄精属_玉竹,Polygonatum odoratum
+421,天门冬科_黄精属_黄精,Polygonatum sibiricum
+422,天门冬科_龙舌兰属_龙舌兰,Agave americana
+423,天门冬科_龙血树属_富贵竹,Dracaena sanderiana
+424,天门冬科_龙血树属_海南龙血树,Dracaena cambodiana
+425,天门冬科_龙血树属_百合竹,Dracaena reflexa
+426,天门冬科_龙血树属_香龙血树,Dracaena fragrans
+427,天门冬科_龙血树属_龙血树,Dracaena draco
+428,夹竹桃科_倒吊笔属_无冠倒吊笔,Wrightia religiosa
+429,夹竹桃科_倒吊笔属_蓝树,Wrightia laevis
+430,夹竹桃科_假虎刺属_大花假虎刺,Carissa macrocarpa
+431,夹竹桃科_凝蹄玉属_凝蹄玉,Pseudolithos migiurtinus
+432,夹竹桃科_匙羹藤属_匙羹藤,Gymnema sylvestre
+433,夹竹桃科_吊灯花属_爱之蔓,Ceropegia woodii
+434,夹竹桃科_夜来香属_夜来香,Telosma cordata
+435,夹竹桃科_夹竹桃属_夹竹桃,Nerium oleander
+436,夹竹桃科_夹竹桃属_夹竹桃_白花夹竹桃,Nerium oleander 'Paihua'
+437,夹竹桃科_山辣椒属_狗牙花,Tabernaemontana divaricata
+438,夹竹桃科_杠柳属_杠柳,Periploca sepium
+439,夹竹桃科_沙漠玫瑰属_沙漠玫瑰,Adenium obesum
+440,夹竹桃科_海杧果属_海杧果,Cerbera manghas
+441,夹竹桃科_清明花属_清明花,Beaumontia grandiflora
+442,夹竹桃科_牛角瓜属_牛角瓜,Calotropis gigantea
+443,夹竹桃科_犀角属,Stapelia
+444,夹竹桃科_球兰属_球兰,Hoya carnosa
+445,夹竹桃科_眼树莲属_百万心&圆叶眼树莲,
+446,夹竹桃科_纽子花属_大纽子花,Vallaris indecora
+447,夹竹桃科_络石属_络石,Trachelospermum jasminoides
+448,夹竹桃科_络石属_络石_花叶络石,Trachelospermum jasminoides 'Flame'
+449,夹竹桃科_罗布麻属_罗布麻,Apocynum venetum
+450,夹竹桃科_羊角拗属_羊角拗,Strophanthus divaricatus
+451,夹竹桃科_耳药藤属_多花耳药藤,Stephanotis floribunda
+452,夹竹桃科_萝藦属_萝藦,Metaplexis japonica
+453,夹竹桃科_蔓长春花属_蔓长春花,Vinca major
+454,夹竹桃科_蔓长春花属_蔓长春花_花叶蔓长春花,Vinca major 'Variegata'
+455,夹竹桃科_蕊木属_红花蕊木,Kopsia fruticosa
+456,夹竹桃科_蕊木属_蕊木,Kopsia arborea
+457,夹竹桃科_钉头果属,Gomphocarpus
+458,夹竹桃科_长春花属_长春花,Catharanthus roseus
+459,夹竹桃科_长春花属_长春花_白长春花,Catharanthus roseus 'Albus'
+460,夹竹桃科_飘香藤属_飘香藤,Mandevilla sanderi
+461,夹竹桃科_马利筋属_马利筋,Asclepias curassavica
+462,夹竹桃科_马利筋属_马利筋_黄冠马利筋,Asclepias curassavica 'Flaviflora'
+463,夹竹桃科_鸡蛋花属_红鸡蛋花,Plumeria rubra
+464,夹竹桃科_鸡蛋花属_红鸡蛋花_鸡蛋花,Plumeria rubra 'Acutifolia'
+465,夹竹桃科_鸡蛋花属_缅雪花,Plumeria pudica
+466,夹竹桃科_鸡蛋花属_钝叶鸡蛋花,Plumeria obtusa
+467,夹竹桃科_鸡骨常山属_糖胶树,Alstonia scholaris
+468,夹竹桃科_鹅绒藤属_地梢瓜,Cynanchum thesioides
+469,夹竹桃科_鹅绒藤属_牛皮消,Cynanchum auriculatum
+470,夹竹桃科_鹅绒藤属_白薇,Cynanchum atratum
+471,夹竹桃科_鹅绒藤属_蔓剪草,Cynanchum chekiangense
+472,夹竹桃科_鹅绒藤属_鹅绒藤,Cynanchum chinense
+473,夹竹桃科_黄花夹竹桃属_黄花夹竹桃,Thevetia peruviana
+474,夹竹桃科_黄花夹竹桃属_黄花夹竹桃_红酒杯花,Thevetia peruviana 'Aurantiaca'
+475,夹竹桃科_黄蝉属_大紫蝉,Allamanda blanchetii
+476,夹竹桃科_黄蝉属_黄蝉&软枝黄蝉,
+477,姜科_姜属_姜,Zingiber officinale
+478,姜科_姜属_蘘荷,Zingiber mioga
+479,姜科_姜花属_姜花,Hedychium coronarium
+480,姜科_姜花属_峨眉姜花,Hedychium flavescens
+481,姜科_姜花属_红姜花,Hedychium coccineum
+482,姜科_姜花属_黄姜花,Hedychium flavum
+483,姜科_姜黄属_姜荷花,Curcuma alismatifolia
+484,姜科_姜黄属_姜黄,Curcuma longa
+485,姜科_山姜属_华山姜,Alpinia oblongifolia
+486,姜科_山姜属_海南山姜,Alpinia hainanensis
+487,姜科_山姜属_艳山姜,Alpinia zerumbet
+488,姜科_山姜属_花叶艳山姜,Alpinia zerumbet 'Variegata'
+489,姜科_山柰属_山柰,Kaempferia galanga
+490,姜科_山柰属_海南三七,Kaempferia rotunda
+491,姜科_山柰属_紫花山柰,Kaempferia elegans
+492,姜科_茴香砂仁属_火炬姜,Etlingera elatior
+493,姜科_闭鞘姜属_闭鞘姜,Cheilocostus speciosus
+494,安息香科_安息香属_白花龙,Styrax faberi
+495,安息香科_安息香属_野茉莉,Styrax japonicus
+496,安息香科_白辛树属_小叶白辛树,Pterostyrax corymbosus
+497,安息香科_秤锤树属_秤锤树,Sinojackia xylocarpa
+498,安息香科_银钟花属_银钟花,Halesia macgregorii
+499,安息香科_陀螺果属_陀螺果,Melliodendron xylocarpum
+500,小檗科_十大功劳属_十大功劳,Mahonia fortunei
+501,小檗科_十大功劳属_阔叶十大功劳,Mahonia bealei
+502,小檗科_南天竹属_南天竹,Nandina domestica
+503,小檗科_小檗属_粉叶小檗,Berberis pruinosa
+504,小檗科_小檗属_紫叶小檗,Berberis thunbergii 'Atropurpurea'
+505,小檗科_小檗属_豪猪刺,Berberis julianae
+506,小檗科_山荷叶属_日本山荷叶,Diphylleia grayi
+507,小檗科_桃儿七属_桃儿七,Sinopodophyllum hexandrum
+508,小檗科_淫羊藿属_三枝九叶草,Epimedium sagittatum
+509,小檗科_淫羊藿属_淫羊藿,Epimedium brevicornu
+510,小檗科_牡丹草属_江南牡丹草,Gymnospermium kiangnanense
+511,小檗科_鬼臼属_八角莲,Dysosma versipellis
+512,山柑科_鱼木属_鱼木,Crateva religiosa
+513,山榄科_桃榄属_蛋黄果,Pouteria campechiana
+514,山榄科_桃榄属_黄晶果,Pouteria caimito
+515,山榄科_神秘果属_神秘果,Synsepalum dulcificum
+516,山榄科_金叶树属_星萍果,Chrysophyllum cainito
+517,山榄科_铁线子属_人心果,Manilkara zapota
+518,山矾科_山矾属_光叶山矾,Symplocos lancifolia
+519,山矾科_山矾属_山矾,Symplocos sumuntia
+520,山矾科_山矾属_白檀,Symplocos paniculata
+521,山矾科_山矾属_老鼠矢,Symplocos stellaris
+522,山茱萸科_八角枫属_八角枫,Alangium chinense
+523,山茱萸科_八角枫属_土坛树,Alangium salviifolium
+524,山茱萸科_山茱萸属_四照花,Cornus kousa subsp. chinensis
+525,山茱萸科_山茱萸属_大花四照花,Cornus florida
+526,山茱萸科_山茱萸属_山茱萸,Cornus officinalis
+527,山茱萸科_山茱萸属_灯台树,Cornus controversa
+528,山茱萸科_山茱萸属_红瑞木,Cornus alba
+529,山茱萸科_山茱萸属_香港四照花,Cornus hongkongensis
+530,山茶科_山茶属_尖连蕊茶,Camellia cuspidata
+531,山茶科_山茶属_山茶,Camellia japonica
+532,山茶科_山茶属_杜鹃叶山茶,Camellia azalea
+533,山茶科_山茶属_油茶,Camellia oleifera
+534,山茶科_山茶属_茶梅,Camellia sasanqua
+535,山茶科_山茶属_越南抱茎茶,Camellia amplexicaulis
+536,山茶科_山茶属_金花茶,Camellia petelotii
+537,山茶科_木荷属_木荷,Schima superba
+538,山茶科_核果茶属_大果核果茶,Pyrenaria spectabilis
+539,山茶科_紫茎属_紫茎,Stewartia sinensis
+540,山龙眼科_帝王花属_帝王花,Protea cynaroides
+541,山龙眼科_澳洲坚果属_澳洲坚果,Macadamia integrifolia
+542,山龙眼科_针垫花属_针垫花,Leucospermum nutans
+543,山龙眼科_银桦属_红花银桦,Grevillea banksii
+544,忍冬科_六道木属_六道木,Zabelia biflora
+545,忍冬科_六道木属_南方六道木,Zabelia dielsii
+546,忍冬科_忍冬属_北京忍冬,Lonicera elisae
+547,忍冬科_忍冬属_忍冬,Lonicera japonica
+548,忍冬科_忍冬属_早花忍冬,Lonicera praeflorens
+549,忍冬科_忍冬属_苦糖果,Lonicera fragrantissima var. lancifolia
+550,忍冬科_忍冬属_蓝叶忍冬,Lonicera korolkowi
+551,忍冬科_忍冬属_蓝果忍冬,Lonicera caerulea
+552,忍冬科_忍冬属_郁香忍冬,Lonicera fragrantissima
+553,忍冬科_忍冬属_金花忍冬,Lonicera chrysantha
+554,忍冬科_忍冬属_金银忍冬,Lonicera maackii
+555,忍冬科_猬实属_蝟实,Kolkwitzia amabilis
+556,忍冬科_糯米条属_二翅六道木,Abelia macrotera
+557,忍冬科_糯米条属_大花六道木,Abelia × grandiflora
+558,忍冬科_糯米条属_糯米条,Abelia chinensis
+559,忍冬科_糯米条属_蓪梗花,Abelia uniflora
+560,忍冬科_蓝盆花属_蓝盆花,Scabiosa comosa
+561,忍冬科_败酱属_攀倒甑,Patrinia villosa
+562,忍冬科_锦带花属_红王子锦带花,Weigela florida 'Red Prince'
+563,忍冬科_锦带花属_锦带花,Weigela florida
+564,忍冬科_鬼吹箫属_鬼吹箫,Leycesteria formosa
+565,悬铃木科_悬铃木属,Platanus
+566,报春花科_仙客来属_仙客来,Cyclamen persicum
+567,报春花科_假婆婆纳属_假婆婆纳,Stimpsonia chamaedryoides
+568,报春花科_报春花属_偏花报春,Primula secundiflora
+569,报春花科_报春花属_欧报春,Primula acaulis
+570,报春花科_报春花属_毛茛叶报春,Primula cicutariifolia
+571,报春花科_报春花属_球花报春,Primula denticulata
+572,报春花科_报春花属_胭脂花,Primula maximowiczii
+573,报春花科_报春花属_鄂报春,Primula obconica
+574,报春花科_报春花属_钟花报春,Primula sikkimensis
+575,报春花科_杜茎山属_金珠柳,Maesa montana
+576,报春花科_点地梅属_点地梅,Androsace umbellata
+577,报春花科_珍珠菜属_临时救,Lysimachia congestiflora
+578,报春花科_珍珠菜属_巴东过路黄,Lysimachia patungensis
+579,报春花科_珍珠菜属_泽珍珠菜,Lysimachia candida
+580,报春花科_珍珠菜属_过路黄,Lysimachia christiniae
+581,报春花科_珍珠菜属_金爪儿,Lysimachia grammica
+582,报春花科_琉璃繁缕属_琉璃繁缕,Anagallis arvensis
+583,报春花科_琉璃繁缕属_蓝花琉璃繁缕,Anagallis arvensis f. coerulea
+584,报春花科_紫金牛属_朱砂根,Ardisia crenata
+585,报春花科_紫金牛属_百两金,Ardisia crispa
+586,报春花科_紫金牛属_矮紫金牛,Ardisia humilis
+587,报春花科_蜡烛果属_蜡烛果,Aegiceras corniculatum
+588,报春花科_酸藤子属_当归藤,Embelia parviflora
+589,文定果科_文定果属_文定果,Muntingia calabura
+590,旋花科_土丁桂属_蓝星花,Evolvulus nuttallianus
+591,旋花科_打碗花属_肾叶打碗花,Calystegia soldanella
+592,旋花科_旋花属_田旋花,Convolvulus arvensis
+593,旋花科_牵牛属_大花牵牛,Pharbitis limbata
+594,旋花科_盒果藤属_盒果藤,Operculina turpethum
+595,旋花科_茑萝属_橙红茑萝,Quamoclit coccinea
+596,旋花科_茑萝属_茑萝松,Quamoclit pennata
+597,旋花科_茑萝属_葵叶茑萝,Quamoclit × sloteri
+598,旋花科_菟丝子属_金灯藤,Cuscuta japonica
+599,旋花科_虎掌藤属_三裂叶薯,Ipomoea triloba
+600,旋花科_虎掌藤属_五爪金龙,Ipomoea cairica
+601,旋花科_虎掌藤属_月光花,Ipomoea alba
+602,旋花科_虎掌藤属_番薯,Ipomoea batatas
+603,旋花科_虎掌藤属_蕹菜,Ipomoea aquatica
+604,旋花科_虎掌藤属_裂叶牵牛&圆叶牵牛,
+605,旋花科_马蹄金属_马蹄金,Dichondra micrantha
+606,旋花科_鱼黄草属_篱栏网,Merremia hederacea
+607,旌节花科_旌节花属_中国旌节花,Stachyurus chinensis
+608,无患子科_七叶树属_七叶树,Aesculus chinensis
+609,无患子科_倒地铃属_倒地铃,Cardiospermum halicacabum
+610,无患子科_倒地铃属_大花倒地铃,Cardiospermum grandiflorum
+611,无患子科_文冠果属_文冠果,Xanthoceras sorbifolium
+612,无患子科_无患子属_无患子,Sapindus saponaria
+613,无患子科_栾属_栾树,Koelreuteria paniculata
+614,无患子科_槭属_三角槭,Acer buergerianum
+615,无患子科_槭属_元宝槭,Acer truncatum
+616,无患子科_槭属_梣叶槭,Acer negundo
+617,无患子科_槭属_紫果槭,Acer cordatum
+618,无患子科_槭属_苦条枫,Acer tataricum subsp. theiferum
+619,无患子科_槭属_青榨槭,Acer davidii
+620,无患子科_槭属_鸡爪槭,Acer palmatum
+621,无患子科_滨木患属_滨木患,Arytera littoralis
+622,无患子科_荔枝属_荔枝,Litchi chinensis
+623,无患子科_韶子属_红毛丹,Nephelium lappaceum
+624,无患子科_龙眼属_龙眼,Dimocarpus longan
+625,旱金莲科_旱金莲属_旱金莲,Tropaeolum majus
+626,星叶草科_独叶草属_独叶草,Kingdonia uniflora
+627,景天科_伽蓝菜属_极乐鸟,Kalanchoe beauverdii
+628,景天科_伽蓝菜属_棒叶落地生根,Kalanchoe delagoensis
+629,景天科_伽蓝菜属_江户紫,Kalanchoe marmorata
+630,景天科_伽蓝菜属_玉吊钟,Kalanchoe fedtschenkoi
+631,景天科_伽蓝菜属_紫萼宫灯长寿花,Kalanchoe porphyrocalyx
+632,景天科_伽蓝菜属_褐斑伽蓝,Kalanchoe tomentosa
+633,景天科_伽蓝菜属_长寿花,Kalanchoe blossfeldiana
+634,景天科_八宝属_长药八宝,Hylotelephium spectabile
+635,景天科_厚石莲属_霜之朝,
+636,景天科_天锦木属_天锦章,Adromischus cristatus var. clavifolius
+637,景天科_山地玫瑰属,Greenovia
+638,景天科_景天属_佛甲草,Sedum lineare
+639,景天科_景天属_凹叶景天,Sedum emarginatum
+640,景天科_景天属_千佛手景天,Sedum sediforme
+641,景天科_景天属_垂盆草,Sedum sarmentosum
+642,景天科_景天属_珠芽景天,Sedum bulbiferum
+643,景天科_景天属_黄金万年草,Sedum acre 'Aurea'
+644,景天科_瓦松属_瓦松,Orostachys fimbriata
+645,景天科_瓦松属_钝叶瓦松,Orostachys malacophylla
+646,景天科_石莲花属_丽娜莲,Echeveria lilacina
+647,景天科_石莲花属_晚霞之舞,Echeveria 'Neon Breakers'
+648,景天科_石莲花属_特玉莲,Echeveria runyonii 'Topsy Turvy'
+649,景天科_石莲花属_紫珍珠,Echeveria 'Perle von Nurnberg'
+650,景天科_石莲花属_花月夜,Echeveria pulidonis
+651,景天科_石莲花属_锦晃星,Echeveria pulvinata
+652,景天科_莲花掌属_黑法师,Aeonium 'Zwartkop'
+653,景天科_落地生根属_落地生根,Bryophyllum pinnatum
+654,景天科_费菜属_费菜,Phedimus aizoon
+655,景天科_银波木属_熊童子,Cotyledon tomentosa
+656,景天科_长生草属_蛛丝卷绢,Sempervivum arachnoideum subsp. tomentosum
+657,景天科_青锁龙属_玉树,Crassula arborescens
+658,景天科_青锁龙属_筒叶花月,Crassula obliqua 'Gollum'
+659,景天科_青锁龙属_茜之塔,Crassula corymbulosa
+660,景天科_青锁龙属_钱串景天,Crassula marnieriana
+661,景天科_风车莲属_桃之卵,Graptopetalum amethystinum
+662,木兰科_北美木兰属_荷花玉兰,Magnolia grandiflora
+663,木兰科_厚朴属_厚朴,Houpoea officinalis
+664,木兰科_含笑属_含笑花,Michelia figo
+665,木兰科_含笑属_深山含笑,Michelia maudiae
+666,木兰科_含笑属_白兰,Michelia × alba
+667,木兰科_含笑属_紫花含笑,Michelia crassipes
+668,木兰科_含笑属_黄兰含笑,Michelia champaca
+669,木兰科_天女花属_天女花,Oyama sieboldii
+670,木兰科_玉兰属_二乔玉兰,Yulania × soulangeana
+671,木兰科_玉兰属_宝华玉兰,Yulania zenii
+672,木兰科_玉兰属_星花玉兰,Yulania stellata
+673,木兰科_玉兰属_望春玉兰,Yulania biondii
+674,木兰科_玉兰属_玉兰,Yulania denudata
+675,木兰科_玉兰属_紫玉兰,Yulania liliiflora
+676,木兰科_玉兰属_飞黄玉兰,Yulania denudata 'Fei Huang'
+677,木兰科_长喙木兰属_夜香木兰,Lirianthe coco
+678,木兰科_鹅掌楸属_鹅掌楸,Liriodendron chinense
+679,木犀科_丁香属,Syringa
+680,木犀科_丁香属_暴马丁香,Syringa reticulata subsp. amurensis
+681,木犀科_丁香属_白丁香,
+682,木犀科_女贞属_女贞,Ligustrum lucidum
+683,木犀科_女贞属_小叶女贞,Ligustrum quihoui
+684,木犀科_女贞属_小蜡,Ligustrum sinense
+685,木犀科_女贞属_水蜡,Ligustrum obtusifolium
+686,木犀科_女贞属_金叶女贞,Ligustrum × vicaryi
+687,木犀科_木犀属_木犀,Osmanthus fragrans
+688,木犀科_梣属_白蜡树,Fraxinus chinensis
+689,木犀科_流苏树属_流苏树,Chionanthus retusus
+690,木犀科_素馨属_多花素馨,Jasminum polyanthum
+691,木犀科_素馨属_扭肚藤,Jasminum elongatum
+692,木犀科_素馨属_探春花,Jasminum floridum
+693,木犀科_素馨属_素馨花,Jasminum grandiflorum
+694,木犀科_素馨属_茉莉花,Jasminum sambac
+695,木犀科_素馨属_迎春花,Jasminum nudiflorum
+696,木犀科_连翘属_连翘,Forsythia suspensa
+697,木犀科_连翘属_金钟花,Forsythia viridissima
+698,木犀科_雪柳属_雪柳,Fontanesia phillyreoides subsp. fortunei
+699,木耳科_木耳属_黑木耳,
+700,木贼科_木贼属_节节草,Equisetum ramosissimum
+701,木通科_木通属_三叶木通,Akebia trifoliata
+702,木通科_木通属_木通,Akebia quinata
+703,木通科_野木瓜属_尾叶那藤,Stauntonia obovatifoliola subsp. urophylla
+704,杜仲科_杜仲属_杜仲,Eucommia ulmoides
+705,杜英科_杜英属_杜英,Elaeocarpus decipiens
+706,杜英科_杜英属_水石榕,Elaeocarpus hainanensis
+707,杜英科_杜英属_长芒杜英,Elaeocarpus apiculatus
+708,杜英科_猴欢喜属_猴欢喜,Sloanea sinensis
+709,杜鹃花科_假沙晶兰属_球果假沙晶兰,Monotropastrum humile
+710,杜鹃花科_吊钟花属_毛叶吊钟花,Enkianthus deflexus
+711,杜鹃花科_吊钟花属_灯笼树,Enkianthus chinensis
+712,杜鹃花科_山月桂属_山月桂,Kalmia latifolia
+713,杜鹃花科_杜鹃花属_刺毛杜鹃,Rhododendron championiae
+714,杜鹃花科_杜鹃花属_杜鹃,Rhododendron simsii
+715,杜鹃花科_杜鹃花属_溪畔杜鹃,Rhododendron rivulare
+716,杜鹃花科_杜鹃花属_白花杜鹃,Rhododendron mucronatum
+717,杜鹃花科_杜鹃花属_羊踯躅,Rhododendron molle
+718,杜鹃花科_杜鹃花属_腺萼马银花,Rhododendron bachii
+719,杜鹃花科_杜鹃花属_锦绣杜鹃,Rhododendron × pulchrum
+720,杜鹃花科_杜鹃花属_长蕊杜鹃,Rhododendron stamineum
+721,杜鹃花科_杜鹃花属_马银花,Rhododendron ovatum
+722,杜鹃花科_杜鹃花属_鹿角杜鹃,Rhododendron latoucheae
+723,杜鹃花科_杜鹃花属_黄山杜鹃,Rhododendron maculiferum subsp. anwheiense
+724,杜鹃花科_树萝卜属_灯笼花,Agapetes lacei
+725,杜鹃花科_树萝卜属_缅甸树萝卜,Agapetes burmanica
+726,杜鹃花科_水晶兰属_水晶兰,Monotropa uniflora
+727,杜鹃花科_越橘属_南烛,Vaccinium bracteatum
+728,杜鹃花科_越橘属_笃斯越橘,Vaccinium uliginosum
+729,杜鹃花科_越橘属_蔓越莓,
+730,杜鹃花科_越橘属_高丛越橘,Vaccinium corymbosum
+731,杜鹃花科_马醉木属_马醉木,Pieris japonica
+732,杨柳科_天料木属_天料木,Homalium cochinchinense
+733,杨柳科_天料木属_红花天料木,Homalium ceylanicum
+734,杨柳科_杨属_杨树,Populus simonii var. przewalskii
+735,杨柳科_柳属,Salix
+736,杨柳科_柳属_彩叶杞柳,Salix integra 'Hakuro Nishiki'
+737,杨柳科_柳属_杞柳,Salix integra
+738,杨梅科_香杨梅属_杨梅,Myrica rubra
+739,松科_松属_马尾松,Pinus massoniana
+740,柏科_侧柏属_侧柏,Platycladus orientalis
+741,柳叶菜科_丁香蓼属_水龙,Ludwigia adscendens
+742,柳叶菜科_丁香蓼属_黄花水龙,Ludwigia peploides subsp. stipulacea
+743,柳叶菜科_仙女扇属_古代稀,Clarkia amoena
+744,柳叶菜科_倒挂金钟属_倒挂金钟,Fuchsia hybrida
+745,柳叶菜科_山桃草属_山桃草,Gaura lindheimeri
+746,柳叶菜科_月见草属_四翅月见草,Oenothera tetraptera
+747,柳叶菜科_月见草属_月见草&黄花月见草,
+748,柳叶菜科_月见草属_海边月见草,Oenothera drummondii
+749,柳叶菜科_月见草属_粉花月见草,Oenothera rosea
+750,柳叶菜科_月见草属_美丽月见草,Oenothera speciosa
+751,柳叶菜科_月见草属_裂叶月见草,Oenothera laciniata
+752,柳叶菜科_月见草属_长果月见草,Oenothera macrocarpa
+753,柳叶菜科_柳兰属_柳兰,Chamerion angustifolium
+754,柳叶菜科_柳叶菜属_柳叶菜,Epilobium hirsutum
+755,柳叶菜科_柳叶菜属_长籽柳叶菜,Epilobium pyrricholophum
+756,柳叶菜科_露珠草属_露珠草,Circaea cordata
+757,柽柳科_柽柳属_柽柳,Tamarix chinensis
+758,柿科_柿属_乌柿,Diospyros cathayensis
+759,柿科_柿属_君迁子,Diospyros lotus
+760,柿科_柿属_柿,Diospyros kaki
+761,柿科_柿属_瓶兰花,Diospyros armata
+762,柿科_柿属_老鸦柿,Diospyros rhombifolia
+763,柿科_柿属_黑柿,Diospyros nitida
+764,桃金娘科_树番樱属_嘉宝果,Plinia cauliflora
+765,桃金娘科_桃金娘属_桃金娘,Rhodomyrtus tomentosa
+766,桃金娘科_桉属_银叶桉,Eucalyptus cinerea
+767,桃金娘科_番樱桃属_巴西番樱桃,Eugenia brasiliensis
+768,桃金娘科_番樱桃属_红果仔,Eugenia uniflora
+769,桃金娘科_番石榴属_番石榴,Psidium guajava
+770,桃金娘科_白千层属_白千层,Melaleuca cajuputi subsp. cumingiana
+771,桃金娘科_红千层属_红千层,Callistemon rigidus
+772,桃金娘科_蒲桃属_洋蒲桃,Syzygium samarangense
+773,桃金娘科_蒲桃属_肖蒲桃,Syzygium acuminatissimum
+774,桃金娘科_蒲桃属_蒲桃,Syzygium jambos
+775,桃金娘科_蒲桃属_马六甲蒲桃,Syzygium malaccense
+776,桃金娘科_野凤榴属_菲油果,Acca sellowiana
+777,桃金娘科_金缨木属_金蒲桃,Xanthostemon chrysanthus
+778,桃金娘科_风蜡花属_蜡花,Chamelaucium uncinatum
+779,桃金娘科_香桃木属_香桃木,Myrtus communis
+780,桃金娘科_鱼柳梅属_松红梅,Leptospermum scoparium
+781,桑寄生科_钝果寄生属_广寄生,Taxillus chinensis
+782,桑科_构属_构树,Broussonetia papyrifera
+783,桑科_构属_藤构,Broussonetia kaempferi var. australis
+784,桑科_桑属_桑,Morus alba
+785,桑科_榕属_印度榕,Ficus elastica
+786,桑科_榕属_大果榕,Ficus auriculata
+787,桑科_榕属_无花果,Ficus carica
+788,桑科_榕属_琴叶榕,Ficus pandurata
+789,桑科_榕属_菩提树,Ficus religiosa
+790,桑科_榕属_薜荔,Ficus pumila
+791,桑科_榕属_高山榕,Ficus altissima
+792,桑科_橙桑属_构棘,Maclura cochinchinensis
+793,桑科_橙桑属_柘,Maclura tricuspidata
+794,桑科_波罗蜜属_波罗蜜,Artocarpus heterophyllus
+795,桑科_波罗蜜属_面包树,Artocarpus communis
+796,桔梗科_党参属_羊乳,Codonopsis lanceolata
+797,桔梗科_半边莲属_六倍利,Lobelia erinus
+798,桔梗科_半边莲属_半边莲,Lobelia chinensis
+799,桔梗科_半边莲属_铜锤玉带草,Lobelia nummularia
+800,桔梗科_桔梗属_桔梗,Platycodon grandiflorus
+801,桔梗科_沙参属_沙参,Adenophora stricta
+802,桔梗科_轮钟草属_轮钟花,Cyclocodon lancifolius
+803,桔梗科_金钱豹属_金钱豹,Campanumoea javanica
+804,桔梗科_长星花属_长星花,Lithotoma axillaris
+805,桔梗科_风铃草属,Campanula
+806,桔梗科_马醉草属_马醉草,Hippobroma longiflora
+807,棕榈科_散尾葵属_散尾葵,Chrysalidocarpus lutescens
+808,棕榈科_棕榈属_棕榈,Trachycarpus fortunei
+809,棕榈科_椰子属_椰子,Cocos nucifera
+810,棕榈科_槟榔属_槟榔,Areca catechu
+811,棕榈科_蛇皮果属_蛇皮果,Salacca edulis
+812,棕榈科_鱼尾葵属_鱼尾葵,Caryota maxima
+813,楝科_山楝属_山楝,Aphanamixis polystachya
+814,楝科_桃花心木属_大叶桃花心木,Swietenia macrophylla
+815,楝科_楝属_楝,Melia azedarach
+816,楝科_米仔兰属_米仔兰,Aglaia odorata
+817,楝科_香椿属_香椿,Toona sinensis
+818,楝科_鹧鸪花属_鹧鸪花,Heynea trijuga
+819,榆科_榆属_榆树,Ulmus pumila
+820,槐叶𬞟科_槐叶𬞟属_人厌槐叶苹,Salvinia molesta
+821,樟科_山胡椒属_乌药,Lindera aggregata
+822,樟科_月桂属_月桂,Laurus nobilis
+823,樟科_木姜子属_山鸡椒,Litsea cubeba
+824,樟科_楠属_闽楠,Phoebe bournei
+825,樟科_樟属_兰屿肉桂,Cinnamomum kotoense
+826,樟科_樟属_天竺桂,Cinnamomum japonicum
+827,樟科_樟属_樟,Cinnamomum camphora
+828,樟科_樟属_肉桂,Cinnamomum cassia
+829,樟科_樟属_阴香,Cinnamomum burmannii
+830,樟科_檫木属_檫木,Sassafras tzumu
+831,樟科_鳄梨属_鳄梨,Persea americana
+832,橄榄科_橄榄属_橄榄,Canarium album
+833,母草科_蝴蝶草属_紫萼蝴蝶草,Torenia violacea
+834,母草科_蝴蝶草属_蓝猪耳,Torenia fournieri
+835,母草科_陌上菜属_母草,Lindernia crustacea
+836,毛茛科_乌头属,Aconitum
+837,毛茛科_侧金盏花属,Adonis
+838,毛茛科_唐松草属_偏翅唐松草,Thalictrum delavayi
+839,毛茛科_唐松草属_华东唐松草,Thalictrum fortunei
+840,毛茛科_唐松草属_唐松草,Thalictrum aquilegiifolium var. sibiricum
+841,毛茛科_唐松草属_瓣蕊唐松草,Thalictrum petaloideum
+842,毛茛科_天葵属_天葵,Semiaquilegia adoxoides
+843,毛茛科_毛茛属_石龙芮,Ranunculus sceleratus
+844,毛茛科_毛茛属_花毛茛,Ranunculus asiaticus
+845,毛茛科_白头翁属_白头翁,Pulsatilla chinensis
+846,毛茛科_翠雀属_卵瓣还亮草,Delphinium anthriscifolium var. savatieri
+847,毛茛科_翠雀属_还亮草,Delphinium anthriscifolium
+848,毛茛科_翠雀属_高翠雀花,Delphinium elatum
+849,毛茛科_耧斗菜属_耧斗菜,Aquilegia viridiflora
+850,毛茛科_莲花升麻属_莲花升麻,Anemonopsis macrophylla
+851,毛茛科_金莲花属_金莲花,Trollius chinensis
+852,毛茛科_铁筷子属_铁筷子,Helleborus thibetanus
+853,毛茛科_铁线莲属,Clematis
+854,毛茛科_铁线莲属_单叶铁线莲,Clematis henryi
+855,毛茛科_铁线莲属_大叶铁线莲,Clematis heracleifolia
+856,毛茛科_铁线莲属_威灵仙,Clematis chinensis
+857,毛茛科_铁线莲属_槭叶铁线莲,Clematis acerifolia
+858,毛茛科_铁线莲属_毛柱铁线莲,Clematis meyeniana
+859,毛茛科_铁线莲属_甘青铁线莲,Clematis tangutica
+860,毛茛科_铁线莲属_长瓣铁线莲,Clematis macropetala
+861,毛茛科_银莲花属_大火草&野棉花,
+862,毛茛科_银莲花属_小花草玉梅,Anemone rivularis var. flore-minore
+863,毛茛科_银莲花属_欧洲银莲花,Anemone coronaria
+864,毛茛科_银莲花属_鹅掌草,Anemone flaccida
+865,毛茛科_飞燕草属_飞燕草,Consolida ajacis
+866,毛茛科_驴蹄草属_驴蹄草,Caltha palustris
+867,毛茛科_黑种草属_黑种草,Nigella damascena
+868,水卷耳科_露薇花属_露薇花,Lewisia cotyledon
+869,水鳖科_水车前属_海菜花,Ottelia acuminata
+870,水鳖科_水车前属_龙舌草,Ottelia alismoides
+871,水龙骨科_鹿角蕨属_鹿角蕨,Platycerium wallichii
+872,沼金花科_肺筋草属_粉条儿菜,Aletris spicata
+873,泡桐科_泡桐属,Paulownia
+874,泽泻科_慈姑属_爆米花慈姑,Sagittaria montevidensis
+875,泽泻科_慈姑属_野慈姑,Sagittaria trifolia
+876,泽泻科_水金英属_水金英,Hydrocleys nymphoides
+877,泽泻科_黄花蔺属_黄花蔺,Limnocharis flava
+878,海桐科_海桐属_海桐,Pittosporum tobira
+879,海桐科_海桐属_海金子,Pittosporum illicioides
+880,清风藤科_泡花树属_垂枝泡花树,Meliosma flexuosa
+881,清风藤科_泡花树属_毡毛泡花树,Meliosma rigida var. pannosa
+882,清风藤科_泡花树属_笔罗子,Meliosma rigida
+883,清风藤科_清风藤属_尖叶清风藤,Sabia swinhoei
+884,清风藤科_清风藤属_柠檬清风藤,Sabia limoniacea
+885,清风藤科_清风藤属_清风藤,Sabia japonica
+886,清风藤科_清风藤属_灰背清风藤,Sabia discolor
+887,清风藤科_清风藤属_鄂西清风藤,Sabia campanulata subsp. ritchieae
+888,漆树科_南酸枣属_南酸枣,Choerospondias axillaris
+889,漆树科_杧果属_杧果,Mangifera indica
+890,漆树科_盐麸木属_火炬树,Rhus typhina
+891,漆树科_盐麸木属_盐肤木,Rhus chinensis
+892,漆树科_腰果属_腰果,Anacardium occidentale
+893,漆树科_黄栌属_黄栌,Cotinus coggygria
+894,漆树科_黄连木属_阿月浑子,Pistacia vera
+895,灯心草科_灯心草属_笄石菖,Juncus prismatocarpus
+896,爵床科_假杜鹃属_假杜鹃,Barleria cristata
+897,爵床科_十万错属_宽叶十万错,Asystasia gangetica
+898,爵床科_十万错属_小花十万错,Asystasia gangetica subsp. micrantha
+899,爵床科_十万错属_白接骨,Asystasia neesiana
+900,爵床科_十字爵床属_十字爵床,Crossandra infundibuliformis
+901,爵床科_单药花属_单药花,Aphelandra squarrosa
+902,爵床科_单药花属_珊瑚塔,Aphelandra sinclairiana
+903,爵床科_喜花草属_喜花草,Eranthemum pulchellum
+904,爵床科_孩儿草属_密花孩儿草,Rungia densiflora
+905,爵床科_山壳骨属_金叶拟美花,Pseuderanthemum reticulatum var. ovarifolium
+906,爵床科_山牵牛属_山牵牛,Thunbergia grandiflora
+907,爵床科_山牵牛属_桂叶山牵牛,Thunbergia laurifolia
+908,爵床科_山牵牛属_直立山牵牛,Thunbergia erecta
+909,爵床科_山牵牛属_红花山牵牛,Thunbergia coccinea
+910,爵床科_山牵牛属_翼叶山牵牛,Thunbergia alata
+911,爵床科_山牵牛属_黄花老鸦嘴,Thunbergia mysorensis
+912,爵床科_爵床属_爵床,Justicia procumbens
+913,爵床科_爵床属_虾衣花,Justicia brandegeeana
+914,爵床科_爵床属_鸭嘴花,Justicia adhatoda
+915,爵床科_珊瑚花属_珊瑚花,Cyrtanthera carnea
+916,爵床科_穿心莲属_穿心莲,Andrographis paniculata
+917,爵床科_网纹草属_网纹草,Fittonia albivenis
+918,爵床科_老鼠簕属_老鼠簕,Acanthus ilicifolius
+919,爵床科_老鼠簕属_虾蟆花,Acanthus mollis
+920,爵床科_芦莉草属_大花芦莉,Ruellia elegans
+921,爵床科_芦莉草属_蓝花草,Ruellia simplex
+922,爵床科_观音草属_九头狮子草,Peristrophe japonica
+923,爵床科_赤苞花属_赤苞花,Megaskepasma erythrochlamys
+924,爵床科_金苞花属_金苞花,Pachystachys lutea
+925,爵床科_钟花草属_钟花草,Codonacanthus pauciflorus
+926,爵床科_马蓝属_叉花草,Strobilanthes hamiltoniana
+927,爵床科_马蓝属_四子马蓝,Strobilanthes tetrasperma
+928,爵床科_马蓝属_板蓝,Strobilanthes cusia
+929,爵床科_马蓝属_球花马蓝,Strobilanthes dimorphotricha
+930,爵床科_鸡冠爵床属_鸡冠爵床,Odontonema strictum
+931,爵床科_黄脉爵床属_金脉爵床,Sanchezia speciosa
+932,牛栓藤科_红叶藤属_小叶红叶藤,Rourea microphylla
+933,牻牛儿苗科_天竺葵属_天竺葵,Pelargonium hortorum
+934,牻牛儿苗科_天竺葵属_香叶天竺葵,Pelargonium graveolens
+935,牻牛儿苗科_牻牛儿苗属_牻牛儿苗,Erodium stephanianum
+936,牻牛儿苗科_老鹳草属_甘青老鹳草,Geranium pylzowianum
+937,牻牛儿苗科_老鹳草属_老鹳草,Geranium wilfordii
+938,牻牛儿苗科_老鹳草属_野老鹳草,Geranium carolinianum
+939,狸藻科_狸藻属_黄花狸藻,Utricularia aurea
+940,猕猴桃科_猕猴桃属_中华猕猴桃,Actinidia chinensis
+941,猕猴桃科_猕猴桃属_毛花猕猴桃,Actinidia eriantha
+942,猕猴桃科_猕猴桃属_软枣猕猴桃,Actinidia arguta
+943,猪笼草科_猪笼草属_猪笼草,Nepenthes mirabilis
+944,玄参科_双距花属_双距花,Diascia barberae
+945,玄参科_毛蕊花属_毛蕊花,Verbascum thapsus
+946,玄参科_玉芙蓉属_红花玉芙蓉,Leucophyllum frutescens
+947,玄参科_醉鱼草属_密蒙花,Buddleja officinalis
+948,玄参科_醉鱼草属_醉鱼草,Buddleja lindleyana
+949,玄参科_龙面花属_龙面花,Nemesia strumosa
+950,玉蕊科_炮弹树属_炮弹树,Couroupita guianensis
+951,玉蕊科_玉蕊属_滨玉蕊,Barringtonia asiatica
+952,玉蕊科_玉蕊属_玉蕊,Barringtonia racemosa
+953,玉蕊科_玉蕊属_红花玉蕊,Barringtonia acutangula
+954,瑞香科_沉香属_土沉香,Aquilaria sinensis
+955,瑞香科_狼毒属_狼毒,Stellera chamaejasme
+956,瑞香科_瑞香属_唐古特瑞香,Daphne tangutica
+957,瑞香科_瑞香属_橙花瑞香,Daphne aurantiaca
+958,瑞香科_瑞香属_毛瑞香,Daphne kiusiana var. atrocaulis
+959,瑞香科_瑞香属_瑞香,Daphne odora
+960,瑞香科_瑞香属_白瑞香,Daphne papyracea
+961,瑞香科_瑞香属_芫花,Daphne genkwa
+962,瑞香科_瑞香属_长柱瑞香,Daphne championii
+963,瑞香科_瑞香属_长瓣瑞香,Daphne longilobata
+964,瑞香科_瑞香属_黄瑞香,Daphne giraldii
+965,瑞香科_结香属_结香,Edgeworthia chrysantha
+966,瑞香科_荛花属_北江荛花,Wikstroemia monnula
+967,番木瓜科_番木瓜属_番木瓜,Carica papaya
+968,番杏科_日中花属_冰叶日中花,Mesembryanthemum crystallinum
+969,番杏科_日中花属_心叶日中花,Mesembryanthemum cordifolium
+970,番杏科_松叶菊属_美丽日中花,Lampranthus spectabilis
+971,番杏科_生石花属_生石花,Lithops pseudotruncatella subsp. archerae
+972,番杏科_窗玉属_五十铃玉,Fenestraria aurantiaca
+973,番杏科_舌叶花属_宝绿,Glottiphyllum longum
+974,番杏科_菱叶草属_快刀乱麻,Rhombophyllum nelii
+975,番杏科_鹿角海棠属_鹿角海棠,Astridia velutina
+976,番荔枝科_依兰属_依兰,Cananga odorata
+977,番荔枝科_依兰属_小依兰,Cananga odorata var. fruticosa
+978,番荔枝科_假鹰爪属_假鹰爪,Desmos chinensis
+979,番荔枝科_暗罗属_暗罗,Polyalthia suberosa
+980,番荔枝科_暗罗属_长叶暗罗,Polyalthia longifolia
+981,番荔枝科_瓜馥木属_瓜馥木,Fissistigma oldhamii
+982,番荔枝科_瓜馥木属_黑风藤,Fissistigma polyanthum
+983,番荔枝科_番荔枝属_刺果番荔枝,Annona muricata
+984,番荔枝科_番荔枝属_圆滑番荔枝,Annona glabra
+985,番荔枝科_番荔枝属_山刺番荔枝,Annona montana
+986,番荔枝科_番荔枝属_番荔枝,Annona squamosa
+987,番荔枝科_紫玉盘属_山椒子,Uvaria grandiflora
+988,番荔枝科_紫玉盘属_扣匹,Uvaria tonkinensis
+989,番荔枝科_紫玉盘属_紫玉盘,Uvaria macrophylla
+990,番荔枝科_银钩花属_银钩花,Mitrephora tomentosa
+991,番荔枝科_鹰爪花属_狭瓣鹰爪花,Artabotrys hainanensis
+992,番荔枝科_鹰爪花属_香港鹰爪花,Artabotrys hongkongensis
+993,番荔枝科_鹰爪花属_鹰爪花,Artabotrys hexapetalus
+994,白刺科_骆驼蓬属_骆驼蓬,Peganum harmala
+995,白花丹科_海石竹属_海石竹,Armeria maritima
+996,白花丹科_白花丹属_白花丹,Plumbago zeylanica
+997,白花丹科_白花丹属_紫花丹,Plumbago indica
+998,白花丹科_白花丹属_蓝花丹,Plumbago auriculata
+999,白花丹科_补血草属_二色补血草,Limonium bicolor
+1000,白花丹科_补血草属_补血草,Limonium sinense
+1001,白花菜科_醉蝶花属_醉蝶花,Tarenaya hassleriana
+1002,百合科_大百合属_大百合,Cardiocrinum giganteum
+1003,百合科_油点草属_油点草,Tricyrtis macropoda
+1004,百合科_油点草属_黄花油点草,Tricyrtis pilosa
+1005,百合科_猪牙花属_猪牙花,Erythronium japonicum
+1006,百合科_百合属,Lilium
+1007,百合科_百合属_兰州百合,Lilium davidii var. unicolor
+1008,百合科_百合属_卷丹,Lilium tigrinum
+1009,百合科_百合属_宝兴百合,Lilium duchartrei
+1010,百合科_百合属_山丹,Lilium pumilum
+1011,百合科_百合属_岷江百合,Lilium regale
+1012,百合科_老鸦瓣属_老鸦瓣,Amana edulis
+1013,百合科_豹子花属_豹子花,Nomocharis pardanthina
+1014,百合科_贝母属_平贝母,Fritillaria ussuriensis
+1015,百合科_贝母属_波斯贝母,Fritillaria persica
+1016,百合科_贝母属_浙贝母,Fritillaria thunbergii
+1017,百合科_贝母属_皇冠贝母,Fritillaria imperialis
+1018,百合科_贝母属_花格贝母,Fritillaria meleagris
+1019,百合科_郁金香属_伊犁郁金香,Tulipa iliensis
+1020,百合科_郁金香属_郁金香,Tulipa gesneriana
+1021,百岁兰科_百岁兰属_百岁兰,Welwitschia mirabilis
+1022,百部科_百部属_大百部,Stemona tuberosa
+1023,省沽油科_野鸦椿属_野鸦椿,Euscaphis japonica
+1024,眼子菜科_眼子菜属_眼子菜,Potamogeton distinctus
+1025,眼子菜科_眼子菜属_菹草,Potamogeton crispus
+1026,睡莲科_王莲属_王莲,Victoria amazonica
+1027,睡莲科_睡莲属,Nymphaea
+1028,睡莲科_睡莲属_延药睡莲,Nymphaea nouchali
+1029,睡莲科_芡属_芡实,Euryale ferox
+1030,睡莲科_萍蓬草属_萍蓬草,Nuphar pumila
+1031,睡菜科_荇菜属_荇菜,Nymphoides peltata
+1032,睡菜科_荇菜属_金银莲花,Nymphoides indica
+1033,石竹科_剪秋罗属_剪秋罗,Lychnis fulgens
+1034,石竹科_卷耳属_球序卷耳,Cerastium glomeratum
+1035,石竹科_漆姑草属_漆姑草,Sagina japonica
+1036,石竹科_石头花属_圆锥石头花,Gypsophila paniculata
+1037,石竹科_石竹属_瞿麦,Dianthus superbus
+1038,石竹科_石竹属_石竹,Dianthus chinensis
+1039,石竹科_石竹属_香石竹,Dianthus caryophyllus
+1040,石竹科_繁缕属_中国繁缕,Stellaria chinensis
+1041,石竹科_繁缕属_繁缕,Stellaria media
+1042,石竹科_繁缕属_雀舌草,Stellaria alsine
+1043,石竹科_肥皂草属_肥皂草,Saponaria officinalis
+1044,石竹科_蝇子草属_麦瓶草,Silene conoidea
+1045,石竹科_鹅肠菜属_鹅肠菜,Myosoton aquaticum
+1046,石竹科_麦仙翁属_麦仙翁,Agrostemma githago
+1047,石竹科_麦蓝菜属_麦蓝菜,Vaccaria hispanica
+1048,石蒜科_南美水仙属_南美水仙,Eucharis amazonica
+1049,石蒜科_君子兰属_君子兰,Clivia miniata
+1050,石蒜科_君子兰属_垂笑君子兰,Clivia nobilis
+1051,石蒜科_君子兰属_黄花君子兰,Clivia × hybrida
+1052,石蒜科_文殊兰属_文殊兰,Crinum asiaticum var. sinicum
+1053,石蒜科_文殊兰属_穆氏文殊兰,Crinum moorei
+1054,石蒜科_文殊兰属_红花文殊兰,Crinum amabile
+1055,石蒜科_晚香玉属_晚香玉,Polianthes tuberosa
+1056,石蒜科_曲管花属_垂筒花,Cyrtanthus mackenii
+1057,石蒜科_朱顶红属_朱顶红,Hippeastrum rutilum
+1058,石蒜科_朱顶红属_白肋朱顶红,Hippeastrum reticulatum
+1059,石蒜科_水仙属_围裙水仙,Narcissus bulbocodium
+1060,石蒜科_水仙属_水仙,Narcissus tazetta var. chinensis
+1061,石蒜科_水仙属_黄水仙,Narcissus pseudonarcissus
+1062,石蒜科_水鬼蕉属_蜘蛛兰&水鬼蕉,
+1063,石蒜科_百子莲属_百子莲,Agapanthus africanus
+1064,石蒜科_石蒜属_忽地笑,Lycoris aurea
+1065,石蒜科_石蒜属_换锦花,Lycoris sprengeri
+1066,石蒜科_石蒜属_石蒜,Lycoris radiata
+1067,石蒜科_紫娇花属_紫娇花,Tulbaghia violacea
+1068,石蒜科_葱属_大花葱,Allium giganteum
+1069,石蒜科_葱属_洋葱,Allium cepa
+1070,石蒜科_葱属_葱,Allium fistulosum
+1071,石蒜科_葱属_蒜,Allium sativum
+1072,石蒜科_葱属_藠头,Allium chinense
+1073,石蒜科_葱属_韭,Allium tuberosum
+1074,石蒜科_葱莲属_葱莲,Zephyranthes candida
+1075,石蒜科_葱莲属_韭莲,Zephyranthes carinata
+1076,石蒜科_葱莲属_黄风雨花,Zephyranthes citrina
+1077,石蒜科_虎耳兰属_网球花,Haemanthus multiflorus
+1078,石蒜科_虎耳兰属_虎耳兰,Haemanthus albiflos
+1079,石蒜科_雪片莲属_雪滴花,Leucojum vernum
+1080,石蒜科_龙须石蒜属_龙须石蒜,Eucrosia bicolor
+1081,禾本科_兔尾草属_兔尾草,Lagurus ovatus
+1082,禾本科_刚竹属_紫竹,Phyllostachys nigra
+1083,禾本科_小麦属_普通小麦,Triticum aestivum
+1084,禾本科_燕麦属_野燕麦,Avena fatua
+1085,禾本科_狗尾草属_狗尾草,Setaria viridis
+1086,禾本科_狗尾草属_粟,Setaria italica var. germanica
+1087,禾本科_狼尾草属_御谷,Pennisetum glaucum
+1088,禾本科_玉蜀黍属_玉蜀黍,Zea mays
+1089,禾本科_甘蔗属_甘蔗,Saccharum officinarum
+1090,禾本科_看麦娘属_看麦娘,Alopecurus aequalis
+1091,禾本科_稻属_稻,Oryza sativa
+1092,禾本科_穇属_牛筋草,Eleusine indica
+1093,禾本科_竹亚科,
+1094,禾本科_簕竹属_佛肚竹,Bambusa ventricosa
+1095,禾本科_芦竹属_芦竹,Arundo donax
+1096,禾本科_菰属_菰,Zizania latifolia
+1097,禾本科_蒲苇属_蒲苇,Cortaderia selloana
+1098,禾本科_薏苡属_薏苡,Coix lacryma-jobi
+1099,禾本科_高粱属_高粱,Sorghum bicolor
+1100,秋水仙科_万寿竹属_万寿竹,Disporum cantoniense
+1101,秋水仙科_万寿竹属_宝珠草,Disporum viridescens
+1102,秋水仙科_万寿竹属_长蕊万寿竹,Disporum longistylum
+1103,秋水仙科_嘉兰属_嘉兰,Gloriosa superba
+1104,秋水仙科_提灯花属_宫灯百合,Sandersonia aurantiaca
+1105,秋水仙科_秋水仙属_秋水仙,Colchicum autumnale
+1106,秋海棠科_秋海棠属_丽格海棠,Begonia × hiemalis
+1107,秋海棠科_秋海棠属_波利维亚海棠,Begonia boliviensis
+1108,秋海棠科_秋海棠属_玫红四季海棠,Begonia cucullata
+1109,秋海棠科_秋海棠属_竹节秋海棠,Begonia maculata
+1110,秋海棠科_秋海棠属_紫背天葵,Begonia fimbristipula
+1111,秋海棠科_秋海棠属_铁甲秋海棠,Begonia masoniana
+1112,竹芋科_水竹芋属_再力花,Thalia dealbata
+1113,竹芋科_水竹芋属_垂花再力花,Thalia geniculata
+1114,竹芋科_竹芋属&肖竹芋属,
+1115,竹芋科_竹芋属_豹斑竹芋,Maranta leuconeura
+1116,竹芋科_肖竹芋属_绒叶肖竹芋,Calathea zebrina
+1117,紫茉莉科_叶子花属_叶子花&光叶子花,
+1118,紫茉莉科_紫茉莉属_紫茉莉,Mirabilis jalapa
+1119,紫草科_勿忘草属_勿忘草,Myosotis alpestris
+1120,紫草科_厚壳树属_厚壳树,Ehretia acuminata
+1121,紫草科_天芥菜属_大尾摇,Heliotropium indicum
+1122,紫草科_微孔草属_微孔草,Microula sikkimensis
+1123,紫草科_斑种草属_斑种草,Bothriospermum chinense
+1124,紫草科_斑种草属_柔弱斑种草,Bothriospermum zeylanicum
+1125,紫草科_玻璃苣属_玻璃苣,Borago officinalis
+1126,紫草科_琉璃草属_倒提壶,Cynoglossum amabile
+1127,紫草科_盾果草属_盾果草,Thyrocarpus sampsonii
+1128,紫草科_粉蝶花属_斑花喜林草,Nemophila maculata
+1129,紫草科_粉蝶花属_粉蝶花,Nemophila menziesii
+1130,紫草科_紫筒草属_紫筒草,Stenosolenium saxatile
+1131,紫草科_紫草属_梓木草,Lithospermum zollingeri
+1132,紫草科_聚合草属_聚合草,Symphytum officinale
+1133,紫草科_蓝蓟属_野蓝蓟,Echium wildpretii
+1134,紫草科_附地菜属_附地菜,Trigonotis peduncularis
+1135,紫葳科_凌霄属_凌霄,Campsis grandiflora
+1136,紫葳科_吊灯树属_吊灯树,Kigelia africana
+1137,紫葳科_梓属_梓,Catalpa ovata
+1138,紫葳科_梓属_楸,Catalpa bungei
+1139,紫葳科_梓属_灰楸,Catalpa fargesii
+1140,紫葳科_梓属_黄金树,Catalpa speciosa
+1141,紫葳科_火烧花属_火烧花,Mayodendron igneum
+1142,紫葳科_火焰树属_火焰树,Spathodea campanulata
+1143,紫葳科_炮仗藤属_炮仗花,Pyrostegia venusta
+1144,紫葳科_猫尾木属_毛叶猫尾木,Markhamia stipulata var. kerrii
+1145,紫葳科_猫爪藤属_猫爪藤,Macfadyena unguis-cati
+1146,紫葳科_粉花凌霄属_粉花凌霄,Pandorea jasminoides
+1147,紫葳科_粉铃木属_掌叶黄钟木,Tabebuia rosea
+1148,紫葳科_菜豆树属_菜豆树&海南菜豆树,
+1149,紫葳科_蒜香藤属_蒜香藤,Mansoa alliacea
+1150,紫葳科_蓝花楹属_蓝花楹,Jacaranda mimosifolia
+1151,紫葳科_角蒿属_两头毛,Incarvillea arguta
+1152,紫葳科_角蒿属_角蒿,Incarvillea sinensis
+1153,紫葳科_非洲凌霄属_非洲凌霄,Podranea ricasoliana
+1154,紫葳科_风铃木属_黄花风铃木,Handroanthus chrysanthus
+1155,紫葳科_黄钟花属_硬骨凌霄,Tecoma capensis
+1156,紫葳科_黄钟花属_黄钟树,Tecoma stans
+1157,红木科_红木属_红木,Bixa orellana
+1158,红树科_木榄属_木榄,Bruguiera gymnorhiza
+1159,红树科_秋茄树属_秋茄树,Kandelia obovata
+1160,红豆杉科_榧属_香榧,Torreya grandis 'Merrillii'
+1161,红豆杉科_红豆杉属_红豆杉,Taxus wallichiana var. chinensis
+1162,绣球花科_山梅花属_太平花,Philadelphus pekinensis
+1163,绣球花科_山梅花属_浙江山梅花,Philadelphus zhejiangensis
+1164,绣球花科_山梅花属_疏花山梅花,Philadelphus laxiflorus
+1165,绣球花科_常山属_常山,Dichroa febrifuga
+1166,绣球花科_溲疏属_宁波溲疏,Deutzia ningpoensis
+1167,绣球花科_溲疏属_细梗溲疏,Deutzia gracilis
+1168,绣球花科_溲疏属_齿叶溲疏,Deutzia crenata
+1169,绣球花科_绣球属,Hydrangea
+1170,绣球花科_绣球属_中国绣球,Hydrangea chinensis
+1171,绣球花科_绣球属_狭叶绣球,Hydrangea lingii
+1172,绣球花科_绣球属_蜡莲绣球,Hydrangea strigosa
+1173,罂粟科_博落回属_博落回,Macleaya cordata
+1174,罂粟科_白屈菜属_白屈菜,Chelidonium majus
+1175,罂粟科_秃疮花属_秃疮花,Dicranostigma leptopodum
+1176,罂粟科_紫堇属_全叶延胡索,Corydalis repens
+1177,罂粟科_紫堇属_刻叶紫堇,Corydalis incisa
+1178,罂粟科_紫堇属_地丁草,Corydalis bungeana
+1179,罂粟科_紫堇属_地锦苗,Corydalis sheareri
+1180,罂粟科_紫堇属_夏天无,Corydalis decumbens
+1181,罂粟科_紫堇属_延胡索,Corydalis yanhusuo
+1182,罂粟科_紫堇属_紫堇,Corydalis edulis
+1183,罂粟科_紫堇属_黄堇,Corydalis pallida
+1184,罂粟科_绿绒蒿属,Meconopsis
+1185,罂粟科_绿绒蒿属_全缘叶绿绒蒿,Meconopsis integrifolia
+1186,罂粟科_绿绒蒿属_红花绿绒蒿,Meconopsis punicea
+1187,罂粟科_罂粟属_罂粟,Papaver somniferum
+1188,罂粟科_罂粟属_虞美人,Papaver rhoeas
+1189,罂粟科_罂粟属_鬼罂粟,Papaver orientale
+1190,罂粟科_花菱草属_花菱草,Eschscholzia californica
+1191,罂粟科_荷包牡丹属_荷包牡丹,Lamprocapnos spectabilis
+1192,罂粟科_荷包牡丹属_荷包牡丹_白花荷包牡丹,Lamprocapnos spectabilis f. alba
+1193,罂粟科_荷青花属_荷青花,Hylomecon japonica
+1194,罂粟科_蓟罂粟属_蓟罂粟,Argemone mexicana
+1195,罂粟科_血水草属_血水草,Eomecon chionantha
+1196,罗汉松科_竹柏属_竹柏,Nageia nagi
+1197,罗汉松科_罗汉松属_罗汉松,Podocarpus macrophyllus
+1198,美人蕉科_美人蕉属,Canna
+1199,美人蕉科_美人蕉属_兰花美人蕉,Canna orchioides
+1200,美人蕉科_美人蕉属_大花美人蕉,Canna generalis
+1201,美人蕉科_美人蕉属_粉美人蕉,Canna glauca
+1202,美人蕉科_美人蕉属_紫叶美人蕉,Canna warscewiezii
+1203,美人蕉科_美人蕉属_美人蕉,Canna indica
+1204,美人蕉科_美人蕉属_黄花美人蕉,Canna indica var. flava
+1205,肾蕨科_肾蕨属_肾蕨,Nephrolepis cordifolia
+1206,胡桃科_山核桃属_美国山核桃,Carya illinoinensis
+1207,胡桃科_枫杨属_枫杨,Pterocarya stenoptera
+1208,胡桃科_胡桃属_胡桃,Juglans regia
+1209,胡桃科_胡桃属_胡桃楸,Juglans mandshurica
+1210,胡椒科_胡椒属_假蒟,Piper sarmentosum
+1211,胡椒科_胡椒属_山蒟,Piper hancei
+1212,胡椒科_胡椒属_胡椒,Piper nigrum
+1213,胡椒科_草胡椒属_皱叶椒草,Peperomia caperata
+1214,胡椒科_草胡椒属_荷叶椒草,Peperomia polybotrya
+1215,胡椒科_草胡椒属_西瓜皮椒草,Peperomia argyreia
+1216,胡椒科_草胡椒属_豆瓣绿,Peperomia tetraphylla
+1217,胡颓子科_沙棘属_沙棘,Hippophae rhamnoides
+1218,胡颓子科_胡颓子属_密花胡颓子,Elaeagnus conferta
+1219,胡颓子科_胡颓子属_沙枣,Elaeagnus angustifolia
+1220,胡颓子科_胡颓子属_牛奶子,Elaeagnus umbellata
+1221,胡颓子科_胡颓子属_翅果油树,Elaeagnus mollis
+1222,胡颓子科_胡颓子属_胡颓子,Elaeagnus pungens
+1223,胡颓子科_胡颓子属_金边胡颓子,Elaeagnus Pungens 'Aurea'
+1224,芍药科_芍药属_牡丹,Paeonia suffruticosa
+1225,芍药科_芍药属_芍药,Paeonia lactiflora
+1226,芝麻科_芝麻属_芝麻,Sesamum indicum
+1227,芭蕉科_地涌金莲属_地涌金莲,Musella lasiocarpa
+1228,芭蕉科_芭蕉属_香蕉,Musa nana
+1229,花荵科_电灯花属_电灯花,Cobaea scandens
+1230,花荵科_福禄考属,Phlox
+1231,花荵科_福禄考属_小天蓝绣球,Phlox drummondii
+1232,花荵科_福禄考属_针叶天蓝绣球,Phlox subulata
+1233,芸香科_九里香属_九里香,Murraya exotica
+1234,芸香科_吴茱萸属_吴茱萸,Tetradium ruticarpum
+1235,芸香科_山小橘属_山小橘,Glycosmis pentaphylla
+1236,芸香科_柑橘属_佛手,Citrus medica 'Fingered'
+1237,芸香科_柑橘属_手指柠檬,Citrus australasica
+1238,芸香科_柑橘属_枳,Citrus trifoliata
+1239,芸香科_柑橘属_柑橘,Citrus reticulata
+1240,芸香科_柑橘属_柑橘_丑橘,
+1241,芸香科_柑橘属_柚,Citrus maxima
+1242,芸香科_柑橘属_柠檬,Citrus × limon
+1243,芸香科_柑橘属_甜橙,Citrus sinensis
+1244,芸香科_柑橘属_金柑,Citrus japonica
+1245,芸香科_白鲜属_白鲜,Dictamnus dasycarpus
+1246,芸香科_花椒属_两面针,Zanthoxylum nitidum
+1247,芸香科_花椒属_胡椒木,Zanthoxylum piperitum
+1248,芸香科_花椒属_花椒,Zanthoxylum bungeanum
+1249,芸香科_茵芋属_茵芋,Skimmia reevesiana
+1250,芸香科_黄皮属_黄皮,Clausena lansium
+1251,苋科_千日红属_千日红,Gomphrena globosa
+1252,苋科_地肤属_地肤,Kochia scoparia
+1253,苋科_甜菜属_甜菜,Beta vulgaris
+1254,苋科_苋属_刺苋,Amaranthus spinosus
+1255,苋科_苋属_苋,Amaranthus tricolor
+1256,苋科_莲子草属_喜旱莲子草,Alternanthera philoxeroides
+1257,苋科_菠菜属_菠菜,Spinacia oleracea
+1258,苋科_藜属_藜,Chenopodium album
+1259,苋科_青葙属_青葙,Celosia argentea
+1260,苋科_青葙属_鸡冠花,Celosia cristata
+1261,苏铁科_苏铁属_苏铁,Cycas revoluta
+1262,苦木科_臭椿属_臭椿,Ailanthus altissima
+1263,苦木科_鸦胆子属_鸦胆子,Brucea javanica
+1264,苦苣苔科_唇柱苣苔属_蚂蝗七,Chirita fimbrisepala
+1265,苦苣苔科_喜荫花属_喜荫花,Episcia cupreata
+1266,苦苣苔科_大岩桐属_大岩桐,Sinningia speciosa
+1267,苦苣苔科_大岩桐属_断崖女王,Sinningia leucotricha
+1268,苦苣苔科_海角苣苔属_堇兰,Streptocarpus hybrids
+1269,苦苣苔科_海角苣苔属_海豚花,Streptocarpus saxorum
+1270,苦苣苔科_芒毛苣苔属_口红花,Aeschynanthus pulcher
+1271,苦苣苔科_芒毛苣苔属_毛萼口红花,Aeschynanthus radicans
+1272,苦苣苔科_蛛毛苣苔属_蛛毛苣苔,Paraboea sinensis
+1273,苦苣苔科_袋鼠花属_金鱼吊兰,Nematanthus wettsteinii
+1274,苦苣苔科_非洲堇属_非洲紫罗兰,Saintpaulia ionantha
+1275,茄科_假酸浆属_假酸浆,Nicandra physalodes
+1276,茄科_夜香树属_黄花夜香树,Cestrum aurantiacum
+1277,茄科_天仙子属_天仙子,Hyoscyamus niger
+1278,茄科_曼陀罗属_曼陀罗,Datura stramonium
+1279,茄科_木曼陀罗属_大花木曼陀罗,Brugmansia suaveolens
+1280,茄科_木曼陀罗属_木本曼陀罗,Brugmansia arborea
+1281,茄科_枸杞属_枸杞,Lycium chinense
+1282,茄科_树番茄属_树番茄,Cyphomandra betacea
+1283,茄科_棱瓶花属_棱瓶花,Juanulloa aurantiaca
+1284,茄科_烟草属_烟草,Nicotiana tabacum
+1285,茄科_烟草属_花烟草,Nicotiana alata
+1286,茄科_番茄属_番茄,Lycopersicon esculentum
+1287,茄科_矮牵牛属_碧冬茄,Petunia × hybrida
+1288,茄科_舞春花属_舞春花,Calibrachoa hybrids
+1289,茄科_茄参属_茄参,Mandragora caulescens
+1290,茄科_茄属_乳茄,Solanum mammosum
+1291,茄科_茄属_人参果,Solanum muricatum
+1292,茄科_茄属_喀西茄,Solanum aculeatissimum
+1293,茄科_茄属_大花茄,Solanum wrightii
+1294,茄科_茄属_珊瑚豆,Solanum pseudocapsicum var. diflorum
+1295,茄科_茄属_白英,Solanum lyratum
+1296,茄科_茄属_茄,Solanum melongena
+1297,茄科_茄属_蓝花茄,Solanum rantonnetii
+1298,茄科_茄属_金银茄,Solanum texanum
+1299,茄科_茄属_阳芋,Solanum tuberosum
+1300,茄科_茄属_青杞,Solanum septemlobum
+1301,茄科_茄属_黄果茄,Solanum virginianum
+1302,茄科_茄属_龙葵,Solanum nigrum
+1303,茄科_蛾蝶花属_蛾蝶花,Schizanthus pinnatus
+1304,茄科_辣椒属_樱桃椒,Capsicum annuum subsp. cerasiforme
+1305,茄科_辣椒属_辣椒,Capsicum annuum
+1306,茄科_酸浆属,Physalis
+1307,茄科_酸浆属_毛酸浆,Physalis philadelphica
+1308,茄科_金盏藤属_金杯藤,Solandra maxima
+1309,茄科_鸳鸯茉莉属_鸳鸯茉莉,Brunfelsia brasiliensis
+1310,茅膏菜科_捕蝇草属_捕蝇草,Dionaea muscipula
+1311,茅膏菜科_茅膏菜属_茅膏菜,Drosera peltata
+1312,茜草科_九节属_蔓九节,Psychotria serpens
+1313,茜草科_五星花属_五星花,Pentas lanceolata
+1314,茜草科_咖啡属,Coffea
+1315,茜草科_巴戟天属_海滨木巴戟,Morinda citrifolia
+1316,茜草科_巴戟天属_鸡眼藤,Morinda parvifolia
+1317,茜草科_拉拉藤属_猪殃殃,Galium spurium
+1318,茜草科_栀子属_栀子,Gardenia jasminoides
+1319,茜草科_水团花属_水团花,Adina pilulifera
+1320,茜草科_水团花属_细叶水团花,Adina rubella
+1321,茜草科_玉叶金花属_玉叶金花,Mussaenda pubescens
+1322,茜草科_玉叶金花属_粉纸扇,Mussaenda 'Alicia'
+1323,茜草科_玉叶金花属_红纸扇,Mussaenda erythrophylla
+1324,茜草科_白马骨属_六月雪,Serissa japonica
+1325,茜草科_白马骨属_金边六月雪,Serissa japonica 'Variegata'
+1326,茜草科_耳草属_金毛耳草,Hedyotis chrysotricha
+1327,茜草科_蛇根草属_日本蛇根草,Ophiorrhiza japonica
+1328,茜草科_郎德木属_银叶郎德木,Rondeletia leucophylla
+1329,茜草科_野丁香属_薄皮木,Leptodermis oblonga
+1330,茜草科_钮扣草属_阔叶丰花草,Spermacoce alata
+1331,茜草科_长隔木属_长隔木,Hamelia patens
+1332,茜草科_风箱树属_风箱树,Cephalanthus tetrandrus
+1333,茜草科_鸡矢藤属_鸡矢藤,Paederia foetida
+1334,茜草科_龙船花属_版纳龙船花,Ixora paraopaca
+1335,茜草科_龙船花属_薄叶龙船花,Ixora finlaysoniana
+1336,茜草科_龙船花属_黄花龙船花,Ixora coccinea f. lutea
+1337,茜草科_龙船花属_龙船花,Ixora chinensis
+1338,茶茱萸科_定心藤属_定心藤,Mappianthus iodoides
+1339,茶藨子科_茶藨子属_刺果茶藨子,Ribes burejense
+1340,茶藨子科_茶藨子属_红茶藨子,Ribes rubrum
+1341,茶藨子科_茶藨子属_香茶藨子,Ribes odoratum
+1342,茶藨子科_茶藨子属_黑茶藨子,Ribes nigrum
+1343,草海桐科_草海桐属_草海桐,Scaevola taccada
+1344,草海桐科_草海桐属_蓝扇花,Scaevola aemula
+1345,荨麻科_冷水花属_冷水花,Pilea notata
+1346,荨麻科_冷水花属_花叶冷水花,Pilea cadierei
+1347,荨麻科_水麻属_水麻,Debregeasia orientalis
+1348,荨麻科_花点草属_毛花点草,Nanocnide lobata
+1349,荨麻科_苎麻属_苎麻,Boehmeria nivea
+1350,荨麻科_蝎子草属_蝎子草,Girardinia diversifolia subsp. suborbiculata
+1351,荷包花科_荷包花属_蒲包花,Calceolaria crenatiflora
+1352,莎草科_刺子莞属_白鹭莞,Rhynchospora colorata
+1353,莎草科_水蜈蚣属_水蜈蚣,Kyllinga polyphylla
+1354,莎草科_荸荠属_荸荠,Eleocharis dulcis
+1355,莎草科_莎草属_风车草,Cyperus involucratus
+1356,莎草科_莎草属_香附子,Cyperus rotundus
+1357,莎草科_薹草属_浆果薹草,Carex baccans
+1358,莲科_莲属_莲,Nelumbo nucifera
+1359,菊科_一枝黄花属_加拿大一枝黄花,Solidago canadensis
+1360,菊科_万寿菊属_万寿菊,Tagetes erecta
+1361,菊科_假泽兰属_微甘菊,Mikania micrantha
+1362,菊科_假福王草属_假福王草,Paraprenanthes sororia
+1363,菊科_假臭草属_假臭草,Praxelis clematidea
+1364,菊科_假还阳参属_假还阳参,Crepidiastrum lanceolatum
+1365,菊科_假还阳参属_尖裂假还阳参,Crepidiastrum sonchifolium
+1366,菊科_兔儿伞属_兔儿伞,Syneilesis aconitifolia
+1367,菊科_兔儿风属_灯台兔儿风,Ainsliaea kawakamii
+1368,菊科_勋章菊属_勋章菊,Gazania rigens
+1369,菊科_包果菊属_雪莲果,Smallanthus sonchifolius
+1370,菊科_千里光属_兰松,Senecio serpens
+1371,菊科_千里光属_千里光,Senecio scandens
+1372,菊科_千里光属_翡翠珠,Senecio rowleyanus
+1373,菊科_千里光属_银叶菊,Senecio cineraria
+1374,菊科_千里光属_银月,Senecio haworthii
+1375,菊科_向日葵属_千瓣葵,Helianthus decapetalus
+1376,菊科_向日葵属_向日葵,Helianthus annuus
+1377,菊科_向日葵属_菊芋,Helianthus tuberosus
+1378,菊科_大丽花属_大丽花,Dahlia pinnata
+1379,菊科_大吴风草属_大吴风草,Farfugium japonicum
+1380,菊科_天人菊属_天人菊&宿根天人菊,
+1381,菊科_天名精属_天名精,Carpesium abrotanoides
+1382,菊科_小苦荬属_小苦荬,Ixeridium dentatum
+1383,菊科_川木香属_川木香,Dolomiaea souliei
+1384,菊科_拟鼠麴草属_秋拟鼠麹草,Pseudognaphalium hypoleucum
+1385,菊科_旋覆花属_土木香,Inula helenium
+1386,菊科_旋覆花属_旋覆花,Inula japonica
+1387,菊科_木茼蒿属_木茼蒿,Argyranthemum frutescens
+1388,菊科_松果菊属_松果菊,Echinacea purpurea
+1389,菊科_松香草属_串叶松香草,Silphium perfoliatum
+1390,菊科_栌菊木属_栌菊木,Nouelia insignis
+1391,菊科_橐吾属_橐吾,Ligularia sibirica
+1392,菊科_款冬属_款冬,Tussilago farfara
+1393,菊科_水飞蓟属_水飞蓟,Silybum marianum
+1394,菊科_泥胡菜属_泥胡菜,Hemisteptia lyrata
+1395,菊科_泽兰属_佩兰,Eupatorium fortunei
+1396,菊科_滨菊属_大滨菊,Leucanthemum maximum
+1397,菊科_漏芦属_漏芦,Rhaponticum uniflorum
+1398,菊科_火石花属_非洲菊,Gerbera jamesonii
+1399,菊科_火绒草属_火绒草,Leontopodium leontopodioides
+1400,菊科_牛膝菊属_牛膝菊,Galinsoga parviflora
+1401,菊科_牛蒡属_牛蒡,Arctium lappa
+1402,菊科_瓜叶菊属_瓜叶菊,Pericallis hybrida
+1403,菊科_百日菊属_百日菊,Zinnia elegans
+1404,菊科_矢车菊属_蓝花矢车菊,Cyanus segetum
+1405,菊科_秋英属_秋英,Cosmos bipinnatus
+1406,菊科_秋英属_黄秋英,Cosmos sulphureus
+1407,菊科_稻槎菜属_稻槎菜,Lapsanastrum apogonoides
+1408,菊科_紫菀属_三脉紫菀,Aster trinervius subsp. ageratoides
+1409,菊科_紫菀属_东风菜,Aster scaber
+1410,菊科_紫菀属_狗娃花,Aster hispidus
+1411,菊科_紫菀属_荷兰菊,Aster novi-belgii
+1412,菊科_紫菀属_马兰,Aster indicus
+1413,菊科_红花属_红花,Carthamus tinctorius
+1414,菊科_翠菊属_翠菊,Callistephus chinensis
+1415,菊科_芙蓉菊属_芙蓉菊,Crossostephium chinensis
+1416,菊科_苍耳属_苍耳,Xanthium strumarium
+1417,菊科_苦苣菜属_花叶滇苦菜,Sonchus asper
+1418,菊科_苦荬菜属_中华苦荬菜,Ixeris chinensis
+1419,菊科_茼蒿属_茼蒿,Glebionis coronaria
+1420,菊科_莴苣属_山莴苣,Lactuca sibirica
+1421,菊科_莴苣属_翅果菊,Lactuca indica
+1422,菊科_莴苣属_莴苣,Lactuca sativa
+1423,菊科_莴苣属_莴苣_生菜,Lactuca sativa var. ramosa
+1424,菊科_菊三七属_紫鹅绒,Gynura aurantiaca
+1425,菊科_菊三七属_红凤菜,Gynura bicolor
+1426,菊科_菊属_菊花,Chrysanthemum × morifolium
+1427,菊科_菊苣属_栽培菊苣,Cichorium endivia
+1428,菊科_菊苣属_菊苣,Cichorium intybus
+1429,菊科_菜蓟属_菜蓟,Cynara scolymus
+1430,菊科_蒲儿根属_蒲儿根,Sinosenecio oldhamianus
+1431,菊科_蒲公英属_蒲公英,Taraxacum mongolicum
+1432,菊科_蒿属_艾,Artemisia argyi
+1433,菊科_蒿属_蒌蒿,Artemisia selengensis
+1434,菊科_蒿属_青蒿,Artemisia caruifolia
+1435,菊科_蓍属_蓍,Achillea millefolium
+1436,菊科_蓟属_刺儿菜,Cirsium arvense var. integrifolium
+1437,菊科_蓟属_蓟,Cirsium japonicum
+1438,菊科_藿香蓟属_熊耳草,Ageratum houstonianum
+1439,菊科_藿香蓟属_藿香蓟,Ageratum conyzoides
+1440,菊科_蚂蚱腿子属_蚂蚱腿子,Myripnois dioica
+1441,菊科_蛇鞭菊属_蛇鞭菊,Liatris spicata
+1442,菊科_蜂斗菜属_蜂斗菜,Petasites japonicus
+1443,菊科_蜡菊属_蜡菊,Xerochrysum bracteatum
+1444,菊科_蟛蜞菊属_南美蟛蜞菊,Sphagneticola trilobata
+1445,菊科_豨莶属_豨莶,Sigesbeckia orientalis
+1446,菊科_野茼蒿属_野茼蒿,Crassocephalum crepidioides
+1447,菊科_金光菊属_二色金光菊,Rudbeckia bicolor
+1448,菊科_金光菊属_全缘金光菊,Rudbeckia fulgida
+1449,菊科_金光菊属_金光菊,Rudbeckia laciniata
+1450,菊科_金光菊属_金色风暴全缘叶金光菊,Rudbeckia fulgida 'Goldsturm'
+1451,菊科_金光菊属_黑心金光菊,Rudbeckia hirta
+1452,菊科_金盏花属_金盏花,Calendula officinalis
+1453,菊科_金鸡菊属_两色金鸡菊,Coreopsis tinctoria
+1454,菊科_金鸡菊属_轮叶金鸡菊,Coreopsis verticillata
+1455,菊科_金鸡菊属_金鸡菊,Coreopsis basalis
+1456,菊科_雏菊属_雏菊,Bellis perennis
+1457,菊科_风毛菊属_水母雪兔子,Saussurea medusa
+1458,菊科_风毛菊属_雪莲花,Saussurea involucrata
+1459,菊科_飞廉属_飞廉,Carduus nutans
+1460,菊科_飞蓬属_一年蓬,Erigeron annuus
+1461,菊科_飞蓬属_小蓬草,Erigeron canadensis
+1462,菊科_飞蓬属_苏门白酒草,Erigeron sumatrensis
+1463,菊科_骨子菊属_南非万寿菊,Osteospermum ecklonis
+1464,菊科_鬼针草属_大狼杷草,Bidens frondosa
+1465,菊科_鬼针草属_鬼针草,Bidens pilosa
+1466,菊科_鳢肠属_鳢肠,Eclipta prostrata
+1467,菊科_鹅河菊属_姬小菊,Brachyscome angustifolia
+1468,菊科_黄蓉菊属_黄金菊,Euryops pectinatus
+1469,菊科_黄顶菊属_黄顶菊,Flaveria bidentis
+1470,菊科_黄鹌菜属_异叶黄鹌菜,Youngia heterophylla
+1471,菊科_黄鹌菜属_黄鹌菜,Youngia japonica
+1472,菊科_鼠麴草属,Gnaphalium
+1473,菝葜科_菝葜属_菝葜,Smilax china
+1474,萝藦科_秦岭藤属_祛风藤,Biondia microcentra
+1475,落葵科_落葵属_落葵,Basella alba
+1476,落葵科_落葵薯属_落葵薯,Anredera cordifolia
+1477,葡萄科_乌蔹莓属_乌蔹莓,Cayratia japonica
+1478,葡萄科_地锦属_五叶地锦,Parthenocissus quinquefolia
+1479,葡萄科_地锦属_地锦,Parthenocissus tricuspidata
+1480,葡萄科_崖爬藤属_扁担藤,Tetrastigma planicaule
+1481,葡萄科_葡萄属_葡萄,Vitis vinifera
+1482,葡萄科_葡萄属_蘡薁,Vitis bryoniifolia
+1483,葫芦科_丝瓜属_丝瓜,Luffa aegyptiaca
+1484,葫芦科_佛手瓜属_佛手瓜,Sechium edule
+1485,葫芦科_冬瓜属_冬瓜,Benincasa hispida
+1486,葫芦科_南瓜属_南瓜,Cucurbita moschata
+1487,葫芦科_南瓜属_西葫芦,Cucurbita pepo
+1488,葫芦科_栝楼属_栝楼,Trichosanthes kirilowii
+1489,葫芦科_栝楼属_红花栝楼,Trichosanthes rubriflos
+1490,葫芦科_栝楼属_蛇瓜,Trichosanthes anguina
+1491,葫芦科_毒瓜属_毒瓜,Diplocyclos palmatus
+1492,葫芦科_番马㼎儿属_拇指西瓜,Melothria scabra
+1493,葫芦科_盒子草属_盒子草,Actinostemma tenerum
+1494,葫芦科_红瓜属_红瓜,Coccinia grandis
+1495,葫芦科_绞股蓝属_绞股蓝,Gynostemma pentaphyllum
+1496,葫芦科_苦瓜属_木鳖子,Momordica cochinchinensis
+1497,葫芦科_苦瓜属_苦瓜,Momordica charantia
+1498,葫芦科_葫芦属_葫芦,Lagenaria siceraria
+1499,葫芦科_葫芦属_葫芦_瓠瓜,
+1500,葫芦科_西瓜属_西瓜,Citrullus lanatus
+1501,葫芦科_马㼎儿属_马㼎儿,Zehneria japonica
+1502,葫芦科_黄瓜属_刺角瓜,Cucumis metuliferus
+1503,葫芦科_黄瓜属_甜瓜,Cucumis melo
+1504,葫芦科_黄瓜属_甜瓜_哈密瓜,
+1505,葫芦科_黄瓜属_甜瓜_黄金瓜,
+1506,葫芦科_黄瓜属_菜瓜,Cucumis melo subsp. agrestis
+1507,葫芦科_黄瓜属_黄瓜,Cucumis sativus
+1508,蒜香草科_数珠珊瑚属_蕾芬,Rivina humilis
+1509,蒺藜科_蒺藜属_蒺藜,Tribulus terrestris
+1510,蓝果树科_喜树属_喜树,Camptotheca acuminata
+1511,蓝果树科_珙桐属_珙桐,Davidia involucrata
+1512,蓼科_千叶兰属_千叶吊兰,Muehlenbeckia complexa
+1513,蓼科_大黄属_塔黄,Rheum nobile
+1514,蓼科_大黄属_波叶大黄,Rheum rhabarbarum
+1515,蓼科_珊瑚藤属_珊瑚藤,Antigonon leptopus
+1516,蓼科_荞麦属_荞麦,Fagopyrum esculentum
+1517,蓼科_荞麦属_金荞麦,Fagopyrum dibotrys
+1518,蓼科_萹蓄属_刺蓼,Polygonum senticosum
+1519,蓼科_萹蓄属_头花蓼,Polygonum capitatum
+1520,蓼科_萹蓄属_杠板归,Polygonum perfoliatum
+1521,蓼科_萹蓄属_火炭母,Polygonum chinense
+1522,蓼科_萹蓄属_红蓼,Polygonum orientale
+1523,蓼科_萹蓄属_萹蓄,Polygonum aviculare
+1524,蓼科_虎杖属_虎杖,Reynoutria japonica
+1525,蓼科_酸模属_酸模,Rumex acetosa
+1526,蔷薇科_假升麻属_假升麻,Aruncus sylvester
+1527,蔷薇科_委陵菜属_朝天委陵菜,Potentilla supina
+1528,蔷薇科_山楂属_山楂,Crataegus pinnatifida
+1529,蔷薇科_悬钩子属_寒莓,Rubus buergeri
+1530,蔷薇科_悬钩子属_山莓,Rubus corchorifolius
+1531,蔷薇科_悬钩子属_掌叶覆盆子,Rubus chingii
+1532,蔷薇科_悬钩子属_插田泡,Rubus coreanus
+1533,蔷薇科_悬钩子属_牛叠肚,Rubus crataegifolius
+1534,蔷薇科_悬钩子属_空心泡,Rubus rosifolius
+1535,蔷薇科_悬钩子属_茅莓,Rubus parvifolius
+1536,蔷薇科_悬钩子属_覆盆子&蓬蘽,
+1537,蔷薇科_悬钩子属_高粱泡,Rubus lambertianus
+1538,蔷薇科_扁核木属_扁核木,Prinsepia utilis
+1539,蔷薇科_木瓜海棠属_木瓜,Chaenomeles sinensis
+1540,蔷薇科_木瓜海棠属_皱皮木瓜,Chaenomeles speciosa
+1541,蔷薇科_李属_李,Prunus salicina
+1542,蔷薇科_李属_紫叶李,Prunus cerasifera f. atropurpurea
+1543,蔷薇科_杏属_杏,Armeniaca vulgaris
+1544,蔷薇科_杏属_梅,Armeniaca mume
+1545,蔷薇科_杏属_梅_宫粉梅,Armeniaca mume var. mume f. alphandii
+1546,蔷薇科_杏属_梅_朱砂梅,Armeniaca mume var. mume f. purpurea
+1547,蔷薇科_杏属_梅_绿萼梅,Armeniaca mume var. mume f. viridicalyx
+1548,蔷薇科_枇杷属_枇杷,Eriobotrya japonica
+1549,蔷薇科_栒子属_水栒子,Cotoneaster multiflorus
+1550,蔷薇科_桃属_扁桃,Amygdalus communis
+1551,蔷薇科_桃属_桃,Amygdalus persica
+1552,蔷薇科_桃属_桃_菊花桃,Amygdalus persica 'Juhuatao'
+1553,蔷薇科_桃属_桃_蟠桃,Amygdalus persica 'Compressa'
+1554,蔷薇科_桃属_榆叶梅,Amygdalus triloba
+1555,蔷薇科_梨属,Pyrus
+1556,蔷薇科_梨属_新疆梨,Pyrus sinkiangensis
+1557,蔷薇科_梨属_杜梨,Pyrus betulifolia
+1558,蔷薇科_梨属_褐梨,Pyrus phaeocarpa
+1559,蔷薇科_梨属_豆梨,Pyrus calleryana
+1560,蔷薇科_棣棠花属_棣棠花,Kerria japonica
+1561,蔷薇科_棣棠花属_棣棠花_重瓣棣棠花,Kerria japonica f. pleniflora
+1562,蔷薇科_榅桲属_榅桲,Cydonia oblonga
+1563,蔷薇科_樱属_山樱花_日本晚樱,Cerasus serrulata var. lannesiana
+1564,蔷薇科_樱属_樱桃,Cerasus pseudocerasus
+1565,蔷薇科_樱属_毛樱桃,Cerasus tomentosa
+1566,蔷薇科_樱属_郁李,Cerasus japonica
+1567,蔷薇科_樱属_钟花樱桃,Cerasus campanulata
+1568,蔷薇科_樱属_高盆樱桃,Cerasus cerasoides
+1569,蔷薇科_樱属_麦李,Cerasus glandulosa
+1570,蔷薇科_火棘属_小丑火棘,Pyracantha fortuneana 'Harlequin'
+1571,蔷薇科_火棘属_火棘,Pyracantha fortuneana
+1572,蔷薇科_火棘属_窄叶火棘,Pyracantha angustifolia
+1573,蔷薇科_珍珠梅属_珍珠梅,Sorbaria sorbifolia
+1574,蔷薇科_白鹃梅属_白鹃梅,Exochorda racemosa
+1575,蔷薇科_石斑木属_石斑木,Rhaphiolepis indica
+1576,蔷薇科_石楠属_球花石楠,Photinia glomerata
+1577,蔷薇科_石楠属_石楠,Photinia serratifolia
+1578,蔷薇科_石楠属_红叶石楠,Photinia × fraseri
+1579,蔷薇科_稠李属_稠李,Padus avium
+1580,蔷薇科_绣线菊属,Spiraea
+1581,蔷薇科_绣线菊属_李叶绣线菊,Spiraea prunifolia
+1582,蔷薇科_绣线菊属_珍珠绣线菊,Spiraea thunbergii
+1583,蔷薇科_绣线菊属_粉花绣线菊,Spiraea japonica
+1584,蔷薇科_绣线菊属_细枝绣线菊,Spiraea myrtilloides
+1585,蔷薇科_绣线菊属_绣球绣线菊,Spiraea blumei
+1586,蔷薇科_绣线菊属_菱叶绣线菊,Spiraea × vanhouttei
+1587,蔷薇科_绣线菊属_蒙古绣线菊,Spiraea mongolica
+1588,蔷薇科_绣线菊属_金山绣线菊,Spiraea × bumalda 'Goalden Mound'
+1589,蔷薇科_绣线菊属_金焰绣线菊,Spiraea × bumalda 'coldfiame'
+1590,蔷薇科_绣线菊属_高山绣线菊,Spiraea alpina
+1591,蔷薇科_花楸属_水榆花楸,Sorbus alnifolia
+1592,蔷薇科_花楸属_石灰花楸,Sorbus folgneri
+1593,蔷薇科_花楸属_花楸树,Sorbus pohuashanensis
+1594,蔷薇科_苹果属_八棱海棠,Malus × robusta
+1595,蔷薇科_苹果属_北美海棠,Malus 'American'
+1596,蔷薇科_苹果属_垂丝海棠,Malus halliana
+1597,蔷薇科_苹果属_山荆子,Malus baccata
+1598,蔷薇科_苹果属_湖北海棠,Malus hupehensis
+1599,蔷薇科_苹果属_苹果,Malus pumila
+1600,蔷薇科_苹果属_西府海棠,Malus × micromalus
+1601,蔷薇科_草莓属_草莓,Fragaria × ananassa
+1602,蔷薇科_蔷薇属_七姊妹,Rosa multiflora var. carnea
+1603,蔷薇科_蔷薇属_小果蔷薇,Rosa cymosa
+1604,蔷薇科_蔷薇属_月季花,Rosa chinensis
+1605,蔷薇科_蔷薇属_木香花,Rosa banksiae
+1606,蔷薇科_蔷薇属_木香花_黄木香花,Rosa banksiae f. lutea
+1607,蔷薇科_蔷薇属_玫瑰,Rosa rugosa
+1608,蔷薇科_蔷薇属_玫瑰_白花重瓣玫瑰,Rosa rugosa f. albo-plena
+1609,蔷薇科_蔷薇属_粉团蔷薇,Rosa multiflora var. cathayensis
+1610,蔷薇科_蔷薇属_缫丝花,Rosa roxburghii
+1611,蔷薇科_蔷薇属_缫丝花_单瓣缫丝花,Rosa roxburghii f. normalis
+1612,蔷薇科_蔷薇属_金樱子,Rosa laevigata
+1613,蔷薇科_蔷薇属_黄刺玫,Rosa xanthina
+1614,蔷薇科_蔷薇属_黄刺玫_单瓣黄刺玫,Rosa xanthina var. normalis
+1615,蔷薇科_蛇莓属_蛇莓,Duchesnea indica
+1616,蔷薇科_龙牙草属_龙芽草,Agrimonia pilosa
+1617,蕈树科_枫香树属_枫香树,Liquidambar formosana
+1618,薯蓣科_蒟蒻薯属_箭根薯,Tacca chantrieri
+1619,薯蓣科_薯蓣属_薯蓣,Dioscorea polystachya
+1620,薯蓣科_薯蓣属_黄独,Dioscorea bulbifera
+1621,薯蓣科_薯蓣属_龟甲龙,Dioscorea elephantipes
+1622,藜芦科_丫蕊花属_丫蕊花,Ypsilandra thibetica
+1623,藜芦科_藜芦属_藜芦,Veratrum nigrum
+1624,藜芦科_重楼属,Paris
+1625,藜芦科_重楼属_北重楼,Paris verticillata
+1626,藜芦科_重楼属_华重楼,Paris polyphylla var. chinensis
+1627,藜芦科_重楼属_禄劝花叶重楼,Paris luquanensis
+1628,藤黄科_藤黄属_大叶藤黄,Garcinia xanthochymus
+1629,藤黄科_藤黄属_莽吉柿,Garcinia mangostana
+1630,虎皮楠科_虎皮楠属_牛耳枫,Daphniphyllum calycinum
+1631,虎耳草科_矾根属,Heuchera
+1632,虎耳草科_落新妇属_落新妇,Astilbe chinensis
+1633,虎耳草科_虎耳草属_虎耳草,Saxifraga stolonifera
+1634,虎耳草科_黄水枝属_黄水枝,Tiarella polyphylla
+1635,蜡梅科_夏蜡梅属_夏蜡梅,Calycanthus chinensis
+1636,蜡梅科_夏蜡梅属_美国蜡梅,Calycanthus floridus
+1637,蜡梅科_蜡梅属_山蜡梅,Chimonanthus nitens
+1638,蜡梅科_蜡梅属_蜡梅,Chimonanthus praecox
+1639,蝎尾蕉科_蝎尾蕉属_蝎尾蕉,Heliconia metallica
+1640,蝎尾蕉科_蝎尾蕉属_黄苞蝎尾蕉,Heliconia latispatha
+1641,西番莲科_时钟花属_时钟花,Turnera ulmifolia
+1642,西番莲科_时钟花属_白时钟花,Turnera subulata
+1643,西番莲科_西番莲属_尤卡坦西番莲,Passiflora yucatanensis
+1644,西番莲科_西番莲属_红花西番莲,Passiflora coccinea
+1645,西番莲科_西番莲属_翅茎西番莲,Passiflora alata
+1646,西番莲科_西番莲属_鸡蛋果,Passiflora edulis
+1647,西番莲科_西番莲属_龙珠果,Passiflora foetida
+1648,豆科_两型豆属_两型豆,Amphicarpaea edgeworthii
+1649,豆科_云实属_云实,Caesalpinia decapetala
+1650,豆科_云实属_喙荚云实,Caesalpinia minax
+1651,豆科_云实属_洋金凤,Caesalpinia pulcherrima
+1652,豆科_云实属_黄洋金凤,Caesalpinia pulcherrima 'Flava'
+1653,豆科_仪花属_短萼仪花,Lysidice brevicalyx
+1654,豆科_决明属_双荚决明,Senna bicapsularis
+1655,豆科_决明属_翅荚决明,Senna alata
+1656,豆科_决明属_黄槐决明,Senna surattensis
+1657,豆科_凤凰木属_凤凰木,Delonix regia
+1658,豆科_刀豆属_刀豆,Canavalia gladiata
+1659,豆科_刀豆属_海刀豆,Canavalia rosea
+1660,豆科_刺桐属,Erythrina
+1661,豆科_刺桐属_鸡冠刺桐,Erythrina crista-galli
+1662,豆科_刺槐属_刺槐,Robinia pseudoacacia
+1663,豆科_刺槐属_红花刺槐,Robinia pseudoacacia f. decaisneana
+1664,豆科_合欢属_合欢,Albizia julibrissin
+1665,豆科_含羞草属_含羞草,Mimosa pudica
+1666,豆科_大豆属_大豆,Glycine max
+1667,豆科_小冠花属_绣球小冠花,Coronilla varia
+1668,豆科_山蚂蝗属_假地豆,Desmodium heterocarpon
+1669,豆科_山黧豆属_香豌豆,Lathyrus odoratus
+1670,豆科_扁豆属_扁豆,Lablab purpureus
+1671,豆科_排钱树属_排钱树,Phyllodium pulchellum
+1672,豆科_无忧花属_中国无忧花,Saraca dives
+1673,豆科_朱缨花属_朱缨花,Calliandra haematocephala
+1674,豆科_棘豆属_蓝花棘豆,Oxytropis caerulea
+1675,豆科_槐属_槐,Styphnolobium japonicum
+1676,豆科_沙冬青属_沙冬青,Ammopiptanthus mongolicus
+1677,豆科_油麻藤属_大果油麻藤,Mucuna macrocarpa
+1678,豆科_油麻藤属_常春油麻藤,Mucuna sempervirens
+1679,豆科_油麻藤属_白花油麻藤,Mucuna birdwoodiana
+1680,豆科_油麻藤属_红花油麻藤,Mucuna bennettii
+1681,豆科_狸尾豆属_猫尾草,Uraria crinita
+1682,豆科_猪屎豆属_猪屎豆,Crotalaria pallida
+1683,豆科_甘草属_甘草,Glycyrrhiza uralensis
+1684,豆科_百脉根属_百脉根,Lotus corniculatus
+1685,豆科_皂荚属_山皂荚,Gleditsia japonica
+1686,豆科_相思子属_相思子,Abrus precatorius
+1687,豆科_相思树属_台湾相思,Acacia confusa
+1688,豆科_相思树属_大叶相思,Acacia auriculiformis
+1689,豆科_相思树属_珍珠金合欢,Acacia podalyriifolia
+1690,豆科_相思树属_金合欢,Acacia farnesiana
+1691,豆科_紫矿属_紫矿,Butea monosperma
+1692,豆科_紫穗槐属_紫穗槐,Amorpha fruticosa
+1693,豆科_紫荆属_加拿大紫荆,Cercis canadensis
+1694,豆科_紫荆属_广西紫荆,Cercis chuniana
+1695,豆科_紫荆属_湖北紫荆,Cercis glabra
+1696,豆科_紫荆属_紫荆,Cercis chinensis
+1697,豆科_紫荆属_黄山紫荆,Cercis chingii
+1698,豆科_紫藤属_紫藤&藤萝,
+1699,豆科_红豆属_花榈木,Ormosia henryi
+1700,豆科_羊蹄甲属_孪叶羊蹄甲,Bauhinia didyma
+1701,豆科_羊蹄甲属_橙羊蹄甲藤,Bauhinia kockiana
+1702,豆科_羊蹄甲属_橙花羊蹄甲,Bauhinia galpinii
+1703,豆科_羊蹄甲属_洋紫荆,Bauhinia variegata
+1704,豆科_羊蹄甲属_洋紫荆_白花洋紫荆,Bauhinia variegata var. candida
+1705,豆科_羊蹄甲属_白花羊蹄甲,Bauhinia acuminata
+1706,豆科_羊蹄甲属_红花羊蹄甲,Bauhinia × blakeana
+1707,豆科_羊蹄甲属_首冠藤,Bauhinia corymbosa
+1708,豆科_羊蹄甲属_黄花羊蹄甲,Bauhinia tomentosa
+1709,豆科_羽扇豆属_羽扇豆,Lupinus micranthus
+1710,豆科_翡翠葛属_绿玉藤,Strongylodon macrobotrys
+1711,豆科_胡枝子属_中华胡枝子,Lespedeza chinensis
+1712,豆科_胡枝子属_多花胡枝子,Lespedeza floribunda
+1713,豆科_胡枝子属_大叶胡枝子,Lespedeza davidii
+1714,豆科_胡枝子属_截叶铁扫帚,Lespedeza cuneata
+1715,豆科_胡枝子属_春花胡枝子,Lespedeza dunnii
+1716,豆科_胡枝子属_细梗胡枝子,Lespedeza virgata
+1717,豆科_胡枝子属_绒毛胡枝子,Lespedeza tomentosa
+1718,豆科_胡枝子属_绿叶胡枝子,Lespedeza buergeri
+1719,豆科_胡枝子属_美丽胡枝子,Lespedeza thunbergii subsp. formosa
+1720,豆科_胡枝子属_胡枝子,Lespedeza bicolor
+1721,豆科_胡枝子属_铁马鞭,Lespedeza pilosa
+1722,豆科_腊肠树属_腊肠树,Cassia fistula
+1723,豆科_舞草属_舞草,Codoriocalyx motorius
+1724,豆科_苜蓿属_南苜蓿,Medicago polymorpha
+1725,豆科_苜蓿属_紫苜蓿,Medicago sativa
+1726,豆科_苦参属_苦参,Sophora flavescens
+1727,豆科_苦马豆属_苦马豆,Sphaerophysa salsula
+1728,豆科_草木樨属_草木樨,Melilotus officinalis
+1729,豆科_菜豆属_荷包豆,Phaseolus coccineus
+1730,豆科_菜豆属_菜豆,Phaseolus vulgaris
+1731,豆科_落花生属_落花生,Arachis hypogaea
+1732,豆科_葛属_葛,Pueraria montana
+1733,豆科_葛属_须弥葛,Pueraria wallichii
+1734,豆科_藤槐属_藤槐,Bowringia callicarpa
+1735,豆科_蝶豆属_蝶豆,Clitoria ternatea
+1736,豆科_豆薯属_豆薯,Pachyrhizus erosus
+1737,豆科_豇豆属_绿豆,Vigna radiata
+1738,豆科_豇豆属_豇豆,Vigna unguiculata
+1739,豆科_豇豆属_赤小豆,Vigna umbellata
+1740,豆科_豌豆属_豌豆,Pisum sativum
+1741,豆科_赝靛属_南方巴帕迪豆(蓝花赝靛),Baptisia australis
+1742,豆科_距瓣豆属_距瓣豆,Centrosema pubescens
+1743,豆科_车轴草属_白车轴草,Trifolium repens
+1744,豆科_车轴草属_红车轴草,Trifolium pratense
+1745,豆科_酸豆属_酸豆,Tamarindus indica
+1746,豆科_野决明属_披针叶野决明,Thermopsis lanceolata
+1747,豆科_野豌豆属_广布野豌豆,Vicia cracca
+1748,豆科_野豌豆属_蚕豆,Vicia faba
+1749,豆科_野豌豆属_野豌豆,Vicia sepium
+1750,豆科_银合欢属_银合欢,Leucaena leucocephala
+1751,豆科_锦鸡儿属,Caragana
+1752,豆科_锦鸡儿属_红花锦鸡儿,Caragana rosea
+1753,豆科_鱼鳔槐属_鱼鳔槐,Colutea arborescens
+1754,豆科_鸡眼草属_鸡眼草,Kummerowia striata
+1755,豆科_鸡血藤属,Callerya
+1756,豆科_鸡血藤属_网络鸡血藤,Callerya reticulata
+1757,豆科_鹿藿属_鹿藿,Rhynchosia volubilis
+1758,豆科_黄芪属_紫云英,Astragalus sinicus
+1759,车前科_假马齿苋属_百可花,Bacopa diffusa
+1760,车前科_兔尾苗属_穗花,Pseudolysimachion spicatum
+1761,车前科_婆婆纳属_直立婆婆纳,Veronica arvensis
+1762,车前科_婆婆纳属_阿拉伯婆婆纳,Veronica persica
+1763,车前科_柳穿鱼属_柳穿鱼,Linaria vulgaris subsp. chinensis
+1764,车前科_毛地黄属_毛地黄,Digitalis purpurea
+1765,车前科_爆仗竹属_爆仗竹,Russelia equisetiformis
+1766,车前科_蓝金花属_蓝金花,Otacanthus azureus
+1767,车前科_蔓柳穿鱼属_蔓柳穿鱼,Cymbalaria muralis
+1768,车前科_车前属_北美车前,Plantago virginica
+1769,车前科_车前属_大车前,Plantago major
+1770,车前科_车前属_平车前,Plantago depressa
+1771,车前科_车前属_车前,Plantago asiatica
+1772,车前科_金鱼草属_金鱼草,Antirrhinum majus
+1773,车前科_钓钟柳属,Penstemon
+1774,车前科_香彩雀属_香彩雀,Angelonia angustifolia
+1775,远志科_远志属_狭叶香港远志,Polygala hongkongensis var. stenophylla
+1776,远志科_远志属_瓜子金,Polygala japonica
+1777,远志科_远志属_荷包山桂花,Polygala arillata
+1778,远志科_远志属_远志,Polygala tenuifolia
+1779,连香树科_连香树属_连香树,Cercidiphyllum japonicum
+1780,通泉草科_通泉草属_通泉草,Mazus pumilus
+1781,酢浆草科_酢浆草属,Oxalis
+1782,酢浆草科_酢浆草属_关节酢浆草,Oxalis articulata
+1783,酢浆草科_酢浆草属_山酢浆草,Oxalis griffithii
+1784,酢浆草科_酢浆草属_棕榈叶酢浆草,Oxalis palmifrons
+1785,酢浆草科_酢浆草属_立性酢浆草,Oxalis barrelieri
+1786,酢浆草科_酢浆草属_紫叶酢浆草,Oxalis triangularis 'Urpurea'
+1787,酢浆草科_酢浆草属_红花酢浆草,Oxalis corymbosa
+1788,酢浆草科_酢浆草属_芙蓉酢浆草,Oxalis purpurea
+1789,酢浆草科_酢浆草属_酢浆草,Oxalis corniculata
+1790,酢浆草科_酢浆草属_黄花酢浆草,Oxalis pes-caprae
+1791,酢浆草科_阳桃属_阳桃,Averrhoa carambola
+1792,野牡丹科_虎颜花属_虎颜花,Tigridiopalma magnifica
+1793,野牡丹科_酸脚杆属_粉苞酸脚杆,Medinilla magnifica
+1794,野牡丹科_野海棠属_过路惊,Bredia quadrangularis
+1795,野牡丹科_野牡丹属_地菍,Melastoma dodecandrum
+1796,野牡丹科_野牡丹属_毛菍,Melastoma sanguineum
+1797,野牡丹科_野牡丹属_野牡丹,Melastoma malabathricum
+1798,野牡丹科_金锦香属_金锦香,Osbeckia chinensis
+1799,金丝桃科_金丝桃属_元宝草,Hypericum sampsonii
+1800,金丝桃科_金丝桃属_红果金丝桃,Hypericum 'Excellent Flair'
+1801,金丝桃科_金丝桃属_金丝桃,Hypericum monogynum
+1802,金丝桃科_金丝桃属_金丝梅,Hypericum patulum
+1803,金粟兰科_草珊瑚属_草珊瑚,Sarcandra glabra
+1804,金粟兰科_金粟兰属_金粟兰,Chloranthus spicatus
+1805,金粟兰科_金粟兰属_银线草,Chloranthus japonicus
+1806,金缕梅科_檵木属_四药门花,Loropetalum subcordatum
+1807,金缕梅科_檵木属_檵木,Loropetalum chinense
+1808,金缕梅科_檵木属_红花檵木,Loropetalum chinense var. rubrum
+1809,金缕梅科_水丝梨属_水丝梨,Sycopsis sinensis
+1810,金缕梅科_秀柱花属_秀柱花,Eustigma oblongifolium
+1811,金缕梅科_红花荷属_红花荷,Rhodoleia championii
+1812,金缕梅科_蚊母树属_蚊母树,Distylium racemosum
+1813,金缕梅科_蜡瓣花属_蜡瓣花,Corylopsis sinensis
+1814,金缕梅科_金缕梅属_金缕梅,Hamamelis mollis
+1815,金缕梅科_金缕梅属_间型金缕梅,Hamamelis × intermedia
+1816,金莲木科_金莲木属_桂叶黄梅,Ochna thomasiana
+1817,金莲木科_金莲木属_金莲木,Ochna integerrima
+1818,金莲木科_金莲木属_鼠眼木,Ochna serrulata
+1819,金虎尾科_三星果属_三星果,Tristellateia australasiae
+1820,金虎尾科_异翅藤属_狭叶异翅藤,Heteropterys glabra
+1821,金虎尾科_风筝果属_风筝果,Hiptage benghalensis
+1822,钩吻科_钩吻属_常绿钩吻藤,Gelsemium sempervirens
+1823,铁角蕨科_铁角蕨属_巢蕨,Asplenium nidus
+1824,银杏科_银杏属_银杏,Ginkgo biloba
+1825,银耳科_银耳属_银耳,
+1826,锦葵科_刺果藤属_刺果藤,Byttneria grandifolia
+1827,锦葵科_刺蒴麻属_刺蒴麻,Triumfetta rhomboidea
+1828,锦葵科_刺蒴麻属_单毛刺蒴麻,Triumfetta annua
+1829,锦葵科_刺蒴麻属_毛刺蒴麻,Triumfetta cana
+1830,锦葵科_南非葵属_小木槿,Anisodontea capensis
+1831,锦葵科_可可属_可可,Theobroma cacao
+1832,锦葵科_吉贝属_吉贝,Ceiba pentandra
+1833,锦葵科_吉贝属_美丽异木棉,Ceiba speciosa
+1834,锦葵科_山芝麻属_山芝麻,Helicteres angustifolia
+1835,锦葵科_山芝麻属_雁婆麻,Helicteres hirsuta
+1836,锦葵科_悬铃花属_垂花悬铃花,Malvaviscus penduliflorus
+1837,锦葵科_悬铃花属_小悬铃花,Malvaviscus arboreus
+1838,锦葵科_扁担杆属_小花扁担杆,Grewia biloba var. parviflora
+1839,锦葵科_扁担杆属_扁担杆,Grewia biloba
+1840,锦葵科_扁担杆属_紫花扁担杆,Grewia occidentalis
+1841,锦葵科_昂天莲属_昂天莲,Ambroma augustum
+1842,锦葵科_木棉属_木棉,Bombax ceiba
+1843,锦葵科_木槿属_吊灯扶桑,Hibiscus schizopetalus
+1844,锦葵科_木槿属_大花秋葵,Hibiscus grandiflorus
+1845,锦葵科_木槿属_旱地木槿,Hibiscus aridicola
+1846,锦葵科_木槿属_木槿,Hibiscus syriacus
+1847,锦葵科_木槿属_木槿_白花单瓣木槿,Hibiscus syriacus var. syriacus f. totus-albus
+1848,锦葵科_木槿属_木芙蓉,Hibiscus mutabilis
+1849,锦葵科_木槿属_朱槿,Hibiscus rosa-sinensis
+1850,锦葵科_木槿属_樟叶槿,Hibiscus grewiifolius
+1851,锦葵科_木槿属_海滨木槿,Hibiscus hamabo
+1852,锦葵科_木槿属_玫瑰茄,Hibiscus sabdariffa
+1853,锦葵科_木槿属_紫叶槿,Hibiscus acetosella
+1854,锦葵科_木槿属_红秋葵,Hibiscus coccineus
+1855,锦葵科_木槿属_芙蓉葵,Hibiscus moscheutos
+1856,锦葵科_木槿属_重瓣朱槿,Hibiscus rosa-sinensis var. rubro-plenus
+1857,锦葵科_木槿属_野西瓜苗,Hibiscus trionum
+1858,锦葵科_木槿属_黄槿,Hibiscus tiliaceus
+1859,锦葵科_梧桐属_广西火桐,Firmiana kwangsiensis
+1860,锦葵科_梧桐属_梧桐,Firmiana simplex
+1861,锦葵科_梭罗树属_两广梭罗,Reevesia thyrsoidea
+1862,锦葵科_梭罗树属_梭罗树,Reevesia pubescens
+1863,锦葵科_梵天花属_地桃花,Urena lobata
+1864,锦葵科_梵天花属_小叶梵天花,Urena procumbens var. microphylla
+1865,锦葵科_梵天花属_梵天花,Urena procumbens
+1866,锦葵科_棉属,Gossypium
+1867,锦葵科_榴梿属_榴梿,Durio zibethinus
+1868,锦葵科_猴面包树属_猴面包树,Adansonia digitata
+1869,锦葵科_瓜栗属_马拉巴栗,Pachira glabra
+1870,锦葵科_田麻属_田麻,Corchoropsis crenata
+1871,锦葵科_破布叶属_破布叶,Microcos paniculata
+1872,锦葵科_秋葵属_咖啡黄葵,Abelmoschus esculentus
+1873,锦葵科_秋葵属_箭叶秋葵,Abelmoschus sagittifolius
+1874,锦葵科_粉葵属_戟叶孔雀葵,Pavonia hastata
+1875,锦葵科_翅苹婆属_翅苹婆,Pterygota alata
+1876,锦葵科_苘麻属_红萼苘麻,Abutilon megapotamicum
+1877,锦葵科_苘麻属_苘麻,Abutilon theophrasti
+1878,锦葵科_苘麻属_金铃花,Abutilon pictum
+1879,锦葵科_苹婆属_假苹婆,Sterculia lanceolata
+1880,锦葵科_苹婆属_苹婆,Sterculia monosperma
+1881,锦葵科_蜀葵属_蜀葵,Alcea rosea
+1882,锦葵科_赛葵属_赛葵,Malvastrum coromandelianum
+1883,锦葵科_酒瓶树属_槭叶瓶干树,Brachychiton acerifolius
+1884,锦葵科_银叶树属_银叶树,Heritiera littoralis
+1885,锦葵科_锦葵属_冬葵,Malva verticillata var. crispa
+1886,锦葵科_锦葵属_圆叶锦葵,Malva pusilla
+1887,锦葵科_锦葵属_锦葵,Malva cathayensis
+1888,锦葵科_非洲芙蓉属_非洲芙蓉,Dombeya wallichii
+1889,锦葵科_鹧鸪麻属_鹧鸪麻,Kleinhovia hospita
+1890,闭鞘姜科_宝塔姜属_宝塔姜,Costus barbatus
+1891,闭鞘姜科_宝塔姜属_红闭鞘姜,Costus woodsonii
+1892,防己科_千金藤属_地不容&金线山乌龟,
+1893,防己科_木防己属_木防己,Cocculus orbiculatus
+1894,防己科_蝙蝠葛属_蝙蝠葛,Menispermum dauricum
+1895,阿福花科_十二卷属_条纹十二卷,Haworthia fasciata
+1896,阿福花科_十二卷属_玉露,Haworthia cooperi var. pilifera
+1897,阿福花科_十二卷属_绿玉扇,Haworthia truncata
+1898,阿福花科_山菅兰属_山菅,Dianella ensifolia
+1899,阿福花科_火把莲属_火炬花,Kniphofia uvaria
+1900,阿福花科_芦荟属_不夜城芦荟,Aloe mitriformis
+1901,阿福花科_芦荟属_芦荟,Aloe vera
+1902,阿福花科_萱草属_大花萱草,Hemerocallis hybridus
+1903,阿福花科_萱草属_萱草,Hemerocallis fulva
+1904,阿福花科_萱草属_金娃娃萱草,Hemerocallis fulva 'Golden Doll'
+1905,阿福花科_萱草属_黄花菜,Hemerocallis citrina
+1906,阿福花科_鲨鱼掌属_虎之卷_子宝,Gasteria gracilis var. minima
+1907,雨久花科_凤眼莲属_凤眼蓝,Eichhornia crassipes
+1908,雨久花科_梭鱼草属_梭鱼草,Pontederia cordata
+1909,雨久花科_梭鱼草属_梭鱼草_白花梭鱼草,Pontederia cordata var. alba
+1910,雨久花科_雨久花属_雨久花,Monochoria korsakowii
+1911,霉草科_霉草属_大柱霉草,Sciaphila secundiflora
+1912,露兜树科_露兜树属_露兜树,Pandanus tectorius
+1913,青皮木科_青皮木属_华南青皮木,Schoepfia chinensis
+1914,青荚叶科_青荚叶属_青荚叶,Helwingia japonica
+1915,青钟麻科_大风子属_海南大风子,Hydnocarpus hainanensis
+1916,香蒲科_香蒲属,Typha
+1917,香蒲科_黑三棱属_黑三棱,Sparganium stoloniferum
+1918,马兜铃科_细辛属_尾花细辛,Asarum caudigerum
+1919,马兜铃科_细辛属_细辛,Asarum heterotropoides
+1920,马兜铃科_马兜铃属_寻骨风,Aristolochia mollissima
+1921,马兜铃科_马兜铃属_木本马兜铃,Aristolochia arborea
+1922,马兜铃科_马兜铃属_烟斗马兜铃,Aristolochia gibertii
+1923,马兜铃科_马兜铃属_马兜铃,Aristolochia debilis
+1924,马鞭草科_假连翘属_假连翘,Duranta erecta
+1925,马鞭草科_假连翘属_白花假连翘,Duranta erecta 'Alba'
+1926,马鞭草科_美女樱属_细叶美女樱,Glandularia tenera
+1927,马鞭草科_美女樱属_美女樱,Glandularia × hybrida
+1928,马鞭草科_蓝花藤属_蓝花藤,Petrea volubilis
+1929,马鞭草科_马缨丹属_蔓马缨丹,Lantana montevidensis
+1930,马鞭草科_马缨丹属_马缨丹,Lantana camara
+1931,马鞭草科_马缨丹属_黄花马缨丹,Lantana fucata
+1932,马鞭草科_马鞭草属_柳叶马鞭草,Verbena bonariensis
+1933,马齿苋科_马齿苋属_大花马齿苋,Portulaca grandiflora
+1934,马齿苋科_马齿苋属_小松针牡丹,Portulaca gilliesii
+1935,马齿苋科_马齿苋属_毛马齿苋,Portulaca pilosa
+1936,马齿苋科_马齿苋属_环翅马齿苋,Portulaca umbraticola
+1937,马齿苋科_马齿苋属_金钱木,Portulaca molokiniensis
+1938,马齿苋科_马齿苋属_马齿苋,Portulaca oleracea
+1939,鬼笔科_竹荪属_竹荪,
+1940,鬼笔科_鬼笔属_红鬼笔,
+1941,鸢尾科_唐菖蒲属_唐菖蒲,Gladiolus gandavensis
+1942,鸢尾科_射干属_射干,Belamcanda chinensis
+1943,鸢尾科_巴西鸢尾属_巴西鸢尾,Neomarica gracilis
+1944,鸢尾科_庭菖蒲属_庭菖蒲,sisyrinchium rosulatum
+1945,鸢尾科_番红花属_番红花,Crocus sativus
+1946,鸢尾科_离被鸢尾属_双色野鸢尾,Dietes bicolor
+1947,鸢尾科_谷鸢尾属_绿花谷鸢尾,Ixia viridiflora
+1948,鸢尾科_雄黄兰属_雄黄兰,Crocosmia × crocosmiiflora
+1949,鸢尾科_香雪兰属_香雪兰,Freesia refracta
+1950,鸢尾科_魔杖花属_三色魔杖,Sparaxis tricolor
+1951,鸢尾科_鸢尾属_小花鸢尾,Iris speculatrix
+1952,鸢尾科_鸢尾属_德国鸢尾,Iris germanica
+1953,鸢尾科_鸢尾属_扁竹兰,Iris confusa
+1954,鸢尾科_鸢尾属_溪荪,Iris sanguinea
+1955,鸢尾科_鸢尾属_蝴蝶花,Iris japonica
+1956,鸢尾科_鸢尾属_马蔺,Iris lactea
+1957,鸢尾科_鸢尾属_鸢尾,Iris tectorum
+1958,鸢尾科_鸢尾属_黄菖蒲,Iris pseudacorus
+1959,鸭跖草科_杜若属_杜若,Pollia japonica
+1960,鸭跖草科_水竹叶属_水竹叶,Murdannia triquetra
+1961,鸭跖草科_穿鞘花属_穿鞘花,Amischotolype hispida
+1962,鸭跖草科_紫露草属_吊竹梅,Tradescantia zebrina
+1963,鸭跖草科_紫露草属_油画婚礼紫露草,Tradescantia cerinthoides 'Nanouk'
+1964,鸭跖草科_紫露草属_白花紫露草,Tradescantia fluminensis
+1965,鸭跖草科_紫露草属_白雪姬,Tradescantia sillamontana
+1966,鸭跖草科_紫露草属_紫竹梅,Tradescantia pallida
+1967,鸭跖草科_紫露草属_紫背万年青,Tradescantia spathacea
+1968,鸭跖草科_紫露草属_紫露草,Tradescantia ohiensis
+1969,鸭跖草科_蓝耳草属_蛛丝毛蓝耳草,Cyanotis arachnoidea
+1970,鸭跖草科_鸭跖草属_竹节菜,Commelina diffusa
+1971,鸭跖草科_鸭跖草属_鸭跖草,Commelina communis
+1972,鹤望兰科_鹤望兰属_大鹤望兰,Strelitzia nicolai
+1973,鹤望兰科_鹤望兰属_鹤望兰,Strelitzia reginae
+1974,黄杨科_板凳果属_顶花板凳果,Pachysandra terminalis
+1975,黄杨科_野扇花属_羽脉野扇花,Sarcococca hookeriana
+1976,黄杨科_野扇花属_野扇花,Sarcococca ruscifolia
+1977,黄杨科_黄杨属_匙叶黄杨,Buxus harlandii
+1978,黄杨科_黄杨属_黄杨,Buxus sinica
+1979,鼠李科_勾儿茶属_勾儿茶,Berchemia sinica
+1980,鼠李科_勾儿茶属_多花勾儿茶,Berchemia floribunda
+1981,鼠李科_勾儿茶属_铁包金,Berchemia lineata
+1982,鼠李科_枣属_枣,Ziziphus jujuba
+1983,鼠李科_枳椇属_枳椇,Hovenia acerba
+1984,鼠李科_美洲茶属,Ceanothus
+1985,鼠李科_雀梅藤属_雀梅藤,Sageretia thea
+1986,鼠李科_马甲子属_铜钱树,Paliurus hemsleyanus
+1987,鼠李科_马甲子属_马甲子,Paliurus ramosissimus
+1988,鼠李科_鼠李属_冻绿,Rhamnus utilis
+1989,龙胆科_匙叶草属_匙叶草,Latouchea fokienensis
+1990,龙胆科_双蝴蝶属_双蝴蝶,Tripterospermum chinense
+1991,龙胆科_洋桔梗属_洋桔梗,Eustoma grandiflorum
+1992,龙胆科_灰莉属_灰莉,Fagraea ceilanica
+1993,龙胆科_灰莉属_花叶灰莉,Fagraea ceilanica 'Variegata'
+1994,龙胆科_獐牙菜属_獐牙菜,Swertia bimaculata
+1995,龙胆科_穿心草属_穿心草,Canscora lucidissima
+1996,龙胆科_藻百年属_紫芳草,Exacum affine
+1997,龙胆科_龙胆属_假水生龙胆,Gentiana pseudoaquatica
+1998,龙胆科_龙胆属_刺芒龙胆,Gentiana aristata
+1999,龙胆科_龙胆属_华南龙胆,Gentiana loureiroi
+2000,龙胆科_龙胆属_笔龙胆,Gentiana zollingeri
+2001,𬞟科_𬞟属_𬞟,Marsilea quadrifolia
