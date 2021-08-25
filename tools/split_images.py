@@ -5,17 +5,27 @@ import glob
 import shutil
 import argparse
 
+import cv2
+import numpy as np
+
 sys.path.insert(0, '..')
 import plantid
 
 
+def imread_ex(filename, flags=-1):
+    try:
+        return cv2.imdecode(np.fromfile(filename, dtype=np.uint8), flags)
+    except Exception as e:
+        return None
+        
+        
 def split_images_by_identify(src_dir, dst_dir):
     plant_identifier = plantid.PlantIdentifier()
     
     filenames = glob.glob(os.path.join(src_dir, '*'))
     start_time = time.time()
     for k, filename in enumerate(filenames):
-        image = plantid.imread_ex(filename)
+        image = imread_ex(filename)
         outputs = plant_identifier.identify(image, topk=1)
         if outputs['status'] == 0:
             chinese_name = outputs['results'][0]['chinese_name']

@@ -5,6 +5,7 @@ from datetime import timedelta
 from collections import OrderedDict
 
 import cv2
+import khandy
 import numpy as np
 from flask import Flask
 from flask import request
@@ -24,6 +25,13 @@ MIN_IMAGE_SIZE_LENGTH = 16
 MAX_IMAGE_SIZE_LENGTH = 5160
 
 
+def imread_ex(filename, flags=-1):
+    try:
+        return cv2.imdecode(np.fromfile(filename, dtype=np.uint8), flags)
+    except Exception as e:
+        return None
+        
+        
 def identify(image):
     if image is None:
         return {"status": 1002, 
@@ -101,10 +109,10 @@ def main():
         raw_image_filename = os.path.join(raw_image_dir, new_image_filename)  
         f.save(raw_image_filename)
         
-        image = plantid.imread_ex(raw_image_filename, -1)
+        image = imread_ex(raw_image_filename, -1)
         outputs = identify(image)
         if outputs['status'] == 0:
-            image = plantid.resize_image_short(image, 512)
+            image = khandy.resize_image_short(image, 512)
             cv2.imwrite(os.path.join(tmp_image_dir, new_image_filename), image)
             labels = ['Chinese Name', 'Latin Name', 'Confidence']
             return render_template('upload_ok.html', 

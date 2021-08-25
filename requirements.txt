@@ -1,4 +1,5 @@
 opencv-python>=4.4
 pillow
+git+https://github.com/quarrying/KHandy.git@master
 flask
 gevent

@@ -2,10 +2,28 @@ import os
 from collections import OrderedDict
 
 import cv2
+import khandy
 import numpy as np
-from . import utils
 
 
+def normalize_image_shape(image):
+    if image.ndim == 2:
+        image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
+    elif image.ndim == 3:
+        num_channels = image.shape[-1]
+        if num_channels == 1:
+            image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
+        elif num_channels == 3:
+            pass
+        elif num_channels == 4:
+            image = cv2.cvtColor(image, cv2.COLOR_BGRA2BGR)
+        else:
+            raise ValueError('Unsupported!')
+    else:
+        raise ValueError('Unsupported!')
+    return image
+    
+    
 class PlantIdentifier(object):
     def __init__(self):
         current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -17,8 +35,8 @@ class PlantIdentifier(object):
         self.net = cv2.dnn.readNetFromONNX(model_filename)
         self.label_name_dict = self._get_label_name_dict(label_map_filename)
         self.family_dict, self.genus_dict = self._get_family_and_genus_dict(label_map_filename)
-        self.family_name_map = utils.load_json(family_name_map_filename)
-        self.genus_name_map = utils.load_json(genus_name_map_filename)
+        self.family_name_map = khandy.load_json(family_name_map_filename)
+        self.genus_name_map = khandy.load_json(genus_name_map_filename)
         
         self.names = [self.label_name_dict[i]['chinese_name'] for i in range(len(self.label_name_dict))]
         self.family_names = list(self.family_dict.keys())
@@ -26,7 +44,7 @@ class PlantIdentifier(object):
         
     @staticmethod
     def _get_label_name_dict(filename):
-        records = utils.load_list(filename)
+        records = khandy.load_list(filename)
         label_name_dict = {}
         for record in records:
             label, chinese_name, latin_name = record.split(',')
@@ -36,7 +54,7 @@ class PlantIdentifier(object):
         
     @staticmethod
     def _get_family_and_genus_dict(filename):
-        records = utils.load_list(filename)
+        records = khandy.load_list(filename)
         # genus_dict should be understood as genus_or_above_taxon_dict
         family_dict, genus_dict = {}, {}
         for record in records:
@@ -67,10 +85,10 @@ class PlantIdentifier(object):
         image_dtype = image.dtype
         assert image_dtype in [np.uint8, np.uint16]
         
-        image = utils.normalize_image_shape(image)
+        image = normalize_image_shape(image)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        image = utils.resize_image_short(image, 320)
-        image = utils.center_crop(image, 299, 299)
+        image = khandy.resize_image_short(image, 320)
+        image = khandy.center_crop(image, 299, 299)
         image = image.astype(np.float32)
         if image_dtype == np.uint8:
             image /= 255.0
@@ -88,14 +106,14 @@ class PlantIdentifier(object):
     def predict(self, image):
         try:
             inputs = self._preprocess(image)
-        except:
+        except Exception as e:
             return {"status": -1, "message": "Inference preprocess error.", "results": {}}
         
         try:
             self.net.setInput(inputs)
             logits = self.net.forward()
-            probs = utils.softmax(logits)
-        except:
+            probs = khandy.softmax(logits)
+        except Exception as e:
             return {"status": -2, "message": "Inference error.", "results": {}}
             
         family_probs = self._get_collective_probs(probs, self.family_dict)
@@ -124,14 +142,14 @@ class PlantIdentifier(object):
         genus_probs = outputs['results']['genus_probs']
 
         taxon_topk = min(probs.shape[-1], topk)
-        topk_probs, topk_indices = utils.find_topk(probs, taxon_topk)
+        topk_probs, topk_indices = khandy.top_k(probs, taxon_topk)
         for ind, prob in zip(topk_indices[0], topk_probs[0]):
             one_result = self.label_name_dict[ind]
             one_result['probability'] = prob
             results.append(one_result)
 
         family_topk = min(family_probs.shape[-1], topk)
-        family_topk_probs, family_topk_indices = utils.find_topk(family_probs, family_topk)
+        family_topk_probs, family_topk_indices = khandy.top_k(family_probs, family_topk)
         for ind, prob in zip(family_topk_indices[0], family_topk_probs[0]):
             one_result = OrderedDict()
             one_result['chinese_name'] = self.family_names[ind]
@@ -140,7 +158,7 @@ class PlantIdentifier(object):
             family_results.append(one_result)
             
         genus_topk = min(genus_probs.shape[-1], topk)
-        genus_topk_probs, genus_topk_indices = utils.find_topk(genus_probs, genus_topk)
+        genus_topk_probs, genus_topk_indices = khandy.top_k(genus_probs, genus_topk)
         for ind, prob in zip(genus_topk_indices[0], genus_topk_probs[0]):
             one_result = OrderedDict()
             one_result['chinese_name'] = self.genus_names[ind]
