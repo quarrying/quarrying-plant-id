@@ -4,6 +4,7 @@ from collections import OrderedDict
 import cv2
 import khandy
 import numpy as np
+import onnxruntime as rt
 
 
 def normalize_image_shape(image):
@@ -32,7 +33,10 @@ class PlantIdentifier(object):
         family_name_map_filename = os.path.join(current_dir, 'models/family_name_map.json')
         genus_name_map_filename = os.path.join(current_dir, 'models/genus_name_map.json')
         
-        self.net = cv2.dnn.readNetFromONNX(model_filename)
+        self.sess = rt.InferenceSession(model_filename)
+        self.input_names = [item.name for item in self.sess.get_inputs()]
+        self.output_names = [item.name for item in self.sess.get_outputs()]
+        
         self.label_name_dict = self._get_label_name_dict(label_map_filename)
         self.family_dict, self.genus_dict = self._get_family_and_genus_dict(label_map_filename)
         self.family_name_map = khandy.load_json(family_name_map_filename)
@@ -110,9 +114,8 @@ class PlantIdentifier(object):
             return {"status": -1, "message": "Inference preprocess error.", "results": {}}
         
         try:
-            self.net.setInput(inputs)
-            logits = self.net.forward()
-            probs = khandy.softmax(logits)
+            outputs = self.sess.run(self.output_names, {self.input_names[0]: inputs})
+            probs = khandy.softmax(outputs[0])
         except Exception as e:
             return {"status": -2, "message": "Inference error.", "results": {}}
             
