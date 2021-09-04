@@ -1,6 +1,6 @@
 # Features
 - Identify 2759 plant taxa (maybe genus, species, subspecies, variety, etc.).
-- Model size: 55.4M; top1 accuracy: 89%.
+- Model size is 55.4M; top1/top5 accuracy is 89.0%/97.1%.
 - Open-source model, easy-to-use interface.
 - Update continuously.
 
