@@ -1,6 +1,6 @@
 # Features
-- Identify 2002 taxa (maybe genus, species, subspecies, variety, etc.) of the plant.
-- Model size: 52.0M; top1 accuracy: 90%+.
+- Identify 2759 plant taxa (maybe genus, species, subspecies, variety, etc.).
+- Model size: 55.4M; top1 accuracy: 89%.
 - Open-source model, easy-to-use interface.
 - Update continuously.
 
@@ -50,6 +50,15 @@ Then open <http://127.0.0.1:5000/>, and upload an image file.
 
 ![](docs/plant_03.png)
 
+
 # Details
 See <https://zhuanlan.zhihu.com/p/364346303>.
+
+
+# ChangeLog
+
+- 20210905 Release model which supports 2759 plant taxa.
+- 20210718 Release model which supports 2002 plant taxa.
+- 20210609 Release model which supports 1630 plant taxa.
+- 20210413 Release model which supports 1320 plant taxa.
 
