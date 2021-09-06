@@ -91,7 +91,7 @@ class PlantIdentifier(object):
         
         image = normalize_image_shape(image)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        image = khandy.resize_image_short(image, 320)
+        image = khandy.resize_image_short(image, 299)
         image = khandy.center_crop(image, 299, 299)
         image = image.astype(np.float32)
         if image_dtype == np.uint8:
