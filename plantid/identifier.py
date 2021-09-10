@@ -4,7 +4,7 @@ from collections import OrderedDict
 import cv2
 import khandy
 import numpy as np
-import onnxruntime as rt
+import onnxruntime
 
 
 def normalize_image_shape(image):
@@ -24,23 +24,51 @@ def normalize_image_shape(image):
         raise ValueError('Unsupported!')
     return image
     
-    
-class PlantIdentifier(object):
+
+class OnnxModel(object):
+    def __init__(self, model_path):
+        sess_options = onnxruntime.SessionOptions()
+        # # Set graph optimization level to ORT_ENABLE_EXTENDED to enable bert optimization.
+        # sess_options.graph_optimization_level = onnxruntime.GraphOptimizationLevel.ORT_ENABLE_EXTENDED
+        # # Use OpenMP optimizations. Only useful for CPU, has little impact for GPUs.
+        # sess_options.intra_op_num_threads = multiprocessing.cpu_count()
+
+        self.sess = onnxruntime.InferenceSession(model_path, sess_options)
+        self._input_names = [item.name for item in self.sess.get_inputs()]
+        self._output_names = [item.name for item in self.sess.get_outputs()]
+        
+    @property
+    def input_names(self):
+        return self._input_names
+        
+    @property
+    def output_names(self):
+        return self._output_names
+        
+    def forward(self, inputs):
+        if not isinstance(inputs, (tuple, list)):
+            inputs = [inputs]
+        input_feed = {name: input for name, input in zip(self.input_names, inputs)}
+        outputs = self.sess.run(self.output_names, input_feed)
+        if len(self.output_names) == 1:
+            return outputs[0]
+        else:
+            return outputs
+            
+
+class PlantIdentifier(OnnxModel):
     def __init__(self):
         current_dir = os.path.dirname(os.path.abspath(__file__))
-        model_filename = os.path.join(current_dir, 'models/quarrying_plantid_model.onnx')
-        label_map_filename = os.path.join(current_dir, 'models/quarrying_plantid_label_map.txt')
-        family_name_map_filename = os.path.join(current_dir, 'models/family_name_map.json')
-        genus_name_map_filename = os.path.join(current_dir, 'models/genus_name_map.json')
+        model_path = os.path.join(current_dir, 'models/quarrying_plantid_model.onnx')
+        label_map_path = os.path.join(current_dir, 'models/quarrying_plantid_label_map.txt')
+        family_name_map_path = os.path.join(current_dir, 'models/family_name_map.json')
+        genus_name_map_path = os.path.join(current_dir, 'models/genus_name_map.json')
+        super(PlantIdentifier, self).__init__(model_path)
         
-        self.sess = rt.InferenceSession(model_filename)
-        self.input_names = [item.name for item in self.sess.get_inputs()]
-        self.output_names = [item.name for item in self.sess.get_outputs()]
-        
-        self.label_name_dict = self._get_label_name_dict(label_map_filename)
-        self.family_dict, self.genus_dict = self._get_family_and_genus_dict(label_map_filename)
-        self.family_name_map = khandy.load_json(family_name_map_filename)
-        self.genus_name_map = khandy.load_json(genus_name_map_filename)
+        self.label_name_dict = self._get_label_name_dict(label_map_path)
+        self.family_dict, self.genus_dict = self._get_family_and_genus_dict(label_map_path)
+        self.family_name_map = khandy.load_json(family_name_map_path)
+        self.genus_name_map = khandy.load_json(genus_name_map_path)
         
         self.names = [self.label_name_dict[i]['chinese_name'] for i in range(len(self.label_name_dict))]
         self.family_names = list(self.family_dict.keys())
@@ -114,8 +142,8 @@ class PlantIdentifier(object):
             return {"status": -1, "message": "Inference preprocess error.", "results": {}}
         
         try:
-            outputs = self.sess.run(self.output_names, {self.input_names[0]: inputs})
-            probs = khandy.softmax(outputs[0])
+            logits = self.forward(inputs)
+            probs = khandy.softmax(logits)
         except Exception as e:
             return {"status": -2, "message": "Inference error.", "results": {}}
             
