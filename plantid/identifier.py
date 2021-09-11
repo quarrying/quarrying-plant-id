@@ -46,11 +46,13 @@ class OnnxModel(object):
         return self._output_names
         
     def forward(self, inputs):
+        to_list_flag = False
         if not isinstance(inputs, (tuple, list)):
             inputs = [inputs]
+            to_list_flag = True
         input_feed = {name: input for name, input in zip(self.input_names, inputs)}
         outputs = self.sess.run(self.output_names, input_feed)
-        if len(self.output_names) == 1:
+        if (len(self.output_names) == 1) and to_list_flag:
             return outputs[0]
         else:
             return outputs
