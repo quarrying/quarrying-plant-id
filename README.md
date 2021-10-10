@@ -25,12 +25,10 @@ image = plantid.imread_ex(image_filename)
 outputs = plant_identifier.identify(image, topk=5)
 if outputs['status'] == 0:
     print(outputs['results'])
-    print(outputs['family_results'])
-    print(outputs['genus_results'])
 else:
     print(outputs)
 ```
-You can also see [tools/test.py](<tools/test.py>).
+You can also see [demo.py](<demo.py>).
 
 ## Method II: Web App
 Run below
@@ -44,11 +42,11 @@ Then open <http://127.0.0.1:5000/>, and upload an image file.
 
 ### Examples
 
-![](docs/plant_01.png)
+![](data/plant_01.png)
 
-![](docs/plant_02.png)
+![](data/plant_02.png)
 
-![](docs/plant_03.png)
+![](data/plant_03.png)
 
 
 # Details
