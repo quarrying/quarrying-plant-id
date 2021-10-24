@@ -1,6 +1,6 @@
 # Features
-- Identify 2759 plant taxa (maybe genus, species, subspecies, variety, etc.).
-- Model size is 55.4M; top1/top5 accuracy is 89.0%/97.1%.
+- Identify 4,066 plant taxa (maybe genus, species, subspecies, variety, etc.).
+- Model size is 29.5M; top1/top5 accuracy is 0.848/0.959.
 - Open-source model, easy-to-use interface.
 - Update continuously.
 
@@ -18,10 +18,11 @@ pip install -r requirements.txt
 
 ## Method I: Python Interface
 ```python
+import cv2
 import plantid
 
 plant_identifier = plantid.PlantIdentifier()
-image = plantid.imread_ex(image_filename)
+image = cv2.imread(image_filename)
 outputs = plant_identifier.identify(image, topk=5)
 if outputs['status'] == 0:
     print(outputs['results'])
@@ -55,7 +56,8 @@ See <https://zhuanlan.zhihu.com/p/364346303>.
 
 # ChangeLog
 
-- 20210905 Release model which supports 2759 plant taxa.
+- 20211024 Release model which supports 4066 plant taxa, top1/top5 accuracy is 0.848/0.959.
+- 20210905 Release model which supports 2759 plant taxa, top1/top5 accuracy is 0.890/0.971.
 - 20210718 Release model which supports 2002 plant taxa.
 - 20210609 Release model which supports 1630 plant taxa.
 - 20210413 Release model which supports 1320 plant taxa.
