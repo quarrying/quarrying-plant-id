@@ -1,12 +1,15 @@
 import os
 import sys
 import time
+import imghdr
+import random
 from datetime import timedelta
 from collections import OrderedDict
 
 import cv2
 import khandy
 import numpy as np
+import requests
 from flask import Flask
 from flask import request
 from flask import render_template
@@ -34,19 +37,19 @@ def imread_ex(filename, flags=-1):
         
 def identify(image):
     if image is None:
-        return {"status": 1002, 
+        return {"status": 1102, 
                 "message": "Image parsing error!", 
                 "results": [], 
                 "family_results": [], 
                 "genus_results": []}
     if image.dtype != np.uint8:
-        return {"status": 1003, 
+        return {"status": 1103, 
                 "message": "Image data type error, only support uint8 data type.", 
                 "results": [], 
                 "family_results": [], 
                 "genus_results": []}
     if max(image.shape[:2]) > MAX_IMAGE_SIZE_LENGTH or min(image.shape[:2]) < MIN_IMAGE_SIZE_LENGTH:
-        return {"status": 1004, 
+        return {"status": 1104, 
                 "message": "Image size error, shorter edge must >= {}px, longer edge must <= {}px".format(
                            MIN_IMAGE_SIZE_LENGTH, MAX_IMAGE_SIZE_LENGTH), 
                 "results": [], 
@@ -55,13 +58,13 @@ def identify(image):
 
     outputs = plant_identifier.identify(image)
     if outputs['status'] == -1:
-        return {"status": 1005, 
+        return {"status": 1105, 
                 "message": "Image preprocess error.", 
                 "results": [], 
                 "family_results": [], 
                 "genus_results": []}
     elif outputs['status'] == -2:
-        return {"status": 1006, 
+        return {"status": 1106, 
                 "message": "Inference error.",
                 "results": [], 
                 "family_results": [], 
@@ -88,31 +91,55 @@ def main():
     os.makedirs(raw_image_dir, exist_ok=True)
     os.makedirs(tmp_image_dir, exist_ok=True)
     
+    time_stamp = int(round(time.time() * 1000))
     if request.method == 'POST':
-        f = request.files['image']
-        image_filename = os.path.basename(secure_filename(f.filename))
+        image_fs = request.files['image']
+        if image_fs:
+            image_filename = os.path.basename(secure_filename(image_fs.filename))
+            extension = os.path.splitext(image_filename)[-1]
+            new_image_filename = '{}_{:05d}{}'.format(time_stamp, random.randint(0, 99999), extension)
+            raw_image_filename = os.path.join(raw_image_dir, new_image_filename)  
+            image_fs.save(raw_image_filename)
+        else:
+            try:
+                response = requests.get(request.form['image_url'], timeout=30)
+                extension = imghdr.what('', response.content)
+                if extension is None:
+                   raise Exception('not an image URL!')
+                new_image_filename = '{}_{:05d}.{}'.format(time_stamp, random.randint(0, 99999), extension)
+                raw_image_filename = os.path.join(raw_image_dir, new_image_filename)
+                with open(raw_image_filename, "wb") as f:
+                    f.write(response.content)
+            except Exception as e:
+                outputs = {"status": 1001, 
+                           "message": 'Image download error: {}'.format(e), 
+                           "results": [], 
+                           "family_results": [], 
+                           "genus_results": []}
+                return render_template('upload_error.html', 
+                                    status=outputs['status'], 
+                                    message=outputs['message'],
+                                    image_filename='', 
+                                    timestamp=time.time())
 
-        if not (f and allowed_file_type(image_filename)):
-            outputs = {"status": 1001, 
-                       "message": "Image file format error, only support png, jpg, jpeg, bmp.", 
-                       "results": [], 
-                       "family_results": [], 
-                       "genus_results": []}
+        if not allowed_file_type(new_image_filename):
+            extension = os.path.splitext(new_image_filename)[-1]
+            outputs = {"status": 1002, 
+                        "message": "Image file format error, only support png, jpg, jpeg, bmp, got {}".format(extension), 
+                        "results": [], 
+                        "family_results": [], 
+                        "genus_results": []}
             return render_template('upload_error.html', 
-                                   status=outputs['status'], 
-                                   message=outputs['message'],
-                                   image_filename=image_filename, 
-                                   timestamp=time.time())
-                                   
-        time_stamp = int(round(time.time() * 1000))
-        new_image_filename = '{}{}'.format(time_stamp, os.path.splitext(image_filename)[-1])
-        raw_image_filename = os.path.join(raw_image_dir, new_image_filename)  
-        f.save(raw_image_filename)
-        
+                                    status=outputs['status'], 
+                                    message=outputs['message'],
+                                    image_filename='', 
+                                    timestamp=time.time())
+            
         image = imread_ex(raw_image_filename, -1)
         outputs = identify(image)
         if outputs['status'] == 0:
-            image = khandy.resize_image_short(image, 512)
+            if min(image.shape[:2]) > 512:
+                image = khandy.resize_image_short(image, 512)
             cv2.imwrite(os.path.join(tmp_image_dir, new_image_filename), image)
             labels = ['Chinese Name', 'Latin Name', 'Confidence']
             return render_template('upload_ok.html', 
@@ -126,7 +153,7 @@ def main():
             return render_template('upload_error.html', 
                                    status=outputs['status'], 
                                    message=outputs['message'],
-                                   image_filename=new_image_filename, 
+                                   image_filename='', 
                                    timestamp=time.time())
     return render_template('upload.html')
     

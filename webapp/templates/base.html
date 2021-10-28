@@ -19,7 +19,6 @@
     }
     .a-upload input {
         position: absolute;
-        font-size: 100px;
         right: 0;
         top: 0;
         opacity: 0;
@@ -30,6 +29,18 @@
         color: #004974;
         text-decoration: none;
     }
+
+    #upload_url {
+        line-height: 20px;
+        color: #1E88C7;
+        width: 400px;
+    }
+
+    ::-webkit-input-placeholder { color:#1E88C7; } /* WebKit browsers */
+    ::-moz-placeholder { color:#1E88C7; } /* Mozilla Firefox 19+ */
+    :-ms-input-placeholder { color:#1E88C7; } /* Internet Explorer 10+ */
+    input:-moz-placeholder { color:#1E88C7; } /* Mozilla Firefox 4 to 18 */
+
     </style>
     {% block results_table %}
     {% endblock %}
@@ -38,11 +49,16 @@
 <body>
     <h1>Plant Identification</h1>
     <form action="" enctype='multipart/form-data' method='POST'>
+        <h3>Method I:</h3> 
         <a href="javascript:;" class="a-upload">
-            <input type="file" name="image" onchange="this.form.submit()">Select an image file
-        </a>
+            <input id="upload_file" type="file" name="image" onchange="this.form.submit()"/>Select an image file
+        </a> <br/>
+        <h3>Method II:</h3>
+        <input id="upload_url" type="text" name="image_url" placeholder="Input an image URL"/>
+        <input id="upload_button" type="submit" value="Submit" />
     </form>
-    
+    <br/>
     {% block results %}
     {% endblock %}
+
 </body>
