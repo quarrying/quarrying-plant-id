@@ -3,4 +3,5 @@ pillow
 git+https://github.com/quarrying/KHandy.git@master
 onnxruntime
 flask
+requests
 gevent
