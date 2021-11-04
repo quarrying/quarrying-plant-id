@@ -17,6 +17,7 @@ def imread_ex(filename, flags=-1):
     try:
         return cv2.imdecode(np.fromfile(filename, dtype=np.uint8), flags)
     except Exception as e:
+        print('Image decode error!', e)
         return None
         
         
@@ -56,12 +57,12 @@ if __name__ == '__main__':
         image = imread_ex(name)
         if image is None:
             continue
-        if max(image.shape[:2]) > 1280:
-            image = khandy.resize_image_long(image, 1280)
-            
         outputs = plant_identifier.identify(image, topk=5)
         print('[{}/{}] Time: {:.3f}s  {}'.format(k+1, len(src_filenames), time.time() - start_time, name))
         start_time = time.time()
+        
+        if max(image.shape[:2]) > 1080:
+            image = khandy.resize_image_long(image, 1080)
         if outputs['status'] == 0:
             print(outputs['results'][0])
             print(outputs['results'][1])
