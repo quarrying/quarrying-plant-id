@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+import base64
 import imghdr
 import random
 from datetime import timedelta
@@ -35,7 +36,7 @@ def imread_ex(filename, flags=-1):
         return None
         
         
-def identify(image):
+def identify(image, topk=5):
     if image is None:
         return {"status": 1102, 
                 "message": "Image parsing error!", 
@@ -56,7 +57,7 @@ def identify(image):
                 "family_results": [], 
                 "genus_results": []}
 
-    outputs = plant_identifier.identify(image)
+    outputs = plant_identifier.identify(image, topk=topk)
     if outputs['status'] == -1:
         return {"status": 1105, 
                 "message": "Image preprocess error.", 
@@ -75,6 +76,37 @@ def identify(image):
             "results": outputs['results'],
             "family_results": outputs['family_results'], 
             "genus_results": outputs['genus_results']}
+
+
+@app.route('/api/plant', methods=['POST'])
+def identify_api():
+    base_dir = os.path.dirname(__file__)
+    image_dir = os.path.join(base_dir, 'static/api_images')
+    os.makedirs(image_dir, exist_ok=True)
+    
+    if request.form.get('image'):
+        try:
+            image_bytes = base64.b64decode(request.form['image'])
+            extension = imghdr.what('', image_bytes)
+            time_stamp = int(round(time.time() * 1000))
+            new_image_filename = '{}_{:05d}.{}'.format(time_stamp, random.randint(0, 99999), extension)
+            raw_image_filename = os.path.join(image_dir, new_image_filename)
+            with open(raw_image_filename, "wb") as f:
+                f.write(image_bytes)
+            image = cv2.imdecode(np.frombuffer(image_bytes, dtype=np.uint8), -1)
+        except Exception as e:
+            return {"status": 1201, 
+                    "message": 'Image content error: {}'.format(e), 
+                    "results": [], 
+                    "family_results": [], 
+                    "genus_results": []}
+        return identify(image, topk=3)
+    else:
+        return {"status": 1202, 
+                "message": "Parameter Error", 
+                "results": [],
+                "family_results": [], 
+                "genus_results": []}
 
 
 def allowed_file_type(filename):
@@ -117,10 +149,10 @@ def main():
                            "family_results": [], 
                            "genus_results": []}
                 return render_template('upload_error.html', 
-                                    status=outputs['status'], 
-                                    message=outputs['message'],
-                                    image_filename='', 
-                                    timestamp=time.time())
+                                       status=outputs['status'], 
+                                       message=outputs['message'],
+                                       image_filename='', 
+                                       timestamp=time.time())
 
         if not allowed_file_type(new_image_filename):
             extension = os.path.splitext(new_image_filename)[-1]
@@ -130,10 +162,10 @@ def main():
                         "family_results": [], 
                         "genus_results": []}
             return render_template('upload_error.html', 
-                                    status=outputs['status'], 
-                                    message=outputs['message'],
-                                    image_filename='', 
-                                    timestamp=time.time())
+                                   status=outputs['status'], 
+                                   message=outputs['message'],
+                                   image_filename='', 
+                                   timestamp=time.time())
             
         image = imread_ex(raw_image_filename, -1)
         outputs = identify(image)

@@ -3,3 +3,4 @@ __pycache__/
 _local/
 webapp/static/images/
 webapp/static/raw_images/
+webapp/static/api_images/
