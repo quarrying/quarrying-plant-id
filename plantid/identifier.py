@@ -178,7 +178,7 @@ class PlantIdentifier(OnnxModel):
         topk_probs, topk_indices = khandy.top_k(probs, taxon_topk)
         for ind, prob in zip(topk_indices[0], topk_probs[0]):
             one_result = self.label_name_dict[ind]
-            one_result['probability'] = prob
+            one_result['probability'] = prob.item()
             results.append(one_result)
 
         family_topk = min(family_probs.shape[-1], topk)
@@ -187,7 +187,7 @@ class PlantIdentifier(OnnxModel):
             one_result = OrderedDict()
             one_result['chinese_name'] = self.family_names[ind]
             one_result['latin_name'] = self.family_name_map.get(self.family_names[ind], '')
-            one_result['probability'] = prob
+            one_result['probability'] = prob.item()
             family_results.append(one_result)
             
         genus_topk = min(genus_probs.shape[-1], topk)
@@ -196,7 +196,7 @@ class PlantIdentifier(OnnxModel):
             one_result = OrderedDict()
             one_result['chinese_name'] = self.genus_names[ind]
             one_result['latin_name'] = self.genus_name_map.get(self.genus_names[ind], '')
-            one_result['probability'] = prob
+            one_result['probability'] = prob.item()
             genus_results.append(one_result)
             
         return {"status": status, "message": message, 
