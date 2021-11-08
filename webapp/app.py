@@ -5,7 +5,6 @@ import base64
 import imghdr
 import random
 from datetime import timedelta
-from collections import OrderedDict
 
 import cv2
 import khandy
@@ -89,9 +88,9 @@ def identify_api():
             image_bytes = base64.b64decode(request.form['image'])
             extension = imghdr.what('', image_bytes)
             time_stamp = int(round(time.time() * 1000))
-            new_image_filename = '{}_{:05d}.{}'.format(time_stamp, random.randint(0, 99999), extension)
-            raw_image_filename = os.path.join(image_dir, new_image_filename)
-            with open(raw_image_filename, "wb") as f:
+            dst_image_filename = '{}_{:05d}.{}'.format(time_stamp, random.randint(0, 99999), extension)
+            dst_image_fullname = os.path.join(image_dir, dst_image_filename)
+            with open(dst_image_fullname, "wb") as f:
                 f.write(image_bytes)
             image = cv2.imdecode(np.frombuffer(image_bytes, dtype=np.uint8), -1)
         except Exception as e:
@@ -118,29 +117,27 @@ def allowed_file_type(filename):
 @app.route('/', methods=['POST', 'GET'])
 def main():
     base_dir = os.path.dirname(__file__)
-    raw_image_dir = os.path.join(base_dir, 'static/raw_images')
-    tmp_image_dir = os.path.join(base_dir, 'static/images')
-    os.makedirs(raw_image_dir, exist_ok=True)
-    os.makedirs(tmp_image_dir, exist_ok=True)
+    iimage_dir = os.path.join(base_dir, 'static/images')
+    os.makedirs(iimage_dir, exist_ok=True)
     
     time_stamp = int(round(time.time() * 1000))
     if request.method == 'POST':
         image_fs = request.files['image']
         if image_fs:
-            image_filename = os.path.basename(secure_filename(image_fs.filename))
-            extension = os.path.splitext(image_filename)[-1]
-            new_image_filename = '{}_{:05d}{}'.format(time_stamp, random.randint(0, 99999), extension)
-            raw_image_filename = os.path.join(raw_image_dir, new_image_filename)  
-            image_fs.save(raw_image_filename)
+            src_image_filename = os.path.basename(secure_filename(image_fs.filename))
+            extension = os.path.splitext(src_image_filename)[-1]
+            dst_image_filename = '{}_{:05d}{}'.format(time_stamp, random.randint(0, 99999), extension)
+            dst_image_fullname = os.path.join(iimage_dir, dst_image_filename)  
+            image_fs.save(dst_image_fullname)
         else:
             try:
                 response = requests.get(request.form['image_url'], timeout=30)
                 extension = imghdr.what('', response.content)
                 if extension is None:
                    raise Exception('not an image URL!')
-                new_image_filename = '{}_{:05d}.{}'.format(time_stamp, random.randint(0, 99999), extension)
-                raw_image_filename = os.path.join(raw_image_dir, new_image_filename)
-                with open(raw_image_filename, "wb") as f:
+                dst_image_filename = '{}_{:05d}.{}'.format(time_stamp, random.randint(0, 99999), extension)
+                dst_image_fullname = os.path.join(iimage_dir, dst_image_filename)
+                with open(dst_image_fullname, "wb") as f:
                     f.write(response.content)
             except Exception as e:
                 outputs = {"status": 1001, 
@@ -154,32 +151,29 @@ def main():
                                        image_filename='', 
                                        timestamp=time.time())
 
-        if not allowed_file_type(new_image_filename):
-            extension = os.path.splitext(new_image_filename)[-1]
+        if not allowed_file_type(dst_image_filename):
+            extension = os.path.splitext(dst_image_filename)[-1]
             outputs = {"status": 1002, 
-                        "message": "Image file format error, only support png, jpg, jpeg, bmp, got {}".format(extension), 
-                        "results": [], 
-                        "family_results": [], 
-                        "genus_results": []}
+                       "message": "Image file format error, only support png, jpg, jpeg, bmp, got {}".format(extension), 
+                       "results": [], 
+                       "family_results": [], 
+                       "genus_results": []}
             return render_template('upload_error.html', 
                                    status=outputs['status'], 
                                    message=outputs['message'],
                                    image_filename='', 
                                    timestamp=time.time())
             
-        image = imread_ex(raw_image_filename, -1)
+        image = imread_ex(dst_image_fullname, -1)
         outputs = identify(image)
         if outputs['status'] == 0:
-            if min(image.shape[:2]) > 512:
-                image = khandy.resize_image_short(image, 512)
-            cv2.imwrite(os.path.join(tmp_image_dir, new_image_filename), image)
             labels = ['Chinese Name', 'Latin Name', 'Confidence']
             return render_template('upload_ok.html', 
                                    labels=labels, 
                                    results=outputs['results'], 
                                    family_results=outputs['family_results'], 
                                    genus_results=outputs['genus_results'], 
-                                   image_filename=new_image_filename, 
+                                   image_filename=dst_image_filename, 
                                    timestamp=time.time())
         else:
             return render_template('upload_error.html', 
