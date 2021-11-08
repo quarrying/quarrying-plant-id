@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Plant Identification</title>
+
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
     <style>
+    body {
+        display: block;
+        margin: 8px;
+    }
     .a-upload {
         position: relative;
         display: inline-block;
@@ -42,12 +51,11 @@
     input:-moz-placeholder { color:#1E88C7; } /* Mozilla Firefox 4 to 18 */
 
     </style>
-    {% block results_table %}
-    {% endblock %}
-    
+
 </head>
 <body>
     <h1>Plant Identification</h1>
+    
     <form action="" enctype='multipart/form-data' method='POST'>
         <h3>Method I:</h3> 
         <a href="javascript:;" class="a-upload">
