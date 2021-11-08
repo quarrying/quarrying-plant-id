@@ -7,7 +7,6 @@ import random
 from datetime import timedelta
 
 import cv2
-import khandy
 import numpy as np
 import requests
 from flask import Flask

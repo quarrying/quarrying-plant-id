@@ -42,7 +42,7 @@
     #upload_url {
         line-height: 20px;
         color: #1E88C7;
-        width: 400px;
+        width: 420px;
     }
 
     ::-webkit-input-placeholder { color:#1E88C7; } /* WebKit browsers */
@@ -54,19 +54,33 @@
 
 </head>
 <body>
-    <h1>Plant Identification</h1>
+    <h1 align="center" class="title">Plant Identification</h1>
     
-    <form action="" enctype='multipart/form-data' method='POST'>
-        <h3>Method I:</h3> 
-        <a href="javascript:;" class="a-upload">
-            <input id="upload_file" type="file" name="image" onchange="this.form.submit()"/>Select an image file
-        </a> <br/>
-        <h3>Method II:</h3>
-        <input id="upload_url" type="text" name="image_url" placeholder="Input an image URL"/>
-        <input id="upload_button" type="submit" value="Submit" />
-    </form>
-    <br/>
-    {% block results %}
-    {% endblock %}
+    <div class="container">
+        <div class="row">
+            <div class="media-left">
+                <form action="" enctype='multipart/form-data' method='POST'>
+                <h3>Method I:</h3> 
+                <a href="javascript:;" class="a-upload">
+                    <input id="upload_file" type="file" name="image" onchange="this.form.submit()"/>Select an image file
+                </a> <br/>
+                <h3>Method II:</h3>
+                <input id="upload_url" type="text" name="image_url" placeholder="Input an image URL"/>
+                <input id="upload_button" type="submit" value="Identify" />
+                </form>
+                <br>
+                {% block image_content %}
+                {% endblock %}
+            </div>
+            <div class="media-body">
+                <div class="table-responsive">
+                    {% block results %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
 
 </body>
