@@ -55,13 +55,8 @@ response = requests.post(url, data=data, headers=headers, timeout=30)
 print(response.json())
 ```
 
-### Examples
-
-![](data/plant_01.png)
-
-![](data/plant_02.png)
-
-![](data/plant_03.png)
+## Method III: Website
+Goto <https://www.quarryman.cn/plant> which powered by this repo.
 
 
 # Details
