@@ -31,31 +31,7 @@ else:
 ```
 You can also see [demo.py](<demo.py>).
 
-## Method II: Web App
-Run below
-```
-cd webapp
-conda activate plantid
-python app.py
-```
-Then open <http://127.0.0.1:5000/>, and upload an image file, or use the following codes:
-```python
-import base64
-import json
-import requests
-
-url = 'http://127.0.0.1:5000/api/plant'
-filename = 'example.jpg'
-with open(filename, 'rb') as f:
-    image_data = base64.b64encode(f.read())
-
-data = {'image': image_data}
-headers = {'content-type': 'application/x-www-form-urlencoded'}
-response = requests.post(url, data=data, headers=headers, timeout=30)
-print(response.json())
-```
-
-## Method III: Website
+## Method II: Website
 Goto <https://www.quarryman.cn/plant> which powered by this repo.
 
 
