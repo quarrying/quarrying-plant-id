@@ -1357,7 +1357,7 @@
 1356,旋花科_虎掌藤属_毛果甘薯,Ipomoea cordatotriloba
 1357,旋花科_虎掌藤属_变色牵牛,Ipomoea indica
 1358,旋花科_虎掌藤属_瘤梗番薯,Ipomoea lacunosa
-1359,旋花科_虎掌藤属_牵牛,Ipomoea nil&purpurea
+1359,旋花科_虎掌藤属_牵牛&圆叶牵牛,Ipomoea nil&purpurea
 1360,旋花科_虎掌藤属_小心叶薯,Ipomoea obscura
 1361,旋花科_虎掌藤属_厚藤,Ipomoea pes-caprae
 1362,旋花科_虎掌藤属_三裂叶薯,Ipomoea triloba
