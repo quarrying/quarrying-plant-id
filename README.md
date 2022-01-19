@@ -34,6 +34,8 @@ You can also see [demo.py](<demo.py>).
 ## Method II: Website
 Goto <https://www.quarryman.cn/plant> which powered by this repo.
 
+## Method III: Telegram
+For those who use [telegram](https://telegram.org/), the algorithm is now deployed on [Yuuka](https://telegram.me/iplantcn_bot).
 
 # Details
 See <https://zhuanlan.zhihu.com/p/364346303>.
