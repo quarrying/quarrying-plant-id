@@ -32,8 +32,9 @@ class OnnxModel(object):
         # sess_options.graph_optimization_level = onnxruntime.GraphOptimizationLevel.ORT_ENABLE_EXTENDED
         # # Use OpenMP optimizations. Only useful for CPU, has little impact for GPUs.
         # sess_options.intra_op_num_threads = multiprocessing.cpu_count()
-
-        self.sess = onnxruntime.InferenceSession(model_path, sess_options)
+        onnx_gpu = (onnxruntime.get_device() == 'GPU')
+        providers = ['CUDAExecutionProvider', 'CPUExecutionProvider'] if onnx_gpu else ['CPUExecutionProvider']
+        self.sess = onnxruntime.InferenceSession(model_path, sess_options, providers=providers)
         self._input_names = [item.name for item in self.sess.get_inputs()]
         self._output_names = [item.name for item in self.sess.get_outputs()]
         
