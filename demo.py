@@ -40,7 +40,7 @@ if __name__ == '__main__':
             print(outputs['results'][2])
             text = '{}: {:.3f}'.format(outputs['results'][0]['chinese_name'], 
                                        outputs['results'][0]['probability'])
-            image = khandy.draw_text(image, text, (10, 10), font='data/simsun.ttc', font_size=15)
+            image = khandy.draw_text(image, text, (10, 10), font='simsun.ttc', font_size=15)
         else:
             print(outputs)
         cv2.imshow('image', image)
