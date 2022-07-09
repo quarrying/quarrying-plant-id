@@ -1,6 +1,5 @@
 import os
 import time
-import glob
 
 import cv2
 import khandy
@@ -9,14 +8,6 @@ import numpy as np
 import plantid
 
 
-def imread_ex(filename, flags=-1):
-    try:
-        return cv2.imdecode(np.fromfile(filename, dtype=np.uint8), flags)
-    except Exception as e:
-        print('Image decode error!', e)
-        return None
-        
-        
 if __name__ == '__main__':
     src_dirs = [r'images']
     src_filenames = sum([khandy.get_all_filenames(src_dir) for src_dir in src_dirs], [])
@@ -25,7 +16,7 @@ if __name__ == '__main__':
     plant_identifier = plantid.PlantIdentifier()
     start_time = time.time()
     for k, name in enumerate(src_filenames):
-        image = imread_ex(name)
+        image = khandy.imread_cv(name)
         if image is None:
             continue
         outputs = plant_identifier.identify(image, topk=5)

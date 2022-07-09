@@ -12,13 +12,6 @@ sys.path.insert(0, '..')
 import plantid
 
 
-def imread_ex(filename, flags=-1):
-    try:
-        return cv2.imdecode(np.fromfile(filename, dtype=np.uint8), flags)
-    except Exception as e:
-        return None
-        
-        
 def rename_images_by_predict(src_dir, label=None):
     if label is None:
         label = os.path.basename(src_dir)
@@ -29,7 +22,7 @@ def rename_images_by_predict(src_dir, label=None):
     filenames = khandy.get_all_filenames(src_dir)
     start_time = time.time()
     for k, filename in enumerate(filenames):
-        image = imread_ex(filename)
+        image = khandy.imread_cv(filename)
         outputs = plant_identifier.predict(image)
         if outputs['status'] == 0:
             confidence = outputs['results']['probs'][0, taxon_index]

@@ -7,24 +7,6 @@ import numpy as np
 import onnxruntime
 
 
-def normalize_image_shape(image):
-    if image.ndim == 2:
-        image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
-    elif image.ndim == 3:
-        num_channels = image.shape[-1]
-        if num_channels == 1:
-            image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
-        elif num_channels == 3:
-            pass
-        elif num_channels == 4:
-            image = cv2.cvtColor(image, cv2.COLOR_BGRA2BGR)
-        else:
-            raise ValueError('Unsupported!')
-    else:
-        raise ValueError('Unsupported!')
-    return image
-    
-
 class OnnxModel(object):
     def __init__(self, model_path):
         sess_options = onnxruntime.SessionOptions()
@@ -120,8 +102,7 @@ class PlantIdentifier(OnnxModel):
         image_dtype = image.dtype
         assert image_dtype in [np.uint8, np.uint16]
         
-        image = normalize_image_shape(image)
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+        image = khandy.normalize_image_shape(image, swap_rb=True)
         image = khandy.resize_image_short(image, 224)
         image = khandy.center_crop(image, 224, 224)
         image = image.astype(np.float32)
