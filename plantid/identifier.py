@@ -102,16 +102,18 @@ class PlantIdentifier(OnnxModel):
         image_dtype = image.dtype
         assert image_dtype in [np.uint8, np.uint16]
         
-        image = khandy.normalize_image_shape(image, swap_rb=True)
+        # image size normalization
         image = khandy.resize_image_short(image, 224)
         image = khandy.center_crop(image, 224, 224)
+        # image channel normalization
+        image = khandy.normalize_image_channel(image, swap_rb=True)
+        # image dtype normalization
         image = image.astype(np.float32)
-        if image_dtype == np.uint8:
-            image /= 255.0
-        else:
-            image /= 65535.0
+        image /= np.iinfo(image_dtype).max
+        # image value range normalization
         image -= np.asarray([0.485, 0.456, 0.406])
         image /= np.asarray([0.229, 0.224, 0.225])
+        # to tensor
         image = np.transpose(image, (2,0,1))
         image = np.expand_dims(image, axis=0)
         return image
