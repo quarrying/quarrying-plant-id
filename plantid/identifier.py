@@ -41,6 +41,20 @@ class OnnxModel(object):
             return outputs
             
 
+def check_image_dtype_and_shape(image):
+    if not isinstance(image, np.ndarray):
+        raise Exception(f'image is not np.ndarray!')
+
+    if isinstance(image.dtype, (np.uint8, np.uint16)):
+        raise Exception(f'Unsupported image dtype, only support uint8 and uint16, got {image.dtype}!')
+    if image.ndim not in {2, 3}:
+        raise Exception(f'Unsupported image dimension number, only support 2 and 3, got {image.ndim}!')
+    if image.ndim == 3:
+        num_channels = image.shape[-1]
+        if num_channels not in {1, 3, 4}:
+            raise Exception(f'Unsupported image channel number, only support 1, 3 and 4, got {num_channels}!')
+
+
 class PlantIdentifier(OnnxModel):
     def __init__(self):
         current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -99,15 +113,15 @@ class PlantIdentifier(OnnxModel):
         
     @staticmethod
     def _preprocess(image):
-        image_dtype = image.dtype
-        assert image_dtype in [np.uint8, np.uint16]
-        
+        check_image_dtype_and_shape(image)
+
         # image size normalization
         image = khandy.resize_image_short(image, 224)
         image = khandy.center_crop(image, 224, 224)
         # image channel normalization
         image = khandy.normalize_image_channel(image, swap_rb=True)
         # image dtype normalization
+        image_dtype = image.dtype
         image = image.astype(np.float32)
         image /= np.iinfo(image_dtype).max
         # image value range normalization
