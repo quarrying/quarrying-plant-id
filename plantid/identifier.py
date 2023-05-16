@@ -120,13 +120,9 @@ class PlantIdentifier(OnnxModel):
         image = khandy.center_crop(image, 224, 224)
         # image channel normalization
         image = khandy.normalize_image_channel(image, swap_rb=True)
-        # image dtype normalization
-        image_dtype = image.dtype
-        image = image.astype(np.float32)
-        image /= np.iinfo(image_dtype).max
-        # image value range normalization
-        image -= np.asarray([0.485, 0.456, 0.406])
-        image /= np.asarray([0.229, 0.224, 0.225])
+        # image dtype and value range normalization
+        mean, stddev = [0.485, 0.456, 0.406], [0.229, 0.224, 0.225]
+        image = khandy.normalize_image_value(image, mean, stddev, 'auto')
         # to tensor
         image = np.transpose(image, (2,0,1))
         image = np.expand_dims(image, axis=0)
