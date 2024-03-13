@@ -29,6 +29,12 @@ if __name__ == '__main__':
             print(outputs['results'][0])
             print(outputs['results'][1])
             print(outputs['results'][2])
+            print(outputs['genus_results'][0])
+            print(outputs['genus_results'][1])
+            print(outputs['genus_results'][2])
+            print(outputs['family_results'][0])
+            print(outputs['family_results'][1])
+            print(outputs['family_results'][2])
             text = '{}: {:.3f}'.format(outputs['results'][0]['chinese_name'], 
                                        outputs['results'][0]['probability'])
             image = khandy.draw_text(image, text, (10, 10), font='simsun.ttc', font_size=15)

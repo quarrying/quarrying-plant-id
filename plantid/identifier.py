@@ -72,7 +72,9 @@ class PlantIdentifier(OnnxModel):
         self.names = [self.label_name_dict[i]['chinese_name'] for i in range(len(self.label_name_dict))]
         self.family_names = list(self.family_dict.keys())
         self.genus_names = list(self.genus_dict.keys())
-        
+        self.family_class_indices = list(self.family_dict.values())
+        self.genus_class_indices = list(self.genus_dict.values())
+
     @staticmethod
     def _get_label_name_dict(filename):
         records = khandy.load_list(filename)
@@ -98,18 +100,6 @@ class PlantIdentifier(OnnxModel):
                 family_dict.setdefault(underscore_parts[0], []).append(int(label))
                 genus_dict.setdefault('_'.join(underscore_parts[:2]), []).append(int(label))
         return family_dict, genus_dict
-        
-    @staticmethod
-    def _get_collective_probs(probs, collective_dict):
-        batch_size = len(probs)
-        num_collective = len(collective_dict)
-        collective_probs = np.empty((batch_size, num_collective), dtype=probs.dtype)
-        for batch_ind in range(batch_size):
-            for collective_ind, collective_name in enumerate(collective_dict):
-                taxon_indices = collective_dict[collective_name]
-                collective_prob = sum(probs[batch_ind, index] for index in taxon_indices)
-                collective_probs[batch_ind, collective_ind] = collective_prob
-        return collective_probs
         
     @staticmethod
     def _preprocess(image):
@@ -143,8 +133,8 @@ class PlantIdentifier(OnnxModel):
         except Exception as e:
             return {"status": -2, "message": "Inference error.", "results": {}}
             
-        family_probs = self._get_collective_probs(probs, self.family_dict)
-        genus_probs = self._get_collective_probs(probs, self.genus_dict)
+        family_probs = khandy.sum_by_indices_list(probs, self.family_class_indices, axis=-1)
+        genus_probs = khandy.sum_by_indices_list(probs, self.genus_class_indices, axis=-1)
         results = {'probs': probs, 'family_probs': family_probs, 'genus_probs': genus_probs,}
         return {"status": 0, "message": "OK", "results": results}
         
