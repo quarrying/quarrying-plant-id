@@ -56,51 +56,21 @@ def check_image_dtype_and_shape(image):
 
 
 class PlantIdentifier(OnnxModel):
-    def __init__(self):
-        current_dir = os.path.dirname(os.path.abspath(__file__))
-        model_path = os.path.join(current_dir, 'models/quarrying_plantid_model.onnx')
-        label_map_path = os.path.join(current_dir, 'models/quarrying_plantid_label_map.txt')
-        family_name_map_path = os.path.join(current_dir, 'models/family_name_map.json')
-        genus_name_map_path = os.path.join(current_dir, 'models/genus_name_map.json')
+    def __init__(self, model_dir=None):
+        if model_dir is None:
+            current_dir = os.path.dirname(os.path.abspath(__file__))
+            model_dir = os.path.join(current_dir, 'models')
+        model_path = os.path.join(model_dir, 'quarrying_plantid_model.onnx')
         super(PlantIdentifier, self).__init__(model_path)
         
-        self.label_name_dict = self._get_label_name_dict(label_map_path)
-        self.family_dict, self.genus_dict = self._get_family_and_genus_dict(label_map_path)
-        self.family_name_map = khandy.load_json(family_name_map_path)
-        self.genus_name_map = khandy.load_json(genus_name_map_path)
-        
-        self.names = [self.label_name_dict[i]['chinese_name'] for i in range(len(self.label_name_dict))]
-        self.family_names = list(self.family_dict.keys())
-        self.genus_names = list(self.genus_dict.keys())
-        self.family_class_indices = list(self.family_dict.values())
-        self.genus_class_indices = list(self.genus_dict.values())
+        label_map_path = os.path.join(model_dir, 'quarrying_plantid_label_map.json')
+        self.label_map = khandy.load_json(label_map_path)
+        self.names = [value['chinese_name'] for value in self.label_map['species_taxons'].values()]
+        self.family_names = list(self.label_map['family_taxons'].keys())
+        self.genus_names = list(self.label_map['genus_taxons'].keys())
+        self.family_class_indices = [value['class_indices'] for value in self.label_map['family_taxons'].values()]
+        self.genus_class_indices = [value['class_indices'] for value in self.label_map['genus_taxons'].values()]
 
-    @staticmethod
-    def _get_label_name_dict(filename):
-        records = khandy.load_list(filename)
-        label_name_dict = {}
-        for record in records:
-            label, chinese_name, latin_name = record.split(',')
-            label_name_dict[int(label)] = OrderedDict([('chinese_name', chinese_name), 
-                                                       ('latin_name', latin_name)])
-        return label_name_dict
-        
-    @staticmethod
-    def _get_family_and_genus_dict(filename):
-        records = khandy.load_list(filename)
-        # genus_dict should be understood as genus_or_above_taxon_dict
-        family_dict, genus_dict = {}, {}
-        for record in records:
-            label, chinese_name, _ = record.split(',')
-            underscore_parts = chinese_name.split('_')
-            if len(underscore_parts) == 1:
-                family_dict.setdefault(underscore_parts[0], []).append(int(label))
-                genus_dict.setdefault(underscore_parts[0], []).append(int(label))
-            elif len(underscore_parts) > 1:
-                family_dict.setdefault(underscore_parts[0], []).append(int(label))
-                genus_dict.setdefault('_'.join(underscore_parts[:2]), []).append(int(label))
-        return family_dict, genus_dict
-        
     @staticmethod
     def _preprocess(image):
         check_image_dtype_and_shape(image)
@@ -141,11 +111,9 @@ class PlantIdentifier(OnnxModel):
     def identify(self, image, topk=5):
         assert isinstance(topk, int)
         if topk <= 0:
-            topk = max(len(self.label_name_dict), 
-                       len(self.family_dict),
-                       len(self.genus_dict))
+            topk = max(len(self.names), len(self.family_names), len(self.genus_names))
+
         results, family_results, genus_results = [], [], []
-        
         outputs = self.predict(image)
         status = outputs['status']
         message = outputs['message']
@@ -161,7 +129,10 @@ class PlantIdentifier(OnnxModel):
         taxon_topk = min(probs.shape[-1], topk)
         topk_probs, topk_indices = khandy.top_k(probs, taxon_topk)
         for ind, prob in zip(topk_indices[0], topk_probs[0]):
-            one_result = self.label_name_dict[ind]
+            label_info = self.label_map['species_taxons'][str(ind)]
+            one_result = OrderedDict()
+            one_result['chinese_name'] = label_info['chinese_name']
+            one_result['latin_name'] = label_info['latin_name']
             one_result['probability'] = prob.item()
             results.append(one_result)
 
@@ -170,7 +141,7 @@ class PlantIdentifier(OnnxModel):
         for ind, prob in zip(family_topk_indices[0], family_topk_probs[0]):
             one_result = OrderedDict()
             one_result['chinese_name'] = self.family_names[ind]
-            one_result['latin_name'] = self.family_name_map.get(self.family_names[ind], '')
+            one_result['latin_name'] = self.label_map['family_taxons'][self.family_names[ind]]['latin_name']
             one_result['probability'] = prob.item()
             family_results.append(one_result)
             
@@ -179,7 +150,7 @@ class PlantIdentifier(OnnxModel):
         for ind, prob in zip(genus_topk_indices[0], genus_topk_probs[0]):
             one_result = OrderedDict()
             one_result['chinese_name'] = self.genus_names[ind]
-            one_result['latin_name'] = self.genus_name_map.get(self.genus_names[ind], '')
+            one_result['latin_name'] = self.label_map['genus_taxons'][self.genus_names[ind]]['latin_name']
             one_result['probability'] = prob.item()
             genus_results.append(one_result)
             
