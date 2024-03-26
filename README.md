@@ -9,8 +9,9 @@ You need install Anaconda, then run below:
 ```
 git clone https://github.com/quarrying/quarrying-plant-id.git
 cd quarrying-plant-id
-conda create -n plantid python=3.6 -y
+conda create -n plantid Pillow onnxruntime numpy lxml requests -y
 conda activate plantid
+pip install opencv-python
 pip install -r requirements.txt
 ```
 
